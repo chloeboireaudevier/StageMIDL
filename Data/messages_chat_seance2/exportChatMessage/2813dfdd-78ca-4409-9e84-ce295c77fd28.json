@@ -1,0 +1,116 @@
+[
+  {
+    "user": "200552",
+    "role": "Driver",
+    "message": "t'as une idée de comment le faire ?",
+    "timestamp": "2024-11-12T04:30:00.464Z"
+  },
+  {
+    "user": "188437",
+    "role": "Navigator",
+    "message": "ouais, mets les lettres en clé, et en valeurs 1, 5, 10, 50 etc",
+    "timestamp": "2024-11-12T04:30:48.665Z"
+  },
+  {
+    "user": "188437",
+    "role": "Navigator",
+    "message": "'I' = 1",
+    "timestamp": "2024-11-12T04:31:47.330Z"
+  },
+  {
+    "user": "188437",
+    "role": "Navigator",
+    "message": "les '' ",
+    "timestamp": "2024-11-12T04:31:52.189Z"
+  },
+  {
+    "user": "188437",
+    "role": "Navigator",
+    "message": "on ne peux pas retourner ça comme instruction finale, y'a des conditions à faire dans la consigne",
+    "timestamp": "2024-11-12T04:36:06.858Z"
+  },
+  {
+    "user": "200552",
+    "role": "Driver",
+    "message": "c'est quoi la variable romain ?",
+    "timestamp": "2024-11-12T04:39:46.072Z"
+  },
+  {
+    "user": "188437",
+    "role": "Navigator",
+    "message": "c'est chaine = explicitement",
+    "timestamp": "2024-11-12T04:40:02.527Z"
+  },
+  {
+    "user": "188437",
+    "role": "Navigator",
+    "message": "+*",
+    "timestamp": "2024-11-12T04:40:08.115Z"
+  },
+  {
+    "user": "200552",
+    "role": "Driver",
+    "message": "pourquoi le valeur > VALEUR[ch_romain[i - 1]] après le += ",
+    "timestamp": "2024-11-12T04:43:28.857Z"
+  },
+  {
+    "user": "188437",
+    "role": "Navigator",
+    "message": "la ligne?",
+    "timestamp": "2024-11-12T04:43:47.068Z"
+  },
+  {
+    "user": "188437",
+    "role": "Navigator",
+    "message": "6?",
+    "timestamp": "2024-11-12T04:43:49.247Z"
+  },
+  {
+    "user": "200552",
+    "role": "Driver",
+    "message": "7",
+    "timestamp": "2024-11-12T04:43:53.639Z"
+  },
+  {
+    "user": "188437",
+    "role": "Navigator",
+    "message": "Si un symbole a une valeur supérieure ou égale à celui qui se trouve à sa droite, il est ajouté. Par exemple XVI vaut 16 : X vaut plus que V qui est à sa droite, on ajoute donc 10, puis V est aussi supérieur à I on ajoute 5 et enfin on ajoute 1 pour le I",
+    "timestamp": "2024-11-12T04:45:08.181Z"
+  },
+  {
+    "user": "188437",
+    "role": "Navigator",
+    "message": "jsp si ça fonctionne faisons les tests",
+    "timestamp": "2024-11-12T04:45:56.155Z"
+  },
+  {
+    "user": "200552",
+    "role": "Driver",
+    "message": "ligne 5 t'as oublier le ch_romain",
+    "timestamp": "2024-11-12T04:46:09.502Z"
+  },
+  {
+    "user": "188437",
+    "role": "Navigator",
+    "message": "en effet",
+    "timestamp": "2024-11-12T04:46:14.246Z"
+  },
+  {
+    "user": "188437",
+    "role": "Navigator",
+    "message": "tu comprends l'err?",
+    "timestamp": "2024-11-12T04:47:41.565Z"
+  },
+  {
+    "user": "188437",
+    "role": "Navigator",
+    "message": "KeyError",
+    "timestamp": "2024-11-12T04:47:51.976Z"
+  },
+  {
+    "user": "200552",
+    "role": "Driver",
+    "message": "retire la ligne 13",
+    "timestamp": "2024-11-12T04:48:19.082Z"
+  }
+]

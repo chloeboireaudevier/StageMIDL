@@ -1,0 +1,104 @@
+[
+  {
+    "user": "197552",
+    "role": "Driver",
+    "message": "tu peux peut etre rajouter un else pour la soustraction ",
+    "timestamp": "2024-11-13T07:04:01.470Z"
+  },
+  {
+    "user": "197552",
+    "role": "Driver",
+    "message": "le 'romain' il est pas défini pour l'instant il me semble ",
+    "timestamp": "2024-11-13T07:06:32.049Z"
+  },
+  {
+    "user": "212074",
+    "role": "Navigator",
+    "message": "si c'est bon le romain est définie en paramètre",
+    "timestamp": "2024-11-13T07:06:52.586Z"
+  },
+  {
+    "user": "212074",
+    "role": "Navigator",
+    "message": "donc quand tu appelle la fonction add avec \"XIV\" par exemple, il est définie pour la fonction mais pas pour le reste du code",
+    "timestamp": "2024-11-13T07:07:14.193Z"
+  },
+  {
+    "user": "212074",
+    "role": "Navigator",
+    "message": "ce que j'ai fait c'est que je parcours chaque lettre dans la chaine de caractère",
+    "timestamp": "2024-11-13T07:07:32.112Z"
+  },
+  {
+    "user": "212074",
+    "role": "Navigator",
+    "message": "et à chaque lettre parcourue",
+    "timestamp": "2024-11-13T07:07:39.507Z"
+  },
+  {
+    "user": "212074",
+    "role": "Navigator",
+    "message": "avec le if on regarde si la valeur qui se trouve à droite n'est pas plus grand alors on ajoute ou sinon on soustrai",
+    "timestamp": "2024-11-13T07:08:44.920Z"
+  },
+  {
+    "user": "212074",
+    "role": "Navigator",
+    "message": "quand j'ai écris i < len(romain) - 1 c'est pour vérifier qu'on sors pas du dictionnaire quand on par à droite",
+    "timestamp": "2024-11-13T07:09:14.926Z"
+  },
+  {
+    "user": "197552",
+    "role": "Driver",
+    "message": "oui okk je vois ",
+    "timestamp": "2024-11-13T07:09:41.990Z"
+  },
+  {
+    "user": "212074",
+    "role": "Navigator",
+    "message": "dans avec le and VALEUR[romain[i]] < VALEUR[romain[i+1]] c'est là qu'on vérifie que le chiffre à droite est plus grand",
+    "timestamp": "2024-11-13T07:09:57.433Z"
+  },
+  {
+    "user": "212074",
+    "role": "Navigator",
+    "message": "donc avec*",
+    "timestamp": "2024-11-13T07:10:04.260Z"
+  },
+  {
+    "user": "212074",
+    "role": "Navigator",
+    "message": "et si les deux condition sont respectés alors on soustrais sinon on additionne",
+    "timestamp": "2024-11-13T07:10:49.629Z"
+  },
+  {
+    "user": "197552",
+    "role": "Driver",
+    "message": "ok, parfait, t'a besoin de rajouter qqch ? ou on finit ?",
+    "timestamp": "2024-11-13T07:11:10.905Z"
+  },
+  {
+    "user": "212074",
+    "role": "Navigator",
+    "message": "pour moi c'est finis si tu as compris comment ça fonctionne après si tu veux rajouter quelque chose tu peux",
+    "timestamp": "2024-11-13T07:11:49.605Z"
+  },
+  {
+    "user": "197552",
+    "role": "Driver",
+    "message": "c'est bon pour moi ",
+    "timestamp": "2024-11-13T07:12:06.305Z"
+  },
+  {
+    "user": "212074",
+    "role": "Navigator",
+    "message": "okk on finis l'activité alors",
+    "timestamp": "2024-11-13T07:12:15.994Z"
+  },
+  {
+    "user": "197552",
+    "role": "Driver",
+    "message": "oui",
+    "timestamp": "2024-11-13T07:12:27.732Z"
+  }
+]

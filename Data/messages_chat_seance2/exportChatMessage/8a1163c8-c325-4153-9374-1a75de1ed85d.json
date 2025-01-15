@@ -1,0 +1,26 @@
+[
+  {
+    "user": "158569",
+    "role": "Navigator",
+    "message": "ça va ?",
+    "timestamp": "2024-11-12T04:45:57.145Z"
+  },
+  {
+    "user": "153597",
+    "role": "Driver",
+    "message": "tu veux essayé la je suis bloqué",
+    "timestamp": "2024-11-12T04:46:52.378Z"
+  },
+  {
+    "user": "158569",
+    "role": "Navigator",
+    "message": "hm okk",
+    "timestamp": "2024-11-12T04:48:29.614Z"
+  },
+  {
+    "user": "153597",
+    "role": "Driver",
+    "message": "ok demande le droit a l'edition",
+    "timestamp": "2024-11-12T04:49:33.118Z"
+  }
+]

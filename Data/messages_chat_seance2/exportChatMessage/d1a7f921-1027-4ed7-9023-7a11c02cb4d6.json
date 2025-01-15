@@ -1,0 +1,20 @@
+[
+  {
+    "user": "189972",
+    "role": "Driver",
+    "message": "Salut",
+    "timestamp": "2024-11-12T04:29:36.042Z"
+  },
+  {
+    "user": "189972",
+    "role": "Driver",
+    "message": "Ca te convient la forme du dictionnaire?",
+    "timestamp": "2024-11-12T04:29:49.807Z"
+  },
+  {
+    "user": "177461",
+    "role": "Navigator",
+    "message": "oui",
+    "timestamp": "2024-11-12T04:50:59.997Z"
+  }
+]

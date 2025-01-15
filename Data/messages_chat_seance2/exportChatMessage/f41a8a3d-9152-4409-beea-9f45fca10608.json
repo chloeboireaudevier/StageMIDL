@@ -1,0 +1,266 @@
+[
+  {
+    "user": "211304",
+    "role": "Navigator",
+    "message": "salut",
+    "timestamp": "2024-11-12T05:11:26.677Z"
+  },
+  {
+    "user": "187137",
+    "role": "Driver",
+    "message": "salut",
+    "timestamp": "2024-11-12T05:11:44.536Z"
+  },
+  {
+    "user": "211304",
+    "role": "Navigator",
+    "message": "tu a la main donc tu peut commencer et bonne chance ",
+    "timestamp": "2024-11-12T05:12:50.579Z"
+  },
+  {
+    "user": "187137",
+    "role": "Driver",
+    "message": "Pour le coup c'est toi qui l'a",
+    "timestamp": "2024-11-12T05:14:54.786Z"
+  },
+  {
+    "user": "211304",
+    "role": "Navigator",
+    "message": "ah ok ! j'avais pas remarqué",
+    "timestamp": "2024-11-12T05:15:34.261Z"
+  },
+  {
+    "user": "187137",
+    "role": "Driver",
+    "message": "tqt",
+    "timestamp": "2024-11-12T05:15:53.088Z"
+  },
+  {
+    "user": "187137",
+    "role": "Driver",
+    "message": " à mon avis il faudrait les mettres dans un simple quote mais séparément chacun ",
+    "timestamp": "2024-11-12T05:17:30.962Z"
+  },
+  {
+    "user": "211304",
+    "role": "Navigator",
+    "message": "je te laisse pour me montrer daccord ?",
+    "timestamp": "2024-11-12T05:18:43.128Z"
+  },
+  {
+    "user": "187137",
+    "role": "Driver",
+    "message": "asy attend j'essaie si sa fonctionne déja en python",
+    "timestamp": "2024-11-12T05:19:01.375Z"
+  },
+  {
+    "user": "211304",
+    "role": "Navigator",
+    "message": "Définir un dictionnaire pour associer les délimiteurs ouvrants et fermants par le variable paire ",
+    "timestamp": "2024-11-12T05:22:19.201Z"
+  },
+  {
+    "user": "211304",
+    "role": "Navigator",
+    "message": "je l'est deja commencé",
+    "timestamp": "2024-11-12T05:22:41.629Z"
+  },
+  {
+    "user": "187137",
+    "role": "Driver",
+    "message": "?",
+    "timestamp": "2024-11-12T05:22:52.112Z"
+  },
+  {
+    "user": "211304",
+    "role": "Navigator",
+    "message": "tu vois là où j'ai ecrit la variable paire  on doit definir une sorte de dictionaire ",
+    "timestamp": "2024-11-12T05:23:37.432Z"
+  },
+  {
+    "user": "187137",
+    "role": "Driver",
+    "message": "oui je sais je le laisse la au chaos si ma méthode ne marche pas",
+    "timestamp": "2024-11-12T05:24:01.958Z"
+  },
+  {
+    "user": "187137",
+    "role": "Driver",
+    "message": "attend je t'explique ce que j'essaie entrain de faire",
+    "timestamp": "2024-11-12T05:24:13.789Z"
+  },
+  {
+    "user": "211304",
+    "role": "Navigator",
+    "message": "daccord je le tape dans l'executeur pour la coller si sa marche pas histoire de gagner du temps ",
+    "timestamp": "2024-11-12T05:24:42.857Z"
+  },
+  {
+    "user": "211304",
+    "role": "Navigator",
+    "message": " '",
+    "timestamp": "2024-11-12T05:24:50.624Z"
+  },
+  {
+    "user": "187137",
+    "role": "Driver",
+    "message": "sa marchera pas pour l'instant ",
+    "timestamp": "2024-11-12T05:24:58.816Z"
+  },
+  {
+    "user": "211304",
+    "role": "Navigator",
+    "message": "daccord",
+    "timestamp": "2024-11-12T05:25:11.751Z"
+  },
+  {
+    "user": "211304",
+    "role": "Navigator",
+    "message": "continue ",
+    "timestamp": "2024-11-12T05:25:25.562Z"
+  },
+  {
+    "user": "187137",
+    "role": "Driver",
+    "message": "enfaite j'essaie de  faire une comparaison entre les deux tableaux \"OUVRANT\" \"FERMANT\" afin qqu'on puissent comparer les deux tableau ainsi que la chaine avec une expression booléenne , ",
+    "timestamp": "2024-11-12T05:26:55.990Z"
+  },
+  {
+    "user": "187137",
+    "role": "Driver",
+    "message": "maintenant reste à voir si c'est faisable en python",
+    "timestamp": "2024-11-12T05:27:09.123Z"
+  },
+  {
+    "user": "211304",
+    "role": "Navigator",
+    "message": "je crois que ca marchera ",
+    "timestamp": "2024-11-12T05:28:31.163Z"
+  },
+  {
+    "user": "187137",
+    "role": "Driver",
+    "message": "asy attend, je te donne la main je vais essayer un truc dans mon editeur de code en vif",
+    "timestamp": "2024-11-12T05:29:04.064Z"
+  },
+  {
+    "user": "211304",
+    "role": "Navigator",
+    "message": "daccord ",
+    "timestamp": "2024-11-12T05:29:14.199Z"
+  },
+  {
+    "user": "187137",
+    "role": "Driver",
+    "message": "tu peux tout supprimer si tu veux",
+    "timestamp": "2024-11-12T05:29:34.782Z"
+  },
+  {
+    "user": "211304",
+    "role": "Navigator",
+    "message": "daccord",
+    "timestamp": "2024-11-12T05:31:14.265Z"
+  },
+  {
+    "user": "187137",
+    "role": "Driver",
+    "message": "faute ligne 4",
+    "timestamp": "2024-11-12T05:32:23.066Z"
+  },
+  {
+    "user": "187137",
+    "role": "Driver",
+    "message": "premiere paires",
+    "timestamp": "2024-11-12T05:32:26.225Z"
+  },
+  {
+    "user": "187137",
+    "role": "Driver",
+    "message": "pair*",
+    "timestamp": "2024-11-12T05:32:33.287Z"
+  },
+  {
+    "user": "211304",
+    "role": "Navigator",
+    "message": "corrigé ",
+    "timestamp": "2024-11-12T05:33:18.663Z"
+  },
+  {
+    "user": "211304",
+    "role": "Navigator",
+    "message": "c'est bon verifie le code ",
+    "timestamp": "2024-11-12T05:38:27.062Z"
+  },
+  {
+    "user": "187137",
+    "role": "Driver",
+    "message": "vas-y",
+    "timestamp": "2024-11-12T05:39:26.103Z"
+  },
+  {
+    "user": "187137",
+    "role": "Driver",
+    "message": "c'est bon , bien jouer",
+    "timestamp": "2024-11-12T05:41:27.797Z"
+  },
+  {
+    "user": "187137",
+    "role": "Driver",
+    "message": "au final, ma méthode n'est pas valide en python ",
+    "timestamp": "2024-11-12T05:41:43.838Z"
+  },
+  {
+    "user": "211304",
+    "role": "Navigator",
+    "message": "an daccord!! vue que le code cv,on termine l'activité alors ",
+    "timestamp": "2024-11-12T05:42:28.362Z"
+  },
+  {
+    "user": "187137",
+    "role": "Driver",
+    "message": "il y a un bug",
+    "timestamp": "2024-11-12T05:42:30.443Z"
+  },
+  {
+    "user": "187137",
+    "role": "Driver",
+    "message": "enfin un soucis ",
+    "timestamp": "2024-11-12T05:42:37.454Z"
+  },
+  {
+    "user": "187137",
+    "role": "Driver",
+    "message": "même sans les pairs sa renvoie True",
+    "timestamp": "2024-11-12T05:42:59.314Z"
+  },
+  {
+    "user": "211304",
+    "role": "Navigator",
+    "message": "où ?",
+    "timestamp": "2024-11-12T05:43:15.155Z"
+  },
+  {
+    "user": "211304",
+    "role": "Navigator",
+    "message": "attend je fait un test rapide ",
+    "timestamp": "2024-11-12T05:43:31.047Z"
+  },
+  {
+    "user": "187137",
+    "role": "Driver",
+    "message": "vas-y à mon avis il faudrait rajouter un return dans le if comme de elif, pour tester",
+    "timestamp": "2024-11-12T05:43:57.214Z"
+  },
+  {
+    "user": "211304",
+    "role": "Navigator",
+    "message": "je ne vois as l'erreur et toi ",
+    "timestamp": "2024-11-12T05:47:00.530Z"
+  },
+  {
+    "user": "211304",
+    "role": "Navigator",
+    "message": "????",
+    "timestamp": "2024-11-12T05:47:47.607Z"
+  }
+]

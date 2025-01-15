@@ -1,0 +1,422 @@
+[
+  {
+    "user": "186202",
+    "role": "Driver",
+    "message": "Salut",
+    "timestamp": "2024-11-12T05:11:59.028Z"
+  },
+  {
+    "user": "189372",
+    "role": "Navigator",
+    "message": "salut",
+    "timestamp": "2024-11-12T05:12:03.181Z"
+  },
+  {
+    "user": "186202",
+    "role": "Driver",
+    "message": "cv",
+    "timestamp": "2024-11-12T05:12:06.382Z"
+  },
+  {
+    "user": "189372",
+    "role": "Navigator",
+    "message": "oui",
+    "timestamp": "2024-11-12T05:12:11.057Z"
+  },
+  {
+    "user": "189372",
+    "role": "Navigator",
+    "message": "et toi ?",
+    "timestamp": "2024-11-12T05:12:23.515Z"
+  },
+  {
+    "user": "186202",
+    "role": "Driver",
+    "message": "cv cv",
+    "timestamp": "2024-11-12T05:12:28.150Z"
+  },
+  {
+    "user": "189372",
+    "role": "Navigator",
+    "message": "cool",
+    "timestamp": "2024-11-12T05:12:35.274Z"
+  },
+  {
+    "user": "186202",
+    "role": "Driver",
+    "message": "tu sais coder ?",
+    "timestamp": "2024-11-12T05:12:36.607Z"
+  },
+  {
+    "user": "189372",
+    "role": "Navigator",
+    "message": "un peu",
+    "timestamp": "2024-11-12T05:12:41.880Z"
+  },
+  {
+    "user": "186202",
+    "role": "Driver",
+    "message": "vas-y je te laisse faire",
+    "timestamp": "2024-11-12T05:12:49.516Z"
+  },
+  {
+    "user": "189372",
+    "role": "Navigator",
+    "message": "je promet pas de le completer au complet mais ca peux peut-être ce faire",
+    "timestamp": "2024-11-12T05:13:35.989Z"
+  },
+  {
+    "user": "186202",
+    "role": "Driver",
+    "message": "azy fait ce que tu peux",
+    "timestamp": "2024-11-12T05:13:47.523Z"
+  },
+  {
+    "user": "189372",
+    "role": "Navigator",
+    "message": "ok",
+    "timestamp": "2024-11-12T05:13:57.276Z"
+  },
+  {
+    "user": "186202",
+    "role": "Driver",
+    "message": "A 30 on arrete ok ?",
+    "timestamp": "2024-11-12T05:16:37.571Z"
+  },
+  {
+    "user": "189372",
+    "role": "Navigator",
+    "message": "ok",
+    "timestamp": "2024-11-12T05:16:43.662Z"
+  },
+  {
+    "user": "186202",
+    "role": "Driver",
+    "message": "Tu peux me dire ton nom",
+    "timestamp": "2024-11-12T05:17:42.012Z"
+  },
+  {
+    "user": "189372",
+    "role": "Navigator",
+    "message": "je sais pas, c quoi ton nom à toi ?",
+    "timestamp": "2024-11-12T05:18:16.575Z"
+  },
+  {
+    "user": "186202",
+    "role": "Driver",
+    "message": "Ahbh nn frerot",
+    "timestamp": "2024-11-12T05:18:32.839Z"
+  },
+  {
+    "user": "186202",
+    "role": "Driver",
+    "message": "toi d'abord",
+    "timestamp": "2024-11-12T05:18:36.370Z"
+  },
+  {
+    "user": "189372",
+    "role": "Navigator",
+    "message": "Jarod",
+    "timestamp": "2024-11-12T05:18:45.192Z"
+  },
+  {
+    "user": "186202",
+    "role": "Driver",
+    "message": "Ah ouaais",
+    "timestamp": "2024-11-12T05:19:14.464Z"
+  },
+  {
+    "user": "186202",
+    "role": "Driver",
+    "message": "Y'a lantz a cote de toi ?",
+    "timestamp": "2024-11-12T05:19:39.575Z"
+  },
+  {
+    "user": "189372",
+    "role": "Navigator",
+    "message": "oui",
+    "timestamp": "2024-11-12T05:19:55.837Z"
+  },
+  {
+    "user": "186202",
+    "role": "Driver",
+    "message": "Moi aussi je m'apple Jarod",
+    "timestamp": "2024-11-12T05:20:20.950Z"
+  },
+  {
+    "user": "186202",
+    "role": "Driver",
+    "message": "Je suis a coter de Arnaud",
+    "timestamp": "2024-11-12T05:20:47.018Z"
+  },
+  {
+    "user": "189372",
+    "role": "Navigator",
+    "message": "hein ?",
+    "timestamp": "2024-11-12T05:21:16.583Z"
+  },
+  {
+    "user": "186202",
+    "role": "Driver",
+    "message": "Reregarde",
+    "timestamp": "2024-11-12T05:21:23.784Z"
+  },
+  {
+    "user": "186202",
+    "role": "Driver",
+    "message": "T'as une belle chevelure",
+    "timestamp": "2024-11-12T05:21:38.573Z"
+  },
+  {
+    "user": "189372",
+    "role": "Navigator",
+    "message": "leve la main",
+    "timestamp": "2024-11-12T05:21:46.997Z"
+  },
+  {
+    "user": "186202",
+    "role": "Driver",
+    "message": "toi leve la main",
+    "timestamp": "2024-11-12T05:22:02.976Z"
+  },
+  {
+    "user": "186202",
+    "role": "Driver",
+    "message": "Je suis timide",
+    "timestamp": "2024-11-12T05:22:06.277Z"
+  },
+  {
+    "user": "186202",
+    "role": "Driver",
+    "message": "ALLZ JAROD ALLEZ",
+    "timestamp": "2024-11-12T05:23:10.903Z"
+  },
+  {
+    "user": "189372",
+    "role": "Navigator",
+    "message": "t'as pas une idée pour la suite je suis sen train de perdre dans mon raisonnement",
+    "timestamp": "2024-11-12T05:23:32.635Z"
+  },
+  {
+    "user": "186202",
+    "role": "Driver",
+    "message": "ouais vasy donne ",
+    "timestamp": "2024-11-12T05:23:55.436Z"
+  },
+  {
+    "user": "189372",
+    "role": "Navigator",
+    "message": "c pas plutot in x ?",
+    "timestamp": "2024-11-12T05:27:11.762Z"
+  },
+  {
+    "user": "186202",
+    "role": "Driver",
+    "message": "Mtn faut faire le true false",
+    "timestamp": "2024-11-12T05:29:07.263Z"
+  },
+  {
+    "user": "186202",
+    "role": "Driver",
+    "message": "je te laisse",
+    "timestamp": "2024-11-12T05:29:12.770Z"
+  },
+  {
+    "user": "186202",
+    "role": "Driver",
+    "message": "juste syntaxe = {} jme suis trompé",
+    "timestamp": "2024-11-12T05:29:42.013Z"
+  },
+  {
+    "user": "186202",
+    "role": "Driver",
+    "message": "Le code c'est KTM",
+    "timestamp": "2024-11-12T05:31:04.044Z"
+  },
+  {
+    "user": "186202",
+    "role": "Driver",
+    "message": "On fait finir l'activité",
+    "timestamp": "2024-11-12T05:31:21.871Z"
+  },
+  {
+    "user": "189372",
+    "role": "Navigator",
+    "message": "mais ducoup ca se place où le true false ?",
+    "timestamp": "2024-11-12T05:31:50.773Z"
+  },
+  {
+    "user": "186202",
+    "role": "Driver",
+    "message": "Faut regardé si y'a un clé avec une valeur négative",
+    "timestamp": "2024-11-12T05:32:19.723Z"
+  },
+  {
+    "user": "186202",
+    "role": "Driver",
+    "message": "Enfin non",
+    "timestamp": "2024-11-12T05:32:43.442Z"
+  },
+  {
+    "user": "186202",
+    "role": "Driver",
+    "message": "une clé avec une valeur différent de 0",
+    "timestamp": "2024-11-12T05:32:50.315Z"
+  },
+  {
+    "user": "186202",
+    "role": "Driver",
+    "message": "prcq ouvrant fermant ça s'annule",
+    "timestamp": "2024-11-12T05:33:02.242Z"
+  },
+  {
+    "user": "186202",
+    "role": "Driver",
+    "message": "Tu comprend ?",
+    "timestamp": "2024-11-12T05:33:44.510Z"
+  },
+  {
+    "user": "189372",
+    "role": "Navigator",
+    "message": "je suis perdues",
+    "timestamp": "2024-11-12T05:33:45.756Z"
+  },
+  {
+    "user": "186202",
+    "role": "Driver",
+    "message": "tu vois quand y'aa un ouvrant on fait +1",
+    "timestamp": "2024-11-12T05:34:11.611Z"
+  },
+  {
+    "user": "186202",
+    "role": "Driver",
+    "message": "{ '(':1}",
+    "timestamp": "2024-11-12T05:34:14.070Z"
+  },
+  {
+    "user": "186202",
+    "role": "Driver",
+    "message": "mais quand y'a un fermant on fait - 1",
+    "timestamp": "2024-11-12T05:34:25.212Z"
+  },
+  {
+    "user": "186202",
+    "role": "Driver",
+    "message": "donc",
+    "timestamp": "2024-11-12T05:34:27.037Z"
+  },
+  {
+    "user": "186202",
+    "role": "Driver",
+    "message": "{'(':0}",
+    "timestamp": "2024-11-12T05:34:33.968Z"
+  },
+  {
+    "user": "189372",
+    "role": "Navigator",
+    "message": "0 true et le reste false",
+    "timestamp": "2024-11-12T05:34:42.860Z"
+  },
+  {
+    "user": "186202",
+    "role": "Driver",
+    "message": "Exacte",
+    "timestamp": "2024-11-12T05:34:47.961Z"
+  },
+  {
+    "user": "186202",
+    "role": "Driver",
+    "message": "fait une boucle ",
+    "timestamp": "2024-11-12T05:35:46.533Z"
+  },
+  {
+    "user": "186202",
+    "role": "Driver",
+    "message": "prcq la tu regarde pas les valeurs",
+    "timestamp": "2024-11-12T05:35:57.224Z"
+  },
+  {
+    "user": "186202",
+    "role": "Driver",
+    "message": "ou sinon",
+    "timestamp": "2024-11-12T05:36:19.339Z"
+  },
+  {
+    "user": "186202",
+    "role": "Driver",
+    "message": "tu fait",
+    "timestamp": "2024-11-12T05:36:24.535Z"
+  },
+  {
+    "user": "186202",
+    "role": "Driver",
+    "message": "for e in syntaxe.values():",
+    "timestamp": "2024-11-12T05:36:40.998Z"
+  },
+  {
+    "user": "186202",
+    "role": "Driver",
+    "message": "if e != 0:",
+    "timestamp": "2024-11-12T05:36:46.285Z"
+  },
+  {
+    "user": "186202",
+    "role": "Driver",
+    "message": "return False",
+    "timestamp": "2024-11-12T05:36:49.489Z"
+  },
+  {
+    "user": "186202",
+    "role": "Driver",
+    "message": "après au lieu de faire return syntaxe tu fais return True",
+    "timestamp": "2024-11-12T05:37:24.571Z"
+  },
+  {
+    "user": "186202",
+    "role": "Driver",
+    "message": "Normalement c'est bon",
+    "timestamp": "2024-11-12T05:37:44.859Z"
+  },
+  {
+    "user": "186202",
+    "role": "Driver",
+    "message": "On a depasser le timer il est 38 :/",
+    "timestamp": "2024-11-12T05:38:41.629Z"
+  },
+  {
+    "user": "189372",
+    "role": "Navigator",
+    "message": "c pas grave",
+    "timestamp": "2024-11-12T05:38:52.722Z"
+  },
+  {
+    "user": "186202",
+    "role": "Driver",
+    "message": "ça fonctionne .",
+    "timestamp": "2024-11-12T05:39:34.312Z"
+  },
+  {
+    "user": "186202",
+    "role": "Driver",
+    "message": "?",
+    "timestamp": "2024-11-12T05:39:37.060Z"
+  },
+  {
+    "user": "189372",
+    "role": "Navigator",
+    "message": "oui",
+    "timestamp": "2024-11-12T05:39:39.337Z"
+  },
+  {
+    "user": "186202",
+    "role": "Driver",
+    "message": "Parfait",
+    "timestamp": "2024-11-12T05:39:43.329Z"
+  },
+  {
+    "user": "186202",
+    "role": "Driver",
+    "message": "On fait finir l'activité",
+    "timestamp": "2024-11-12T05:39:50.634Z"
+  }
+]

@@ -1,0 +1,218 @@
+[
+  {
+    "user": "188092",
+    "role": "Driver",
+    "message": "Salut",
+    "timestamp": "2024-11-13T07:22:03.046Z"
+  },
+  {
+    "user": "93709",
+    "role": "Navigator",
+    "message": "SALUT",
+    "timestamp": "2024-11-13T07:22:31.205Z"
+  },
+  {
+    "user": "188092",
+    "role": "Driver",
+    "message": "Je vais copier-coller les parenthèses",
+    "timestamp": "2024-11-13T07:23:09.186Z"
+  },
+  {
+    "user": "93709",
+    "role": "Navigator",
+    "message": "d'accord",
+    "timestamp": "2024-11-13T07:23:31.216Z"
+  },
+  {
+    "user": "188092",
+    "role": "Driver",
+    "message": "Ensuite on devrait créer un dico des parenthèses ouvrantes qui dirige vers les fermantes",
+    "timestamp": "2024-11-13T07:24:55.996Z"
+  },
+  {
+    "user": "188092",
+    "role": "Driver",
+    "message": "je te laisse faire ?",
+    "timestamp": "2024-11-13T07:25:01.828Z"
+  },
+  {
+    "user": "93709",
+    "role": "Navigator",
+    "message": "je ne sais pas comment faire",
+    "timestamp": "2024-11-13T07:25:56.916Z"
+  },
+  {
+    "user": "188092",
+    "role": "Driver",
+    "message": "tu veux que je leb",
+    "timestamp": "2024-11-13T07:26:26.639Z"
+  },
+  {
+    "user": "188092",
+    "role": "Driver",
+    "message": "fasse ?",
+    "timestamp": "2024-11-13T07:26:33.346Z"
+  },
+  {
+    "user": "188092",
+    "role": "Driver",
+    "message": "ou tu veux essayer ?",
+    "timestamp": "2024-11-13T07:26:38.424Z"
+  },
+  {
+    "user": "93709",
+    "role": "Navigator",
+    "message": "oui",
+    "timestamp": "2024-11-13T07:26:40.664Z"
+  },
+  {
+    "user": "93709",
+    "role": "Navigator",
+    "message": "que tu le fasse ",
+    "timestamp": "2024-11-13T07:26:59.992Z"
+  },
+  {
+    "user": "188092",
+    "role": "Driver",
+    "message": "Oui je le fais ?",
+    "timestamp": "2024-11-13T07:27:00.278Z"
+  },
+  {
+    "user": "188092",
+    "role": "Driver",
+    "message": "OK",
+    "timestamp": "2024-11-13T07:27:04.029Z"
+  },
+  {
+    "user": "188092",
+    "role": "Driver",
+    "message": "pour commencer la fonction je propose de créer une liste vide et parcourir la chaine",
+    "timestamp": "2024-11-13T07:29:42.370Z"
+  },
+  {
+    "user": "188092",
+    "role": "Driver",
+    "message": "dès qu'on trouve une parenthèse ouvrante on peut la mettre dans la liste",
+    "timestamp": "2024-11-13T07:30:25.218Z"
+  },
+  {
+    "user": "188092",
+    "role": "Driver",
+    "message": "tu veux l'écrire ?",
+    "timestamp": "2024-11-13T07:30:35.988Z"
+  },
+  {
+    "user": "93709",
+    "role": "Navigator",
+    "message": "oui si tu n y arrive plus",
+    "timestamp": "2024-11-13T07:35:12.304Z"
+  },
+  {
+    "user": "93709",
+    "role": "Navigator",
+    "message": "je ne c'est pas si c'est ça ou pas il faut verifier",
+    "timestamp": "2024-11-13T07:43:53.059Z"
+  },
+  {
+    "user": "188092",
+    "role": "Driver",
+    "message": "c'est super mais j'ai quelques petites améliorations",
+    "timestamp": "2024-11-13T07:44:15.319Z"
+  },
+  {
+    "user": "188092",
+    "role": "Driver",
+    "message": "voilà qu'est-ce que tu en dis ?",
+    "timestamp": "2024-11-13T07:47:42.097Z"
+  },
+  {
+    "user": "93709",
+    "role": "Navigator",
+    "message": "que c'est bon",
+    "timestamp": "2024-11-13T07:48:33.435Z"
+  },
+  {
+    "user": "188092",
+    "role": "Driver",
+    "message": "on fait quelques tests ?",
+    "timestamp": "2024-11-13T07:48:44.568Z"
+  },
+  {
+    "user": "93709",
+    "role": "Navigator",
+    "message": "oui mais tu peut le faire toi car je ne sait pas",
+    "timestamp": "2024-11-13T07:50:13.449Z"
+  },
+  {
+    "user": "188092",
+    "role": "Driver",
+    "message": "ok il faut que tu prennes la main",
+    "timestamp": "2024-11-13T07:50:31.027Z"
+  },
+  {
+    "user": "188092",
+    "role": "Driver",
+    "message": "on dirait que c'est faux",
+    "timestamp": "2024-11-13T07:52:28.067Z"
+  },
+  {
+    "user": "93709",
+    "role": "Navigator",
+    "message": "tu a vue ou car je voit rien",
+    "timestamp": "2024-11-13T07:52:51.731Z"
+  },
+  {
+    "user": "188092",
+    "role": "Driver",
+    "message": "dans la colonne de droite je peux voir les tests que j'écris",
+    "timestamp": "2024-11-13T07:53:42.639Z"
+  },
+  {
+    "user": "93709",
+    "role": "Navigator",
+    "message": "moi je ne voit pas",
+    "timestamp": "2024-11-13T07:54:19.307Z"
+  },
+  {
+    "user": "188092",
+    "role": "Driver",
+    "message": "j'ai entré ([{<>}]) et ça me renvoie faux",
+    "timestamp": "2024-11-13T07:54:56.219Z"
+  },
+  {
+    "user": "188092",
+    "role": "Driver",
+    "message": "c'est pas nécessaire de vérifier que la pile n'est pas vide avant la fin",
+    "timestamp": "2024-11-13T07:57:29.079Z"
+  },
+  {
+    "user": "188092",
+    "role": "Driver",
+    "message": "mais je ne vois pas ce qui pourrait être faux",
+    "timestamp": "2024-11-13T07:57:53.458Z"
+  },
+  {
+    "user": "93709",
+    "role": "Navigator",
+    "message": "non je pense que tu as ecrit mal le test car tu a mis les singleton  a l'intrieur des acolade",
+    "timestamp": "2024-11-13T07:59:22.042Z"
+  },
+  {
+    "user": "188092",
+    "role": "Driver",
+    "message": "c'est pas grave ça normalement",
+    "timestamp": "2024-11-13T07:59:44.999Z"
+  },
+  {
+    "user": "93709",
+    "role": "Navigator",
+    "message": "moi je fait fini",
+    "timestamp": "2024-11-13T07:59:49.116Z"
+  },
+  {
+    "user": "188092",
+    "role": "Driver",
+    "message": "d'ac",
+    "timestamp": "2024-11-13T07:59:58.689Z"
+  }
+]
