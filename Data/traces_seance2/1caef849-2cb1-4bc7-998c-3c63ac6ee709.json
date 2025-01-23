@@ -1,0 +1,1298 @@
+{
+  "id": "1caef849-2cb1-4bc7-998c-3c63ac6ee709",
+  "student1": "211304",
+  "student2": "184742",
+  "pairedWithStatement": {
+    "_id": { "$oid": "6706050c280bcff93854a1fa" },
+    "actor": { "account": "211304", "objectType": "Agent", "name": "2113" },
+    "verb": { "id": "PairedWith", "display": { "en": "PairedWith" } },
+    "object": {
+      "objectType": "PairingInfo",
+      "id": "PairingInfo",
+      "definition": {
+        "extensions": {
+          "userPairedWith": {
+            "objectType": "Agent",
+            "account": "184742",
+            "name": "1847"
+          },
+          "matchingStrategyUsed": "GenderHeterogeneous",
+          "matchScoreObtained": 0
+        }
+      }
+    },
+    "context": {
+      "extensions": {
+        "activityInstance": { "id": "1caef849-2cb1-4bc7-998c-3c63ac6ee709" }
+      },
+      "contextActivities": { "parent": "669" }
+    },
+    "timestamp": { "$date": "2024-10-09T04:22:36.899Z" },
+    "stored": { "$date": "2024-10-09T04:22:36.907Z" },
+    "__v": 0
+  },
+  "statements": [
+    {
+      "_id": { "$oid": "6706050c280bcff93854a1fa" },
+      "actor": { "account": "211304", "objectType": "Agent", "name": "2113" },
+      "verb": { "id": "PairedWith", "display": { "en": "PairedWith" } },
+      "object": {
+        "objectType": "PairingInfo",
+        "id": "PairingInfo",
+        "definition": {
+          "extensions": {
+            "userPairedWith": {
+              "objectType": "Agent",
+              "account": "184742",
+              "name": "1847"
+            },
+            "matchingStrategyUsed": "GenderHeterogeneous",
+            "matchScoreObtained": 0
+          }
+        }
+      },
+      "context": {
+        "extensions": {
+          "activityInstance": { "id": "1caef849-2cb1-4bc7-998c-3c63ac6ee709" }
+        },
+        "contextActivities": { "parent": "669" }
+      },
+      "timestamp": { "$date": "2024-10-09T04:22:36.899Z" },
+      "stored": { "$date": "2024-10-09T04:22:36.907Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "67060510280bcff93854a230" },
+      "actor": { "account": "211304", "objectType": "Agent", "name": "2113" },
+      "verb": { "id": "Connected", "display": { "en": "Connected" } },
+      "object": { "objectType": "Activity", "id": "669" },
+      "context": {
+        "extensions": {
+          "role": { "roleName": "Driver" },
+          "activityInstance": { "id": "1caef849-2cb1-4bc7-998c-3c63ac6ee709" }
+        },
+        "contextActivities": { "parent": "669" }
+      },
+      "timestamp": { "$date": "2024-10-09T04:22:40.500Z" },
+      "stored": { "$date": "2024-10-09T04:22:40.503Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "67060522280bcff93854a26e" },
+      "actor": { "account": "184742", "objectType": "Agent", "name": "1847" },
+      "verb": { "id": "Connected", "display": { "en": "Connected" } },
+      "object": { "objectType": "Activity", "id": "669" },
+      "context": {
+        "extensions": {
+          "role": { "roleName": "Navigator" },
+          "activityInstance": { "id": "1caef849-2cb1-4bc7-998c-3c63ac6ee709" }
+        },
+        "contextActivities": { "parent": "669" }
+      },
+      "timestamp": { "$date": "2024-10-09T04:22:58.474Z" },
+      "stored": { "$date": "2024-10-09T04:22:58.480Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "6706053a280bcff93854a294" },
+      "actor": { "account": "184742", "objectType": "Agent", "name": "1847" },
+      "verb": { "id": "SentInChat", "display": { "en": "SentInChat" } },
+      "object": { "objectType": "Activity", "id": "669" },
+      "context": {
+        "extensions": {
+          "activityInstance": { "id": "1caef849-2cb1-4bc7-998c-3c63ac6ee709" },
+          "chatMessageSent": { "message": "T'est qui toi ?" }
+        },
+        "contextActivities": { "parent": "669" }
+      },
+      "timestamp": { "$date": "2024-10-09T04:23:22.426Z" },
+      "stored": { "$date": "2024-10-09T04:23:22.429Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "67060558280bcff93854a2c8" },
+      "actor": { "account": "211304", "objectType": "Agent", "name": "2113" },
+      "verb": { "id": "SentInChat", "display": { "en": "SentInChat" } },
+      "object": { "objectType": "Activity", "id": "669" },
+      "context": {
+        "extensions": {
+          "activityInstance": { "id": "1caef849-2cb1-4bc7-998c-3c63ac6ee709" },
+          "chatMessageSent": { "message": "izak " }
+        },
+        "contextActivities": { "parent": "669" }
+      },
+      "timestamp": { "$date": "2024-10-09T04:23:52.758Z" },
+      "stored": { "$date": "2024-10-09T04:23:52.763Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "6706056d280bcff93854a2f2" },
+      "actor": { "account": "184742", "objectType": "Agent", "name": "1847" },
+      "verb": { "id": "SentInChat", "display": { "en": "SentInChat" } },
+      "object": { "objectType": "Activity", "id": "669" },
+      "context": {
+        "extensions": {
+          "activityInstance": { "id": "1caef849-2cb1-4bc7-998c-3c63ac6ee709" },
+          "chatMessageSent": { "message": "leve ton main un ptit coup" }
+        },
+        "contextActivities": { "parent": "669" }
+      },
+      "timestamp": { "$date": "2024-10-09T04:24:13.989Z" },
+      "stored": { "$date": "2024-10-09T04:24:13.995Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "6706056f280bcff93854a2f8" },
+      "actor": { "account": "211304", "objectType": "Agent", "name": "2113" },
+      "verb": { "id": "SentInChat", "display": { "en": "SentInChat" } },
+      "object": { "objectType": "Activity", "id": "669" },
+      "context": {
+        "extensions": {
+          "activityInstance": { "id": "1caef849-2cb1-4bc7-998c-3c63ac6ee709" },
+          "chatMessageSent": { "message": "c'est toi l'editeur ?" }
+        },
+        "contextActivities": { "parent": "669" }
+      },
+      "timestamp": { "$date": "2024-10-09T04:24:15.103Z" },
+      "stored": { "$date": "2024-10-09T04:24:15.109Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "670605a1280bcff93854a342" },
+      "actor": { "account": "211304", "objectType": "Agent", "name": "2113" },
+      "verb": { "id": "SentInChat", "display": { "en": "SentInChat" } },
+      "object": { "objectType": "Activity", "id": "669" },
+      "context": {
+        "extensions": {
+          "activityInstance": { "id": "1caef849-2cb1-4bc7-998c-3c63ac6ee709" },
+          "chatMessageSent": { "message": "???" }
+        },
+        "contextActivities": { "parent": "669" }
+      },
+      "timestamp": { "$date": "2024-10-09T04:25:05.977Z" },
+      "stored": { "$date": "2024-10-09T04:25:05.983Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "670605a5280bcff93854a348" },
+      "actor": { "account": "184742", "objectType": "Agent", "name": "1847" },
+      "verb": { "id": "SentInChat", "display": { "en": "SentInChat" } },
+      "object": { "objectType": "Activity", "id": "669" },
+      "context": {
+        "extensions": {
+          "activityInstance": { "id": "1caef849-2cb1-4bc7-998c-3c63ac6ee709" },
+          "chatMessageSent": { "message": "Non c'est toi" }
+        },
+        "contextActivities": { "parent": "669" }
+      },
+      "timestamp": { "$date": "2024-10-09T04:25:09.726Z" },
+      "stored": { "$date": "2024-10-09T04:25:09.730Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "670605b7280bcff93854a36a" },
+      "actor": { "account": "211304", "objectType": "Agent", "name": "2113" },
+      "verb": { "id": "SentInChat", "display": { "en": "SentInChat" } },
+      "object": { "objectType": "Activity", "id": "669" },
+      "context": {
+        "extensions": {
+          "activityInstance": { "id": "1caef849-2cb1-4bc7-998c-3c63ac6ee709" },
+          "chatMessageSent": { "message": "OK " }
+        },
+        "contextActivities": { "parent": "669" }
+      },
+      "timestamp": { "$date": "2024-10-09T04:25:27.298Z" },
+      "stored": { "$date": "2024-10-09T04:25:27.303Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "670605c8280bcff93854a398" },
+      "actor": { "account": "211304", "objectType": "Agent", "name": "2113" },
+      "verb": {
+        "id": "Run from terminal",
+        "display": { "en": "Run from terminal" }
+      },
+      "object": {
+        "objectType": "code",
+        "id": "PythonSourceCode",
+        "definition": {
+          "extensions": { "codeExecuted": { "code": "", "codeHistory": [] } }
+        }
+      },
+      "result": { "success": true, "response": "" },
+      "context": {
+        "extensions": {
+          "role": { "roleName": "Driver" },
+          "activityInstance": { "id": "1caef849-2cb1-4bc7-998c-3c63ac6ee709" }
+        },
+        "contextActivities": { "parent": "669" }
+      },
+      "timestamp": { "$date": "2024-10-09T04:25:42.659Z" },
+      "stored": { "$date": "2024-10-09T04:25:44.299Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "670605ca280bcff93854a39e" },
+      "actor": { "account": "211304", "objectType": "Agent", "name": "2113" },
+      "verb": { "id": "Cleared", "display": { "en": "Cleared" } },
+      "object": { "objectType": "Activity", "id": "669" },
+      "context": {
+        "extensions": {
+          "activityInstance": { "id": "1caef849-2cb1-4bc7-998c-3c63ac6ee709" }
+        },
+        "contextActivities": { "parent": "669" }
+      },
+      "timestamp": { "$date": "2024-10-09T04:25:45.841Z" },
+      "stored": { "$date": "2024-10-09T04:25:46.981Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "670605f7280bcff93854a41e" },
+      "actor": { "account": "211304", "objectType": "Agent", "name": "2113" },
+      "verb": {
+        "id": "Run from terminal",
+        "display": { "en": "Run from terminal" }
+      },
+      "object": {
+        "objectType": "code",
+        "id": "PythonSourceCode",
+        "definition": {
+          "extensions": {
+            "codeExecuted": {
+              "code": "def concide(tableau1,tableau2):",
+              "codeHistory": []
+            }
+          }
+        }
+      },
+      "result": {
+        "success": false,
+        "response": "  File \"<exec>\", line 1\n    def concide(tableau1,tableau2):\n                                   ^\nIndentationError: expected an indented block after function definition on line 1\n"
+      },
+      "context": {
+        "extensions": {
+          "role": { "roleName": "Driver" },
+          "activityInstance": { "id": "1caef849-2cb1-4bc7-998c-3c63ac6ee709" }
+        },
+        "contextActivities": { "parent": "669" }
+      },
+      "timestamp": { "$date": "2024-10-09T04:26:30.199Z" },
+      "stored": { "$date": "2024-10-09T04:26:31.866Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "6706063a280bcff93854a4d0" },
+      "actor": { "account": "211304", "objectType": "Agent", "name": "2113" },
+      "verb": { "id": "SentInChat", "display": { "en": "SentInChat" } },
+      "object": { "objectType": "Activity", "id": "669" },
+      "context": {
+        "extensions": {
+          "activityInstance": { "id": "1caef849-2cb1-4bc7-998c-3c63ac6ee709" },
+          "chatMessageSent": { "message": "tu regarde ce que je fait ?" }
+        },
+        "contextActivities": { "parent": "669" }
+      },
+      "timestamp": { "$date": "2024-10-09T04:27:38.978Z" },
+      "stored": { "$date": "2024-10-09T04:27:38.984Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "67060654280bcff93854a50c" },
+      "actor": { "account": "211304", "objectType": "Agent", "name": "2113" },
+      "verb": {
+        "id": "Run from terminal",
+        "display": { "en": "Run from terminal" }
+      },
+      "object": {
+        "objectType": "code",
+        "id": "PythonSourceCode",
+        "definition": {
+          "extensions": {
+            "codeExecuted": {
+              "code": "def concide(tableau1,tableau2):",
+              "codeHistory": ["def concide(tableau1,tableau2):"]
+            }
+          }
+        }
+      },
+      "result": {
+        "success": false,
+        "response": "  File \"<console>\", line 2\n    def concide(tableau1,tableau2):\n    ^^^\nIndentationError: expected an indented block after function definition on line 1\n"
+      },
+      "context": {
+        "extensions": {
+          "role": { "roleName": "Driver" },
+          "activityInstance": { "id": "1caef849-2cb1-4bc7-998c-3c63ac6ee709" }
+        },
+        "contextActivities": { "parent": "669" }
+      },
+      "timestamp": { "$date": "2024-10-09T04:28:02.385Z" },
+      "stored": { "$date": "2024-10-09T04:28:04.047Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "67060659280bcff93854a51c" },
+      "actor": { "account": "184742", "objectType": "Agent", "name": "1847" },
+      "verb": { "id": "SentInChat", "display": { "en": "SentInChat" } },
+      "object": { "objectType": "Activity", "id": "669" },
+      "context": {
+        "extensions": {
+          "activityInstance": { "id": "1caef849-2cb1-4bc7-998c-3c63ac6ee709" },
+          "chatMessageSent": { "message": "Vas-y" }
+        },
+        "contextActivities": { "parent": "669" }
+      },
+      "timestamp": { "$date": "2024-10-09T04:28:09.692Z" },
+      "stored": { "$date": "2024-10-09T04:28:09.698Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "6706066e280bcff93854a54a" },
+      "actor": { "account": "184742", "objectType": "Agent", "name": "1847" },
+      "verb": { "id": "SentInChat", "display": { "en": "SentInChat" } },
+      "object": { "objectType": "Activity", "id": "669" },
+      "context": {
+        "extensions": {
+          "activityInstance": { "id": "1caef849-2cb1-4bc7-998c-3c63ac6ee709" },
+          "chatMessageSent": { "message": "En fait nn je vois pas" }
+        },
+        "contextActivities": { "parent": "669" }
+      },
+      "timestamp": { "$date": "2024-10-09T04:28:30.208Z" },
+      "stored": { "$date": "2024-10-09T04:28:30.211Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "6706068a280bcff93854a588" },
+      "actor": { "account": "211304", "objectType": "Agent", "name": "2113" },
+      "verb": { "id": "SentInChat", "display": { "en": "SentInChat" } },
+      "object": { "objectType": "Activity", "id": "669" },
+      "context": {
+        "extensions": {
+          "activityInstance": { "id": "1caef849-2cb1-4bc7-998c-3c63ac6ee709" },
+          "chatMessageSent": { "message": "je commence à traiter l'exo " }
+        },
+        "contextActivities": { "parent": "669" }
+      },
+      "timestamp": { "$date": "2024-10-09T04:28:58.504Z" },
+      "stored": { "$date": "2024-10-09T04:28:58.508Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "6706069a280bcff93854a5c8" },
+      "actor": { "account": "184742", "objectType": "Agent", "name": "1847" },
+      "verb": { "id": "SentInChat", "display": { "en": "SentInChat" } },
+      "object": { "objectType": "Activity", "id": "669" },
+      "context": {
+        "extensions": {
+          "activityInstance": { "id": "1caef849-2cb1-4bc7-998c-3c63ac6ee709" },
+          "chatMessageSent": { "message": "OK " }
+        },
+        "contextActivities": { "parent": "669" }
+      },
+      "timestamp": { "$date": "2024-10-09T04:29:14.186Z" },
+      "stored": { "$date": "2024-10-09T04:29:14.192Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "670606a0280bcff93854a5dc" },
+      "actor": { "account": "211304", "objectType": "Agent", "name": "2113" },
+      "verb": {
+        "id": "Run from terminal",
+        "display": { "en": "Run from terminal" }
+      },
+      "object": {
+        "objectType": "code",
+        "id": "PythonSourceCode",
+        "definition": {
+          "extensions": {
+            "codeExecuted": {
+              "code": "def concide (liste1, liste2) :",
+              "codeHistory": [
+                "def concide(tableau1,tableau2):",
+                "def concide(tableau1,tableau2):"
+              ]
+            }
+          }
+        }
+      },
+      "result": {
+        "success": false,
+        "response": "  File \"<exec>\", line 1\n    def concide (liste1, liste2) :\n                                  ^\nIndentationError: expected an indented block after function definition on line 1\n"
+      },
+      "context": {
+        "extensions": {
+          "role": { "roleName": "Driver" },
+          "activityInstance": { "id": "1caef849-2cb1-4bc7-998c-3c63ac6ee709" }
+        },
+        "contextActivities": { "parent": "669" }
+      },
+      "timestamp": { "$date": "2024-10-09T04:29:19.710Z" },
+      "stored": { "$date": "2024-10-09T04:29:20.820Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "670606b4280bcff93854a638" },
+      "actor": { "account": "211304", "objectType": "Agent", "name": "2113" },
+      "verb": { "id": "Wrote", "display": { "en": "Wrote" } },
+      "object": {
+        "objectType": "code",
+        "id": "PythonSourceCode",
+        "definition": { "extensions": { "codeSnapshot": { "code": "" } } }
+      },
+      "context": {
+        "extensions": {
+          "activityInstance": { "id": "1caef849-2cb1-4bc7-998c-3c63ac6ee709" }
+        },
+        "contextActivities": { "parent": "669" }
+      },
+      "timestamp": { "$date": "2024-10-09T04:29:40.345Z" },
+      "stored": { "$date": "2024-10-09T04:29:40.351Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "670606b4280bcff93854a63a" },
+      "actor": { "account": "211304", "objectType": "Agent", "name": "2113" },
+      "verb": { "id": "Disconnected", "display": { "en": "Disconnected" } },
+      "object": { "objectType": "Activity", "id": "669" },
+      "context": {
+        "extensions": {
+          "role": { "roleName": "Driver" },
+          "activityInstance": { "id": "1caef849-2cb1-4bc7-998c-3c63ac6ee709" }
+        },
+        "contextActivities": { "parent": "669" }
+      },
+      "timestamp": { "$date": "2024-10-09T04:29:40.346Z" },
+      "stored": { "$date": "2024-10-09T04:29:40.357Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "670606b4280bcff93854a63c" },
+      "actor": { "account": "211304", "objectType": "Agent", "name": "2113" },
+      "verb": { "id": "Connected", "display": { "en": "Connected" } },
+      "object": { "objectType": "Activity", "id": "669" },
+      "context": {
+        "extensions": {
+          "role": { "roleName": "Navigator" },
+          "activityInstance": { "id": "1caef849-2cb1-4bc7-998c-3c63ac6ee709" }
+        },
+        "contextActivities": { "parent": "669" }
+      },
+      "timestamp": { "$date": "2024-10-09T04:29:40.646Z" },
+      "stored": { "$date": "2024-10-09T04:29:40.650Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "670606b9280bcff93854a654" },
+      "actor": { "account": "211304", "objectType": "Agent", "name": "2113" },
+      "verb": { "id": "Disconnected", "display": { "en": "Disconnected" } },
+      "object": { "objectType": "Activity", "id": "669" },
+      "context": {
+        "extensions": {
+          "role": { "roleName": "Navigator" },
+          "activityInstance": { "id": "1caef849-2cb1-4bc7-998c-3c63ac6ee709" }
+        },
+        "contextActivities": { "parent": "669" }
+      },
+      "timestamp": { "$date": "2024-10-09T04:29:45.365Z" },
+      "stored": { "$date": "2024-10-09T04:29:45.372Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "670606bb280bcff93854a662" },
+      "actor": { "account": "211304", "objectType": "Agent", "name": "2113" },
+      "verb": { "id": "Connected", "display": { "en": "Connected" } },
+      "object": { "objectType": "Activity", "id": "669" },
+      "context": {
+        "extensions": {
+          "role": { "roleName": "Navigator" },
+          "activityInstance": { "id": "1caef849-2cb1-4bc7-998c-3c63ac6ee709" }
+        },
+        "contextActivities": { "parent": "669" }
+      },
+      "timestamp": { "$date": "2024-10-09T04:29:47.439Z" },
+      "stored": { "$date": "2024-10-09T04:29:47.442Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "670606f5280bcff93854a702" },
+      "actor": { "account": "211304", "objectType": "Agent", "name": "2113" },
+      "verb": {
+        "id": "Run from terminal",
+        "display": { "en": "Run from terminal" }
+      },
+      "object": {
+        "objectType": "code",
+        "id": "PythonSourceCode",
+        "definition": {
+          "extensions": {
+            "codeExecuted": {
+              "code": "def concide(liste1, liste2):",
+              "codeHistory": [
+                "def concide(tableau1,tableau2):",
+                "def concide(tableau1,tableau2):",
+                "def concide (liste1, liste2) :"
+              ]
+            }
+          }
+        }
+      },
+      "result": {
+        "success": false,
+        "response": "  File \"<console>\", line 2\n    def concide(liste1, liste2):\n    ^^^\nIndentationError: expected an indented block after function definition on line 1\n"
+      },
+      "context": {
+        "extensions": {
+          "role": { "roleName": "Navigator" },
+          "activityInstance": { "id": "1caef849-2cb1-4bc7-998c-3c63ac6ee709" }
+        },
+        "contextActivities": { "parent": "669" }
+      },
+      "timestamp": { "$date": "2024-10-09T04:30:44.789Z" },
+      "stored": { "$date": "2024-10-09T04:30:45.903Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "67060723280bcff93854a786" },
+      "actor": { "account": "184742", "objectType": "Agent", "name": "1847" },
+      "verb": { "id": "SentInChat", "display": { "en": "SentInChat" } },
+      "object": { "objectType": "Activity", "id": "669" },
+      "context": {
+        "extensions": {
+          "activityInstance": { "id": "1caef849-2cb1-4bc7-998c-3c63ac6ee709" },
+          "chatMessageSent": { "message": "Ah merde c'est moi l'editeur" }
+        },
+        "contextActivities": { "parent": "669" }
+      },
+      "timestamp": { "$date": "2024-10-09T04:31:31.572Z" },
+      "stored": { "$date": "2024-10-09T04:31:31.576Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "67060736280bcff93854a7cc" },
+      "actor": { "account": "211304", "objectType": "Agent", "name": "2113" },
+      "verb": { "id": "SentInChat", "display": { "en": "SentInChat" } },
+      "object": { "objectType": "Activity", "id": "669" },
+      "context": {
+        "extensions": {
+          "activityInstance": { "id": "1caef849-2cb1-4bc7-998c-3c63ac6ee709" },
+          "chatMessageSent": { "message": "daccord je vois ce que tu fait " }
+        },
+        "contextActivities": { "parent": "669" }
+      },
+      "timestamp": { "$date": "2024-10-09T04:31:50.839Z" },
+      "stored": { "$date": "2024-10-09T04:31:50.845Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "67060749280bcff93854a860" },
+      "actor": { "account": "184742", "objectType": "Agent", "name": "1847" },
+      "verb": { "id": "SentInChat", "display": { "en": "SentInChat" } },
+      "object": { "objectType": "Activity", "id": "669" },
+      "context": {
+        "extensions": {
+          "activityInstance": { "id": "1caef849-2cb1-4bc7-998c-3c63ac6ee709" },
+          "chatMessageSent": { "message": "Si tu veux continuer vas-y" }
+        },
+        "contextActivities": { "parent": "669" }
+      },
+      "timestamp": { "$date": "2024-10-09T04:32:09.298Z" },
+      "stored": { "$date": "2024-10-09T04:32:09.302Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "67060758280bcff93854a89c" },
+      "actor": { "account": "211304", "objectType": "Agent", "name": "2113" },
+      "verb": { "id": "SentInChat", "display": { "en": "SentInChat" } },
+      "object": { "objectType": "Activity", "id": "669" },
+      "context": {
+        "extensions": {
+          "activityInstance": { "id": "1caef849-2cb1-4bc7-998c-3c63ac6ee709" },
+          "chatMessageSent": {
+            "message": "parcontre il fat utiliser le boucle for pour comparerer les valeur "
+          }
+        },
+        "contextActivities": { "parent": "669" }
+      },
+      "timestamp": { "$date": "2024-10-09T04:32:24.755Z" },
+      "stored": { "$date": "2024-10-09T04:32:24.760Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "6706075f280bcff93854a8ca" },
+      "actor": { "account": "211304", "objectType": "Agent", "name": "2113" },
+      "verb": {
+        "id": "EditionRequest",
+        "display": { "en": "Ask edition request" }
+      },
+      "object": {
+        "objectType": "request",
+        "id": "EditionRequest",
+        "definition": {
+          "extensions": {
+            "userRequested": {
+              "objectType": "Agent",
+              "account": "184742",
+              "name": "1847"
+            },
+            "requestId": "422af2b3-7f02-491b-accd-3e33a441a310"
+          }
+        }
+      },
+      "context": {
+        "extensions": {
+          "activityInstance": { "id": "1caef849-2cb1-4bc7-998c-3c63ac6ee709" }
+        },
+        "contextActivities": { "parent": "669" }
+      },
+      "timestamp": { "$date": "2024-10-09T04:32:29.971Z" },
+      "stored": { "$date": "2024-10-09T04:32:31.648Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "67060765280bcff93854a8e2" },
+      "actor": { "account": "184742", "objectType": "Agent", "name": "1847" },
+      "verb": { "id": "Wrote", "display": { "en": "Wrote" } },
+      "object": {
+        "objectType": "code",
+        "id": "PythonSourceCode",
+        "definition": {
+          "extensions": {
+            "codeSnapshot": {
+              "code": "def coincide(tab1, tab2):\n    # Vérifier que les deux tableaux ont la même longueur\n    if len(tab1) != len(tab2):\n        raise ValueError(\"Les tableaux doivent avoir la même longueur\""
+            }
+          }
+        }
+      },
+      "context": {
+        "extensions": {
+          "activityInstance": { "id": "1caef849-2cb1-4bc7-998c-3c63ac6ee709" }
+        },
+        "contextActivities": { "parent": "669" }
+      },
+      "timestamp": { "$date": "2024-10-09T04:32:37.920Z" },
+      "stored": { "$date": "2024-10-09T04:32:37.925Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "67060766280bcff93854a8e6" },
+      "actor": { "account": "184742", "objectType": "Agent", "name": "1847" },
+      "verb": {
+        "id": "AnswerEditionRequest",
+        "display": { "en": "Answer edition request" }
+      },
+      "object": {
+        "objectType": "response",
+        "id": "EditionRequestResponse",
+        "definition": {
+          "extensions": {
+            "statmentOfCorrespondingRequest": {
+              "id": "422af2b3-7f02-491b-accd-3e33a441a310"
+            }
+          }
+        }
+      },
+      "result": { "success": true },
+      "context": {
+        "extensions": {
+          "activityInstance": { "id": "1caef849-2cb1-4bc7-998c-3c63ac6ee709" }
+        },
+        "contextActivities": { "parent": "669" }
+      },
+      "timestamp": { "$date": "2024-10-09T04:32:37.513Z" },
+      "stored": { "$date": "2024-10-09T04:32:38.363Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "670607e7280bcff93854a9ee" },
+      "actor": { "account": "184742", "objectType": "Agent", "name": "1847" },
+      "verb": { "id": "SentInChat", "display": { "en": "SentInChat" } },
+      "object": { "objectType": "Activity", "id": "669" },
+      "context": {
+        "extensions": {
+          "activityInstance": { "id": "1caef849-2cb1-4bc7-998c-3c63ac6ee709" },
+          "chatMessageSent": {
+            "message": "Ca se voit que tu connais programmer comparer a moi"
+          }
+        },
+        "contextActivities": { "parent": "669" }
+      },
+      "timestamp": { "$date": "2024-10-09T04:34:47.064Z" },
+      "stored": { "$date": "2024-10-09T04:34:47.069Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "670607f2280bcff93854aa28" },
+      "actor": { "account": "184742", "objectType": "Agent", "name": "1847" },
+      "verb": { "id": "Disconnected", "display": { "en": "Disconnected" } },
+      "object": { "objectType": "Activity", "id": "669" },
+      "context": {
+        "extensions": {
+          "role": { "roleName": "Navigator" },
+          "activityInstance": { "id": "1caef849-2cb1-4bc7-998c-3c63ac6ee709" }
+        },
+        "contextActivities": { "parent": "669" }
+      },
+      "timestamp": { "$date": "2024-10-09T04:34:58.409Z" },
+      "stored": { "$date": "2024-10-09T04:34:58.415Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "670607f3280bcff93854aa60" },
+      "actor": { "account": "184742", "objectType": "Agent", "name": "1847" },
+      "verb": { "id": "Connected", "display": { "en": "Connected" } },
+      "object": { "objectType": "Activity", "id": "669" },
+      "context": {
+        "extensions": {
+          "role": { "roleName": "Navigator" },
+          "activityInstance": { "id": "1caef849-2cb1-4bc7-998c-3c63ac6ee709" }
+        },
+        "contextActivities": { "parent": "669" }
+      },
+      "timestamp": { "$date": "2024-10-09T04:34:59.864Z" },
+      "stored": { "$date": "2024-10-09T04:34:59.869Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "67060818280bcff93854ab58" },
+      "actor": { "account": "211304", "objectType": "Agent", "name": "2113" },
+      "verb": { "id": "SentInChat", "display": { "en": "SentInChat" } },
+      "object": { "objectType": "Activity", "id": "669" },
+      "context": {
+        "extensions": {
+          "activityInstance": { "id": "1caef849-2cb1-4bc7-998c-3c63ac6ee709" },
+          "chatMessageSent": { "message": "lol " }
+        },
+        "contextActivities": { "parent": "669" }
+      },
+      "timestamp": { "$date": "2024-10-09T04:35:36.105Z" },
+      "stored": { "$date": "2024-10-09T04:35:36.111Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "6706082a280bcff93854abc6" },
+      "actor": { "account": "211304", "objectType": "Agent", "name": "2113" },
+      "verb": { "id": "SentInChat", "display": { "en": "SentInChat" } },
+      "object": { "objectType": "Activity", "id": "669" },
+      "context": {
+        "extensions": {
+          "activityInstance": { "id": "1caef849-2cb1-4bc7-998c-3c63ac6ee709" },
+          "chatMessageSent": { "message": "bon j'ai pas fini " }
+        },
+        "contextActivities": { "parent": "669" }
+      },
+      "timestamp": { "$date": "2024-10-09T04:35:54.754Z" },
+      "stored": { "$date": "2024-10-09T04:35:54.759Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "67060833280bcff93854abe8" },
+      "actor": { "account": "211304", "objectType": "Agent", "name": "2113" },
+      "verb": { "id": "EndedActivity", "display": { "en": "EndedActivity" } },
+      "object": { "objectType": "Activity", "id": "669" },
+      "context": {
+        "extensions": {
+          "activityInstance": { "id": "1caef849-2cb1-4bc7-998c-3c63ac6ee709" }
+        },
+        "contextActivities": { "parent": "669" }
+      },
+      "timestamp": { "$date": "2024-10-09T04:36:01.414Z" },
+      "stored": { "$date": "2024-10-09T04:36:03.119Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "67060836280bcff93854abf8" },
+      "actor": { "account": "184742", "objectType": "Agent", "name": "1847" },
+      "verb": { "id": "EndedActivity", "display": { "en": "EndedActivity" } },
+      "object": { "objectType": "Activity", "id": "669" },
+      "context": {
+        "extensions": {
+          "activityInstance": { "id": "1caef849-2cb1-4bc7-998c-3c63ac6ee709" }
+        },
+        "contextActivities": { "parent": "669" }
+      },
+      "timestamp": { "$date": "2024-10-09T04:36:05.813Z" },
+      "stored": { "$date": "2024-10-09T04:36:06.927Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "670608ee280bcff93854ada4" },
+      "actor": { "account": "184742", "objectType": "Agent", "name": "1847" },
+      "verb": { "id": "Disconnected", "display": { "en": "Disconnected" } },
+      "object": { "objectType": "Activity", "id": "669" },
+      "context": {
+        "extensions": {
+          "role": { "roleName": "Navigator" },
+          "activityInstance": { "id": "1caef849-2cb1-4bc7-998c-3c63ac6ee709" }
+        },
+        "contextActivities": { "parent": "669" }
+      },
+      "timestamp": { "$date": "2024-10-09T04:39:10.914Z" },
+      "stored": { "$date": "2024-10-09T04:39:10.918Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "67060950280bcff93854ae50" },
+      "actor": { "account": "211304", "objectType": "Agent", "name": "2113" },
+      "verb": { "id": "Wrote", "display": { "en": "Wrote" } },
+      "object": {
+        "objectType": "code",
+        "id": "PythonSourceCode",
+        "definition": {
+          "extensions": {
+            "codeSnapshot": {
+              "code": "def coincide(tab1, tab2):\n    # Vérifier que les deux tableaux ont la même longueur\n    for i in tab1 and tab2:\n        "
+            }
+          }
+        }
+      },
+      "context": {
+        "extensions": {
+          "activityInstance": { "id": "1caef849-2cb1-4bc7-998c-3c63ac6ee709" }
+        },
+        "contextActivities": { "parent": "669" }
+      },
+      "timestamp": { "$date": "2024-10-09T04:40:48.906Z" },
+      "stored": { "$date": "2024-10-09T04:40:48.912Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "67060950280bcff93854ae52" },
+      "actor": { "account": "211304", "objectType": "Agent", "name": "2113" },
+      "verb": { "id": "Disconnected", "display": { "en": "Disconnected" } },
+      "object": { "objectType": "Activity", "id": "669" },
+      "context": {
+        "extensions": {
+          "role": { "roleName": "Driver" },
+          "activityInstance": { "id": "1caef849-2cb1-4bc7-998c-3c63ac6ee709" }
+        },
+        "contextActivities": { "parent": "669" }
+      },
+      "timestamp": { "$date": "2024-10-09T04:40:48.907Z" },
+      "stored": { "$date": "2024-10-09T04:40:48.917Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "6706095a280bcff93854ae7c" },
+      "actor": { "account": "211304", "objectType": "Agent", "name": "2113" },
+      "verb": { "id": "Connected", "display": { "en": "Connected" } },
+      "object": { "objectType": "Activity", "id": "669" },
+      "context": {
+        "extensions": {
+          "role": { "roleName": "Driver" },
+          "activityInstance": { "id": "1caef849-2cb1-4bc7-998c-3c63ac6ee709" }
+        },
+        "contextActivities": { "parent": "669" }
+      },
+      "timestamp": { "$date": "2024-10-09T04:40:58.499Z" },
+      "stored": { "$date": "2024-10-09T04:40:58.503Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "6706095e280bcff93854ae94" },
+      "actor": { "account": "211304", "objectType": "Agent", "name": "2113" },
+      "verb": { "id": "Wrote", "display": { "en": "Wrote" } },
+      "object": {
+        "objectType": "code",
+        "id": "PythonSourceCode",
+        "definition": {
+          "extensions": {
+            "codeSnapshot": {
+              "code": "def coincide(tab1, tab2):\n    # Vérifier que les deux tableaux ont la même longueur\n    for i in tab1 and tab2:\n        "
+            }
+          }
+        }
+      },
+      "context": {
+        "extensions": {
+          "activityInstance": { "id": "1caef849-2cb1-4bc7-998c-3c63ac6ee709" }
+        },
+        "contextActivities": { "parent": "669" }
+      },
+      "timestamp": { "$date": "2024-10-09T04:41:02.804Z" },
+      "stored": { "$date": "2024-10-09T04:41:02.811Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "6706095e280bcff93854ae96" },
+      "actor": { "account": "211304", "objectType": "Agent", "name": "2113" },
+      "verb": { "id": "Disconnected", "display": { "en": "Disconnected" } },
+      "object": { "objectType": "Activity", "id": "669" },
+      "context": {
+        "extensions": {
+          "role": { "roleName": "Driver" },
+          "activityInstance": { "id": "1caef849-2cb1-4bc7-998c-3c63ac6ee709" }
+        },
+        "contextActivities": { "parent": "669" }
+      },
+      "timestamp": { "$date": "2024-10-09T04:41:02.805Z" },
+      "stored": { "$date": "2024-10-09T04:41:02.816Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "67060964280bcff93854aebe" },
+      "actor": { "account": "211304", "objectType": "Agent", "name": "2113" },
+      "verb": { "id": "Connected", "display": { "en": "Connected" } },
+      "object": { "objectType": "Activity", "id": "669" },
+      "context": {
+        "extensions": {
+          "role": { "roleName": "Driver" },
+          "activityInstance": { "id": "1caef849-2cb1-4bc7-998c-3c63ac6ee709" }
+        },
+        "contextActivities": { "parent": "669" }
+      },
+      "timestamp": { "$date": "2024-10-09T04:41:08.268Z" },
+      "stored": { "$date": "2024-10-09T04:41:08.271Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "6706096a280bcff93854aedc" },
+      "actor": { "account": "211304", "objectType": "Agent", "name": "2113" },
+      "verb": { "id": "Wrote", "display": { "en": "Wrote" } },
+      "object": {
+        "objectType": "code",
+        "id": "PythonSourceCode",
+        "definition": {
+          "extensions": {
+            "codeSnapshot": {
+              "code": "def coincide(tab1, tab2):\n    # Vérifier que les deux tableaux ont la même longueur\n    for i in tab1 and tab2:\n        "
+            }
+          }
+        }
+      },
+      "context": {
+        "extensions": {
+          "activityInstance": { "id": "1caef849-2cb1-4bc7-998c-3c63ac6ee709" }
+        },
+        "contextActivities": { "parent": "669" }
+      },
+      "timestamp": { "$date": "2024-10-09T04:41:14.542Z" },
+      "stored": { "$date": "2024-10-09T04:41:14.551Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "6706096a280bcff93854aede" },
+      "actor": { "account": "211304", "objectType": "Agent", "name": "2113" },
+      "verb": { "id": "Disconnected", "display": { "en": "Disconnected" } },
+      "object": { "objectType": "Activity", "id": "669" },
+      "context": {
+        "extensions": {
+          "role": { "roleName": "Driver" },
+          "activityInstance": { "id": "1caef849-2cb1-4bc7-998c-3c63ac6ee709" }
+        },
+        "contextActivities": { "parent": "669" }
+      },
+      "timestamp": { "$date": "2024-10-09T04:41:14.544Z" },
+      "stored": { "$date": "2024-10-09T04:41:14.555Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "67060978280bcff93854af1e" },
+      "actor": { "account": "211304", "objectType": "Agent", "name": "2113" },
+      "verb": { "id": "Connected", "display": { "en": "Connected" } },
+      "object": { "objectType": "Activity", "id": "669" },
+      "context": {
+        "extensions": {
+          "role": { "roleName": "Driver" },
+          "activityInstance": { "id": "1caef849-2cb1-4bc7-998c-3c63ac6ee709" }
+        },
+        "contextActivities": { "parent": "669" }
+      },
+      "timestamp": { "$date": "2024-10-09T04:41:28.544Z" },
+      "stored": { "$date": "2024-10-09T04:41:28.549Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "67060b5d280bcff93854b098" },
+      "actor": { "account": "211304", "objectType": "Agent", "name": "2113" },
+      "verb": { "id": "Wrote", "display": { "en": "Wrote" } },
+      "object": {
+        "objectType": "code",
+        "id": "PythonSourceCode",
+        "definition": {
+          "extensions": {
+            "codeSnapshot": {
+              "code": "def coincide(tab1, tab2):\n    # Vérifier que les deux tableaux ont la même longueur\n    for i in tab1 and tab2:\n        "
+            }
+          }
+        }
+      },
+      "context": {
+        "extensions": {
+          "activityInstance": { "id": "1caef849-2cb1-4bc7-998c-3c63ac6ee709" }
+        },
+        "contextActivities": { "parent": "669" }
+      },
+      "timestamp": { "$date": "2024-10-09T04:49:33.839Z" },
+      "stored": { "$date": "2024-10-09T04:49:33.845Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "67060b5d280bcff93854b09a" },
+      "actor": { "account": "211304", "objectType": "Agent", "name": "2113" },
+      "verb": { "id": "Disconnected", "display": { "en": "Disconnected" } },
+      "object": { "objectType": "Activity", "id": "669" },
+      "context": {
+        "extensions": {
+          "role": { "roleName": "Driver" },
+          "activityInstance": { "id": "1caef849-2cb1-4bc7-998c-3c63ac6ee709" }
+        },
+        "contextActivities": { "parent": "669" }
+      },
+      "timestamp": { "$date": "2024-10-09T04:49:33.840Z" },
+      "stored": { "$date": "2024-10-09T04:49:33.850Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "67060b65280bcff93854b0a6" },
+      "actor": { "account": "211304", "objectType": "Agent", "name": "2113" },
+      "verb": { "id": "Connected", "display": { "en": "Connected" } },
+      "object": { "objectType": "Activity", "id": "669" },
+      "context": {
+        "extensions": {
+          "role": { "roleName": "Driver" },
+          "activityInstance": { "id": "1caef849-2cb1-4bc7-998c-3c63ac6ee709" }
+        },
+        "contextActivities": { "parent": "669" }
+      },
+      "timestamp": { "$date": "2024-10-09T04:49:41.298Z" },
+      "stored": { "$date": "2024-10-09T04:49:41.304Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "67060b83280bcff93854b0d0" },
+      "actor": { "account": "211304", "objectType": "Agent", "name": "2113" },
+      "verb": { "id": "Wrote", "display": { "en": "Wrote" } },
+      "object": {
+        "objectType": "code",
+        "id": "PythonSourceCode",
+        "definition": {
+          "extensions": {
+            "codeSnapshot": {
+              "code": "def coincide(tab1, tab2):\n    # Vérifier que les deux tableaux ont la même longueur\n    for i in tab1 and tab2:\n        "
+            }
+          }
+        }
+      },
+      "context": {
+        "extensions": {
+          "activityInstance": { "id": "1caef849-2cb1-4bc7-998c-3c63ac6ee709" }
+        },
+        "contextActivities": { "parent": "669" }
+      },
+      "timestamp": { "$date": "2024-10-09T04:50:11.857Z" },
+      "stored": { "$date": "2024-10-09T04:50:11.864Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "67060b83280bcff93854b0d2" },
+      "actor": { "account": "211304", "objectType": "Agent", "name": "2113" },
+      "verb": { "id": "Disconnected", "display": { "en": "Disconnected" } },
+      "object": { "objectType": "Activity", "id": "669" },
+      "context": {
+        "extensions": {
+          "role": { "roleName": "Driver" },
+          "activityInstance": { "id": "1caef849-2cb1-4bc7-998c-3c63ac6ee709" }
+        },
+        "contextActivities": { "parent": "669" }
+      },
+      "timestamp": { "$date": "2024-10-09T04:50:11.859Z" },
+      "stored": { "$date": "2024-10-09T04:50:11.869Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "67060b8b280bcff93854b0de" },
+      "actor": { "account": "211304", "objectType": "Agent", "name": "2113" },
+      "verb": { "id": "Connected", "display": { "en": "Connected" } },
+      "object": { "objectType": "Activity", "id": "669" },
+      "context": {
+        "extensions": {
+          "role": { "roleName": "Driver" },
+          "activityInstance": { "id": "1caef849-2cb1-4bc7-998c-3c63ac6ee709" }
+        },
+        "contextActivities": { "parent": "669" }
+      },
+      "timestamp": { "$date": "2024-10-09T04:50:19.028Z" },
+      "stored": { "$date": "2024-10-09T04:50:19.035Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "67060b90280bcff93854b0e8" },
+      "actor": { "account": "211304", "objectType": "Agent", "name": "2113" },
+      "verb": { "id": "Wrote", "display": { "en": "Wrote" } },
+      "object": {
+        "objectType": "code",
+        "id": "PythonSourceCode",
+        "definition": {
+          "extensions": {
+            "codeSnapshot": {
+              "code": "def coincide(tab1, tab2):\n    # Vérifier que les deux tableaux ont la même longueur\n    for i in tab1 and tab2:\n        "
+            }
+          }
+        }
+      },
+      "context": {
+        "extensions": {
+          "activityInstance": { "id": "1caef849-2cb1-4bc7-998c-3c63ac6ee709" }
+        },
+        "contextActivities": { "parent": "669" }
+      },
+      "timestamp": { "$date": "2024-10-09T04:50:24.865Z" },
+      "stored": { "$date": "2024-10-09T04:50:24.870Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "67060b90280bcff93854b0ea" },
+      "actor": { "account": "211304", "objectType": "Agent", "name": "2113" },
+      "verb": { "id": "Disconnected", "display": { "en": "Disconnected" } },
+      "object": { "objectType": "Activity", "id": "669" },
+      "context": {
+        "extensions": {
+          "role": { "roleName": "Driver" },
+          "activityInstance": { "id": "1caef849-2cb1-4bc7-998c-3c63ac6ee709" }
+        },
+        "contextActivities": { "parent": "669" }
+      },
+      "timestamp": { "$date": "2024-10-09T04:50:24.867Z" },
+      "stored": { "$date": "2024-10-09T04:50:24.874Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "67060b91280bcff93854b0f0" },
+      "actor": { "account": "211304", "objectType": "Agent", "name": "2113" },
+      "verb": { "id": "Connected", "display": { "en": "Connected" } },
+      "object": { "objectType": "Activity", "id": "669" },
+      "context": {
+        "extensions": {
+          "role": { "roleName": "Driver" },
+          "activityInstance": { "id": "1caef849-2cb1-4bc7-998c-3c63ac6ee709" }
+        },
+        "contextActivities": { "parent": "669" }
+      },
+      "timestamp": { "$date": "2024-10-09T04:50:25.376Z" },
+      "stored": { "$date": "2024-10-09T04:50:25.384Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "67060bb7280bcff93854b118" },
+      "actor": { "account": "211304", "objectType": "Agent", "name": "2113" },
+      "verb": { "id": "Wrote", "display": { "en": "Wrote" } },
+      "object": {
+        "objectType": "code",
+        "id": "PythonSourceCode",
+        "definition": {
+          "extensions": {
+            "codeSnapshot": {
+              "code": "def coincide(tab1, tab2):\n    # Vérifier que les deux tableaux ont la même longueur\n    for i in tab1 and tab2:\n        "
+            }
+          }
+        }
+      },
+      "context": {
+        "extensions": {
+          "activityInstance": { "id": "1caef849-2cb1-4bc7-998c-3c63ac6ee709" }
+        },
+        "contextActivities": { "parent": "669" }
+      },
+      "timestamp": { "$date": "2024-10-09T04:51:03.376Z" },
+      "stored": { "$date": "2024-10-09T04:51:03.383Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "67060bb7280bcff93854b11a" },
+      "actor": { "account": "211304", "objectType": "Agent", "name": "2113" },
+      "verb": { "id": "Disconnected", "display": { "en": "Disconnected" } },
+      "object": { "objectType": "Activity", "id": "669" },
+      "context": {
+        "extensions": {
+          "role": { "roleName": "Driver" },
+          "activityInstance": { "id": "1caef849-2cb1-4bc7-998c-3c63ac6ee709" }
+        },
+        "contextActivities": { "parent": "669" }
+      },
+      "timestamp": { "$date": "2024-10-09T04:51:03.379Z" },
+      "stored": { "$date": "2024-10-09T04:51:03.386Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "67060bbc280bcff93854b126" },
+      "actor": { "account": "211304", "objectType": "Agent", "name": "2113" },
+      "verb": { "id": "Connected", "display": { "en": "Connected" } },
+      "object": { "objectType": "Activity", "id": "669" },
+      "context": {
+        "extensions": {
+          "role": { "roleName": "Driver" },
+          "activityInstance": { "id": "1caef849-2cb1-4bc7-998c-3c63ac6ee709" }
+        },
+        "contextActivities": { "parent": "669" }
+      },
+      "timestamp": { "$date": "2024-10-09T04:51:08.906Z" },
+      "stored": { "$date": "2024-10-09T04:51:08.911Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "67060bc4280bcff93854b12e" },
+      "actor": { "account": "211304", "objectType": "Agent", "name": "2113" },
+      "verb": { "id": "Wrote", "display": { "en": "Wrote" } },
+      "object": {
+        "objectType": "code",
+        "id": "PythonSourceCode",
+        "definition": {
+          "extensions": {
+            "codeSnapshot": {
+              "code": "def coincide(tab1, tab2):\n    # Vérifier que les deux tableaux ont la même longueur\n    for i in tab1 and tab2:\n        "
+            }
+          }
+        }
+      },
+      "context": {
+        "extensions": {
+          "activityInstance": { "id": "1caef849-2cb1-4bc7-998c-3c63ac6ee709" }
+        },
+        "contextActivities": { "parent": "669" }
+      },
+      "timestamp": { "$date": "2024-10-09T04:51:16.433Z" },
+      "stored": { "$date": "2024-10-09T04:51:16.441Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "67060bc4280bcff93854b130" },
+      "actor": { "account": "211304", "objectType": "Agent", "name": "2113" },
+      "verb": { "id": "Disconnected", "display": { "en": "Disconnected" } },
+      "object": { "objectType": "Activity", "id": "669" },
+      "context": {
+        "extensions": {
+          "role": { "roleName": "Driver" },
+          "activityInstance": { "id": "1caef849-2cb1-4bc7-998c-3c63ac6ee709" }
+        },
+        "contextActivities": { "parent": "669" }
+      },
+      "timestamp": { "$date": "2024-10-09T04:51:16.434Z" },
+      "stored": { "$date": "2024-10-09T04:51:16.447Z" },
+      "__v": 0
+    }
+  ],
+  "start": "2024-10-09T04:22:40.500Z",
+  "tag": "postest2",
+  "number_of_statements_student1": [
+    { "type": "PairedWith", "amount": 1 },
+    { "type": "Connected", "amount": 10 },
+    { "type": "SentInChat", "amount": 10 },
+    { "type": "Run from terminal", "amount": 5 },
+    { "type": "Cleared", "amount": 1 },
+    { "type": "Wrote", "amount": 9 },
+    { "type": "Disconnected", "amount": 10 },
+    { "type": "EditionRequest", "amount": 1 },
+    { "type": "EndedActivity", "amount": 1 }
+  ],
+  "number_of_statements_student2": [
+    { "type": "Connected", "amount": 2 },
+    { "type": "SentInChat", "amount": 9 },
+    { "type": "Wrote", "amount": 1 },
+    { "type": "AnswerEditionRequest", "amount": 1 },
+    { "type": "Disconnected", "amount": 2 },
+    { "type": "EndedActivity", "amount": 1 }
+  ],
+  "compatibility_posttest_result_student1": "1.0000",
+  "compatibility_posttest_result_student2": "0.5000"
+}

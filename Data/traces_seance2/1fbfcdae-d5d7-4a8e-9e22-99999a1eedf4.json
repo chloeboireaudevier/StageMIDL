@@ -1,0 +1,1817 @@
+{
+  "id": "1fbfcdae-d5d7-4a8e-9e22-99999a1eedf4",
+  "student1": "197872",
+  "student2": "177441",
+  "pairedWithStatement": {
+    "_id": { "$oid": "6732e503a90c4f677cac74c7" },
+    "actor": { "account": "197872", "objectType": "Agent", "name": "1978" },
+    "verb": { "id": "PairedWith", "display": { "en": "PairedWith" } },
+    "object": {
+      "objectType": "PairingInfo",
+      "id": "PairingInfo",
+      "definition": {
+        "extensions": {
+          "userPairedWith": {
+            "objectType": "Agent",
+            "account": "177441",
+            "name": "1774"
+          },
+          "matchingStrategyUsed": "GradeHomogeneous",
+          "matchScoreObtained": 2.9999999999999996
+        }
+      }
+    },
+    "context": {
+      "extensions": {
+        "activityInstance": { "id": "1fbfcdae-d5d7-4a8e-9e22-99999a1eedf4" }
+      },
+      "contextActivities": { "parent": "759" }
+    },
+    "timestamp": { "$date": "2024-11-12T05:17:55.534Z" },
+    "stored": { "$date": "2024-11-12T05:17:55.538Z" },
+    "__v": 0
+  },
+  "statements": [
+    {
+      "_id": { "$oid": "6732e503a90c4f677cac74c7" },
+      "actor": { "account": "197872", "objectType": "Agent", "name": "1978" },
+      "verb": { "id": "PairedWith", "display": { "en": "PairedWith" } },
+      "object": {
+        "objectType": "PairingInfo",
+        "id": "PairingInfo",
+        "definition": {
+          "extensions": {
+            "userPairedWith": {
+              "objectType": "Agent",
+              "account": "177441",
+              "name": "1774"
+            },
+            "matchingStrategyUsed": "GradeHomogeneous",
+            "matchScoreObtained": 2.9999999999999996
+          }
+        }
+      },
+      "context": {
+        "extensions": {
+          "activityInstance": { "id": "1fbfcdae-d5d7-4a8e-9e22-99999a1eedf4" }
+        },
+        "contextActivities": { "parent": "759" }
+      },
+      "timestamp": { "$date": "2024-11-12T05:17:55.534Z" },
+      "stored": { "$date": "2024-11-12T05:17:55.538Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "6732e507a90c4f677cac74cb" },
+      "actor": { "account": "197872", "objectType": "Agent", "name": "1978" },
+      "verb": { "id": "Connected", "display": { "en": "Connected" } },
+      "object": { "objectType": "Activity", "id": "759" },
+      "context": {
+        "extensions": {
+          "role": { "roleName": "Driver" },
+          "activityInstance": { "id": "1fbfcdae-d5d7-4a8e-9e22-99999a1eedf4" }
+        },
+        "contextActivities": { "parent": "759" }
+      },
+      "timestamp": { "$date": "2024-11-12T05:17:58.999Z" },
+      "stored": { "$date": "2024-11-12T05:17:59.005Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "6732e509a90c4f677cac74cf" },
+      "actor": { "account": "177441", "objectType": "Agent", "name": "1774" },
+      "verb": { "id": "Connected", "display": { "en": "Connected" } },
+      "object": { "objectType": "Activity", "id": "759" },
+      "context": {
+        "extensions": {
+          "role": { "roleName": "Navigator" },
+          "activityInstance": { "id": "1fbfcdae-d5d7-4a8e-9e22-99999a1eedf4" }
+        },
+        "contextActivities": { "parent": "759" }
+      },
+      "timestamp": { "$date": "2024-11-12T05:18:01.319Z" },
+      "stored": { "$date": "2024-11-12T05:18:01.322Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "6732e564a90c4f677cac7569" },
+      "actor": { "account": "197872", "objectType": "Agent", "name": "1978" },
+      "verb": { "id": "SentInChat", "display": { "en": "SentInChat" } },
+      "object": { "objectType": "Activity", "id": "759" },
+      "context": {
+        "extensions": {
+          "codeSnapshot": { "code": "def bien_parenthesee(chaine) :\n    " },
+          "activityInstance": { "id": "1fbfcdae-d5d7-4a8e-9e22-99999a1eedf4" },
+          "chatMessageSent": { "message": "tu me dis si tu veux écrire" }
+        },
+        "contextActivities": { "parent": "759" }
+      },
+      "timestamp": { "$date": "2024-11-12T05:19:32.644Z" },
+      "stored": { "$date": "2024-11-12T05:19:32.655Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "6732e5aba90c4f677cac75f3" },
+      "actor": { "account": "177441", "objectType": "Agent", "name": "1774" },
+      "verb": { "id": "SentInChat", "display": { "en": "SentInChat" } },
+      "object": { "objectType": "Activity", "id": "759" },
+      "context": {
+        "extensions": {
+          "codeSnapshot": { "code": "def bien_parenthesee(chaine) :\n    " },
+          "activityInstance": { "id": "1fbfcdae-d5d7-4a8e-9e22-99999a1eedf4" },
+          "chatMessageSent": {
+            "message": "tkt pour le moment je réfléchie pck je comprend pas :')"
+          }
+        },
+        "contextActivities": { "parent": "759" }
+      },
+      "timestamp": { "$date": "2024-11-12T05:20:43.928Z" },
+      "stored": { "$date": "2024-11-12T05:20:43.934Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "6732e5d9a90c4f677cac7645" },
+      "actor": { "account": "197872", "objectType": "Agent", "name": "1978" },
+      "verb": { "id": "SentInChat", "display": { "en": "SentInChat" } },
+      "object": { "objectType": "Activity", "id": "759" },
+      "context": {
+        "extensions": {
+          "codeSnapshot": { "code": "def bien_parenthesee(chaine) :\n    pai" },
+          "activityInstance": { "id": "1fbfcdae-d5d7-4a8e-9e22-99999a1eedf4" },
+          "chatMessageSent": {
+            "message": "xd oki j'essaye un truc en attendant"
+          }
+        },
+        "contextActivities": { "parent": "759" }
+      },
+      "timestamp": { "$date": "2024-11-12T05:21:29.570Z" },
+      "stored": { "$date": "2024-11-12T05:21:29.578Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "6732e6e5a90c4f677cac7839" },
+      "actor": { "account": "177441", "objectType": "Agent", "name": "1774" },
+      "verb": { "id": "SentInChat", "display": { "en": "SentInChat" } },
+      "object": { "objectType": "Activity", "id": "759" },
+      "context": {
+        "extensions": {
+          "codeSnapshot": {
+            "code": "def bien_parenthesee(chaine) :\n    paire = {}\n    nb_ouvrante = 0\n    nb_fermante = 0\n    erreur = False\n    for caractère in chaine :\n        if caractere == \"(\" :\n            nb_ouvrante += 1\n            paire[str(nb_ouvrante)] = False\n        if caractere == \")\" :\n            nb_fermante += 1\n            if paire"
+          },
+          "activityInstance": { "id": "1fbfcdae-d5d7-4a8e-9e22-99999a1eedf4" },
+          "chatMessageSent": { "message": "j'ai fait comme toi sur jupyter XD" }
+        },
+        "contextActivities": { "parent": "759" }
+      },
+      "timestamp": { "$date": "2024-11-12T05:25:57.780Z" },
+      "stored": { "$date": "2024-11-12T05:25:57.788Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "6732e743a90c4f677cac789d" },
+      "actor": { "account": "197872", "objectType": "Agent", "name": "1978" },
+      "verb": {
+        "id": "Run from editor",
+        "display": { "en": "Run from editor" }
+      },
+      "object": {
+        "objectType": "code",
+        "id": "PythonSourceCode",
+        "definition": {
+          "extensions": {
+            "codeExecuted": {
+              "code": "def bien_parenthesee(chaine) :\n    paire = {}\n    nb_ouvrante = 0\n    nb_fermante = 0\n    erreur = False\n    for caractère in chaine :\n        if caractere == \"(\" :\n            nb_ouvrante += 1\n            paire[str(nb_ouvrante)] = False\n        if caractere == \")\" :\n            nb_fermante += 1\n            if paire[str(nb_fermante)] not in paire :\n                erreur = True\n            else :\n                paire[str(nb_ouvrante)] = True\n    return False in paire \n        \n"
+            }
+          }
+        }
+      },
+      "result": { "success": true, "response": "" },
+      "context": {
+        "extensions": {
+          "role": { "roleName": "Driver" },
+          "activityInstance": { "id": "1fbfcdae-d5d7-4a8e-9e22-99999a1eedf4" }
+        },
+        "contextActivities": { "parent": "759" }
+      },
+      "timestamp": { "$date": "2024-11-12T05:27:27.443Z" },
+      "stored": { "$date": "2024-11-12T05:27:31.196Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "6732e749a90c4f677cac78a3" },
+      "actor": { "account": "197872", "objectType": "Agent", "name": "1978" },
+      "verb": { "id": "SentInChat", "display": { "en": "SentInChat" } },
+      "object": { "objectType": "Activity", "id": "759" },
+      "context": {
+        "extensions": {
+          "codeSnapshot": {
+            "code": "def bien_parenthesee(chaine) :\n    paire = {}\n    nb_ouvrante = 0\n    nb_fermante = 0\n    erreur = False\n    for caractère in chaine :\n        if caractere == \"(\" :\n            nb_ouvrante += 1\n            paire[str(nb_ouvrante)] = False\n        if caractere == \")\" :\n            nb_fermante += 1\n            if paire[str(nb_fermante)] not in paire :\n                erreur = True\n            else :\n                paire[str(nb_ouvrante)] = True\n    return False in paire \n        \n        "
+          },
+          "activityInstance": { "id": "1fbfcdae-d5d7-4a8e-9e22-99999a1eedf4" },
+          "chatMessageSent": { "message": "okay " }
+        },
+        "contextActivities": { "parent": "759" }
+      },
+      "timestamp": { "$date": "2024-11-12T05:27:37.978Z" },
+      "stored": { "$date": "2024-11-12T05:27:37.983Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "6732e74ca90c4f677cac78a9" },
+      "actor": { "account": "197872", "objectType": "Agent", "name": "1978" },
+      "verb": { "id": "SentInChat", "display": { "en": "SentInChat" } },
+      "object": { "objectType": "Activity", "id": "759" },
+      "context": {
+        "extensions": {
+          "codeSnapshot": {
+            "code": "def bien_parenthesee(chaine) :\n    paire = {}\n    nb_ouvrante = 0\n    nb_fermante = 0\n    erreur = False\n    for caractère in chaine :\n        if caractere == \"(\" :\n            nb_ouvrante += 1\n            paire[str(nb_ouvrante)] = False\n        if caractere == \")\" :\n            nb_fermante += 1\n            if paire[str(nb_fermante)] not in paire :\n                erreur = True\n            else :\n                paire[str(nb_ouvrante)] = True\n    return False in paire \n        \n        "
+          },
+          "activityInstance": { "id": "1fbfcdae-d5d7-4a8e-9e22-99999a1eedf4" },
+          "chatMessageSent": { "message": "j'ai un doute" }
+        },
+        "contextActivities": { "parent": "759" }
+      },
+      "timestamp": { "$date": "2024-11-12T05:27:40.874Z" },
+      "stored": { "$date": "2024-11-12T05:27:40.880Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "6732e77aa90c4f677cac78d1" },
+      "actor": { "account": "197872", "objectType": "Agent", "name": "1978" },
+      "verb": {
+        "id": "Run from editor",
+        "display": { "en": "Run from editor" }
+      },
+      "object": {
+        "objectType": "code",
+        "id": "PythonSourceCode",
+        "definition": {
+          "extensions": {
+            "codeExecuted": {
+              "code": "def bien_parenthesee(chaine) :\n    paire = {}\n    nb_ouvrante = 0\n    nb_fermante = 0\n    erreur = False\n    for caractère in chaine :\n        if caractere == \"(\" :\n            nb_ouvrante += 1\n            paire[str(nb_ouvrante)] = False\n        if caractere == \")\" :\n            nb_fermante += 1\n            if paire[str(nb_fermante)] not in paire :\n                erreur = True\n            else :\n                paire[str(nb_ouvrante)] = True\n    return False in paire \n        \nbien_parenthesee(\"(2 + 4) * 7\")\n"
+            }
+          }
+        }
+      },
+      "result": {
+        "success": false,
+        "response": "NameError: name 'caractere' is not defined\n"
+      },
+      "context": {
+        "extensions": {
+          "role": { "roleName": "Driver" },
+          "activityInstance": { "id": "1fbfcdae-d5d7-4a8e-9e22-99999a1eedf4" }
+        },
+        "contextActivities": { "parent": "759" }
+      },
+      "timestamp": { "$date": "2024-11-12T05:28:26.271Z" },
+      "stored": { "$date": "2024-11-12T05:28:26.630Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "6732e780a90c4f677cac78db" },
+      "actor": { "account": "177441", "objectType": "Agent", "name": "1774" },
+      "verb": {
+        "id": "Run from editor",
+        "display": { "en": "Run from editor" }
+      },
+      "object": {
+        "objectType": "code",
+        "id": "PythonSourceCode",
+        "definition": {
+          "extensions": {
+            "codeExecuted": {
+              "code": "def bien_parenthesee(chaine) :\n    paire = {}\n    nb_ouvrante = 0\n    nb_fermante = 0\n    erreur = False\n    for caractère in chaine :\n        if caractere == \"(\" :\n            nb_ouvrante += 1\n            paire[str(nb_ouvrante)] = False\n        if caractere == \")\" :\n            nb_fermante += 1\n            if paire[str(nb_fermante)] not in paire :\n                erreur = True\n            else :\n                paire[str(nb_ouvrante)] = True\n    return False in paire \n        \nbien_parenthesee(\"(2 + 4) * 7\")\n"
+            }
+          }
+        }
+      },
+      "result": {
+        "success": false,
+        "response": "NameError: name 'caractere' is not defined\n"
+      },
+      "context": {
+        "extensions": {
+          "role": { "roleName": "Navigator" },
+          "activityInstance": { "id": "1fbfcdae-d5d7-4a8e-9e22-99999a1eedf4" }
+        },
+        "contextActivities": { "parent": "759" }
+      },
+      "timestamp": { "$date": "2024-11-12T05:28:31.183Z" },
+      "stored": { "$date": "2024-11-12T05:28:32.758Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "6732e787a90c4f677cac78e3" },
+      "actor": { "account": "197872", "objectType": "Agent", "name": "1978" },
+      "verb": {
+        "id": "Run from editor",
+        "display": { "en": "Run from editor" }
+      },
+      "object": {
+        "objectType": "code",
+        "id": "PythonSourceCode",
+        "definition": {
+          "extensions": {
+            "codeExecuted": {
+              "code": "def bien_parenthesee(chaine) :\n    paire = {}\n    nb_ouvrante = 0\n    nb_fermante = 0\n    erreur = False\n    for caractere in chaine :\n        if caractere == \"(\" :\n            nb_ouvrante += 1\n            paire[str(nb_ouvrante)] = False\n        if caractere == \")\" :\n            nb_fermante += 1\n            if paire[str(nb_fermante)] not in paire :\n                erreur = True\n            else :\n                paire[str(nb_ouvrante)] = True\n    return False in paire \n        \nbien_parenthesee(\"(2 + 4) * 7\")\n"
+            }
+          }
+        }
+      },
+      "result": { "success": true, "response": "False" },
+      "context": {
+        "extensions": {
+          "role": { "roleName": "Driver" },
+          "activityInstance": { "id": "1fbfcdae-d5d7-4a8e-9e22-99999a1eedf4" }
+        },
+        "contextActivities": { "parent": "759" }
+      },
+      "timestamp": { "$date": "2024-11-12T05:28:38.804Z" },
+      "stored": { "$date": "2024-11-12T05:28:39.162Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "6732e787a90c4f677cac78e5" },
+      "actor": { "account": "177441", "objectType": "Agent", "name": "1774" },
+      "verb": {
+        "id": "Run from editor",
+        "display": { "en": "Run from editor" }
+      },
+      "object": {
+        "objectType": "code",
+        "id": "PythonSourceCode",
+        "definition": {
+          "extensions": {
+            "codeExecuted": {
+              "code": "def bien_parenthesee(chaine) :\n    paire = {}\n    nb_ouvrante = 0\n    nb_fermante = 0\n    erreur = False\n    for caractere in chaine :\n        if caractere == \"(\" :\n            nb_ouvrante += 1\n            paire[str(nb_ouvrante)] = False\n        if caractere == \")\" :\n            nb_fermante += 1\n            if paire[str(nb_fermante)] not in paire :\n                erreur = True\n            else :\n                paire[str(nb_ouvrante)] = True\n    return False in paire \n        \nbien_parenthesee(\"(2 + 4) * 7\")\n"
+            }
+          }
+        }
+      },
+      "result": { "success": true, "response": "False" },
+      "context": {
+        "extensions": {
+          "role": { "roleName": "Navigator" },
+          "activityInstance": { "id": "1fbfcdae-d5d7-4a8e-9e22-99999a1eedf4" }
+        },
+        "contextActivities": { "parent": "759" }
+      },
+      "timestamp": { "$date": "2024-11-12T05:28:39.376Z" },
+      "stored": { "$date": "2024-11-12T05:28:39.391Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "6732e7a2a90c4f677cac7905" },
+      "actor": { "account": "177441", "objectType": "Agent", "name": "1774" },
+      "verb": {
+        "id": "Run from editor",
+        "display": { "en": "Run from editor" }
+      },
+      "object": {
+        "objectType": "code",
+        "id": "PythonSourceCode",
+        "definition": {
+          "extensions": {
+            "codeExecuted": {
+              "code": "def bien_parenthesee(chaine) :\n    paire = {}\n    nb_ouvrante = 0\n    nb_fermante = 0\n    erreur = False\n    for caractere in chaine :\n        if caractere == \"(\" :\n            nb_ouvrante += 1\n            paire[str(nb_ouvrante)] = False\n        if caractere == \")\" :\n            nb_fermante += 1\n            if paire[str(nb_fermante)] not in paire :\n                erreur = True\n            else :\n                paire[str(nb_ouvrante)] = True\n    return erreur\n        \nbien_parenthesee(\"(2 + 4) * 7\")\n"
+            }
+          }
+        }
+      },
+      "result": { "success": true, "response": "True" },
+      "context": {
+        "extensions": {
+          "role": { "roleName": "Navigator" },
+          "activityInstance": { "id": "1fbfcdae-d5d7-4a8e-9e22-99999a1eedf4" }
+        },
+        "contextActivities": { "parent": "759" }
+      },
+      "timestamp": { "$date": "2024-11-12T05:29:05.740Z" },
+      "stored": { "$date": "2024-11-12T05:29:06.523Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "6732e7b4a90c4f677cac7927" },
+      "actor": { "account": "177441", "objectType": "Agent", "name": "1774" },
+      "verb": {
+        "id": "Run from editor",
+        "display": { "en": "Run from editor" }
+      },
+      "object": {
+        "objectType": "code",
+        "id": "PythonSourceCode",
+        "definition": {
+          "extensions": {
+            "codeExecuted": {
+              "code": "def bien_parenthesee(chaine) :\n    paire = {}\n    nb_ouvrante = 0\n    nb_fermante = 0\n    bien = False\n    for caractere in chaine :\n        if caractere == \"(\" :\n            nb_ouvrante += 1\n            paire[str(nb_ouvrante)] = False\n        if caractere == \")\" :\n            nb_fermante += 1\n            if paire[str(nb_fermante)] not in paire :\n                bien = False\n            else :\n                paire[str(nb_ouvrante)] = True\n    return erreur\n        \nbien_parenthesee(\"(2 + 4) * 7\")\n"
+            }
+          }
+        }
+      },
+      "result": {
+        "success": false,
+        "response": "NameError: name 'erreur' is not defined\n"
+      },
+      "context": {
+        "extensions": {
+          "role": { "roleName": "Navigator" },
+          "activityInstance": { "id": "1fbfcdae-d5d7-4a8e-9e22-99999a1eedf4" }
+        },
+        "contextActivities": { "parent": "759" }
+      },
+      "timestamp": { "$date": "2024-11-12T05:29:23.957Z" },
+      "stored": { "$date": "2024-11-12T05:29:24.960Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "6732e7bfa90c4f677cac7937" },
+      "actor": { "account": "197872", "objectType": "Agent", "name": "1978" },
+      "verb": {
+        "id": "Run from editor",
+        "display": { "en": "Run from editor" }
+      },
+      "object": {
+        "objectType": "code",
+        "id": "PythonSourceCode",
+        "definition": {
+          "extensions": {
+            "codeExecuted": {
+              "code": "def bien_parenthesee(chaine) :\n    paire = {}\n    nb_ouvrante = 0\n    nb_fermante = 0\n    bien = False\n    for caractere in chaine :\n        if caractere == \"(\" :\n            nb_ouvrante += 1\n            paire[str(nb_ouvrante)] = False\n        if caractere == \")\" :\n            nb_fermante += 1\n            if paire[str(nb_fermante)] not in paire :\n                bien = False\n            else :\n                bien = True\n    return bien\n        \nbien_parenthesee(\"(2 + 4) * 7\")\n"
+            }
+          }
+        }
+      },
+      "result": { "success": true, "response": "False" },
+      "context": {
+        "extensions": {
+          "role": { "roleName": "Driver" },
+          "activityInstance": { "id": "1fbfcdae-d5d7-4a8e-9e22-99999a1eedf4" }
+        },
+        "contextActivities": { "parent": "759" }
+      },
+      "timestamp": { "$date": "2024-11-12T05:29:35.176Z" },
+      "stored": { "$date": "2024-11-12T05:29:35.525Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "6732e7c0a90c4f677cac7939" },
+      "actor": { "account": "197872", "objectType": "Agent", "name": "1978" },
+      "verb": {
+        "id": "Run from editor",
+        "display": { "en": "Run from editor" }
+      },
+      "object": {
+        "objectType": "code",
+        "id": "PythonSourceCode",
+        "definition": {
+          "extensions": {
+            "codeExecuted": {
+              "code": "def bien_parenthesee(chaine) :\n    paire = {}\n    nb_ouvrante = 0\n    nb_fermante = 0\n    bien = False\n    for caractere in chaine :\n        if caractere == \"(\" :\n            nb_ouvrante += 1\n            paire[str(nb_ouvrante)] = False\n        if caractere == \")\" :\n            nb_fermante += 1\n            if paire[str(nb_fermante)] not in paire :\n                bien = False\n            else :\n                bien = True\n    return bien\n        \nbien_parenthesee(\"(2 + 4) * 7\")\n"
+            }
+          }
+        }
+      },
+      "result": { "success": true, "response": "False" },
+      "context": {
+        "extensions": {
+          "role": { "roleName": "Driver" },
+          "activityInstance": { "id": "1fbfcdae-d5d7-4a8e-9e22-99999a1eedf4" }
+        },
+        "contextActivities": { "parent": "759" }
+      },
+      "timestamp": { "$date": "2024-11-12T05:29:36.236Z" },
+      "stored": { "$date": "2024-11-12T05:29:36.586Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "6732e7c2a90c4f677cac793b" },
+      "actor": { "account": "177441", "objectType": "Agent", "name": "1774" },
+      "verb": {
+        "id": "Run from editor",
+        "display": { "en": "Run from editor" }
+      },
+      "object": {
+        "objectType": "code",
+        "id": "PythonSourceCode",
+        "definition": {
+          "extensions": {
+            "codeExecuted": {
+              "code": "def bien_parenthesee(chaine) :\n    paire = {}\n    nb_ouvrante = 0\n    nb_fermante = 0\n    bien = False\n    for caractere in chaine :\n        if caractere == \"(\" :\n            nb_ouvrante += 1\n            paire[str(nb_ouvrante)] = False\n        if caractere == \")\" :\n            nb_fermante += 1\n            if paire[str(nb_fermante)] not in paire :\n                bien = False\n            else :\n                bien = True\n    return bien\n        \nbien_parenthesee(\"(2 + 4) * 7\")\n"
+            }
+          }
+        }
+      },
+      "result": { "success": true, "response": "False" },
+      "context": {
+        "extensions": {
+          "role": { "roleName": "Navigator" },
+          "activityInstance": { "id": "1fbfcdae-d5d7-4a8e-9e22-99999a1eedf4" }
+        },
+        "contextActivities": { "parent": "759" }
+      },
+      "timestamp": { "$date": "2024-11-12T05:29:36.386Z" },
+      "stored": { "$date": "2024-11-12T05:29:38.866Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "6732e7fba90c4f677cac7991" },
+      "actor": { "account": "177441", "objectType": "Agent", "name": "1774" },
+      "verb": {
+        "id": "Run from editor",
+        "display": { "en": "Run from editor" }
+      },
+      "object": {
+        "objectType": "code",
+        "id": "PythonSourceCode",
+        "definition": {
+          "extensions": {
+            "codeExecuted": {
+              "code": "def bien_parenthesee(chaine) :\n    paire = {}\n    nb_ouvrante = 0\n    nb_fermante = 0\n    bien = False\n    for caractere in chaine :\n        if caractere == \"(\" :\n            nb_ouvrante += 1\n            paire[str(nb_ouvrante)] = \"false\"\n        if caractere == \")\" :\n            nb_fermante += 1\n            if paire[str(nb_fermante)] not in paire :\n                bien = False\n            else :\n                bien = True\n    return bien\n        \nbien_parenthesee(\"(2 + 4) * 7\")\n"
+            }
+          }
+        }
+      },
+      "result": { "success": true, "response": "False" },
+      "context": {
+        "extensions": {
+          "role": { "roleName": "Navigator" },
+          "activityInstance": { "id": "1fbfcdae-d5d7-4a8e-9e22-99999a1eedf4" }
+        },
+        "contextActivities": { "parent": "759" }
+      },
+      "timestamp": { "$date": "2024-11-12T05:30:34.951Z" },
+      "stored": { "$date": "2024-11-12T05:30:35.408Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "6732e819a90c4f677cac79b9" },
+      "actor": { "account": "197872", "objectType": "Agent", "name": "1978" },
+      "verb": { "id": "SentInChat", "display": { "en": "SentInChat" } },
+      "object": { "objectType": "Activity", "id": "759" },
+      "context": {
+        "extensions": {
+          "codeSnapshot": {
+            "code": "def bien_parenthesee(chaine) :\n    paire = {}\n    nb_ouvrante = 0\n    nb_fermante = 0\n    bien = False\n    for caractere in chaine :\n        if caractere == \"(\" :\n            nb_ouvrante += 1\n            paire[str(nb_ouvrante)] = \"false\"\n        if caractere == \")\" :\n            nb_fermante += 1\n            if paire[str(nb_fermante)] not in paire :\n                bien = False\n            else :\n                bien = True\n    return bien\n        \nbien_parenthesee(\"(2 + 4) * 7\")"
+          },
+          "activityInstance": { "id": "1fbfcdae-d5d7-4a8e-9e22-99999a1eedf4" },
+          "chatMessageSent": { "message": "je suis bloquée" }
+        },
+        "contextActivities": { "parent": "759" }
+      },
+      "timestamp": { "$date": "2024-11-12T05:31:05.065Z" },
+      "stored": { "$date": "2024-11-12T05:31:05.071Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "6732e894a90c4f677cac7aa9" },
+      "actor": { "account": "197872", "objectType": "Agent", "name": "1978" },
+      "verb": {
+        "id": "Run from editor",
+        "display": { "en": "Run from editor" }
+      },
+      "object": {
+        "objectType": "code",
+        "id": "PythonSourceCode",
+        "definition": {
+          "extensions": {
+            "codeExecuted": {
+              "code": "def bien_parenthesee(chaine) :\n    paire = {}\n    nb_ouvrante = 0\n    nb_fermante = 0\n    for caractere in chaine :\n        if caractere == \"(\" :\n            nb_ouvrante += 1\n        if caractere == \")\" :\n            nb_fermante += 1\n    return nb_ouvrante == nb_fermante\n        \nbien_parenthesee(\"(2 + 4) * 7\")\n"
+            }
+          }
+        }
+      },
+      "result": { "success": true, "response": "True" },
+      "context": {
+        "extensions": {
+          "role": { "roleName": "Driver" },
+          "activityInstance": { "id": "1fbfcdae-d5d7-4a8e-9e22-99999a1eedf4" }
+        },
+        "contextActivities": { "parent": "759" }
+      },
+      "timestamp": { "$date": "2024-11-12T05:33:08.179Z" },
+      "stored": { "$date": "2024-11-12T05:33:08.528Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "6732e899a90c4f677cac7aaf" },
+      "actor": { "account": "197872", "objectType": "Agent", "name": "1978" },
+      "verb": {
+        "id": "Run from editor",
+        "display": { "en": "Run from editor" }
+      },
+      "object": {
+        "objectType": "code",
+        "id": "PythonSourceCode",
+        "definition": {
+          "extensions": {
+            "codeExecuted": {
+              "code": "def bien_parenthesee(chaine) :\n    paire = {}\n    nb_ouvrante = 0\n    nb_fermante = 0\n    for caractere in chaine :\n        if caractere == \"(\" :\n            nb_ouvrante += 1\n        if caractere == \")\" :\n            nb_fermante += 1\n    return nb_ouvrante == nb_fermante\n        \nbien_parenthesee(\"(2 + 4)) * 7\")\n"
+            }
+          }
+        }
+      },
+      "result": { "success": true, "response": "False" },
+      "context": {
+        "extensions": {
+          "role": { "roleName": "Driver" },
+          "activityInstance": { "id": "1fbfcdae-d5d7-4a8e-9e22-99999a1eedf4" }
+        },
+        "contextActivities": { "parent": "759" }
+      },
+      "timestamp": { "$date": "2024-11-12T05:33:12.898Z" },
+      "stored": { "$date": "2024-11-12T05:33:13.251Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "6732e8a6a90c4f677cac7abb" },
+      "actor": { "account": "197872", "objectType": "Agent", "name": "1978" },
+      "verb": { "id": "SentInChat", "display": { "en": "SentInChat" } },
+      "object": { "objectType": "Activity", "id": "759" },
+      "context": {
+        "extensions": {
+          "codeSnapshot": {
+            "code": "def bien_parenthesee(chaine) :\n    paire = {}\n    nb_ouvrante = 0\n    nb_fermante = 0\n    for caractere in chaine :\n        if caractere == \"(\" :\n            nb_ouvrante += 1\n        if caractere == \")\" :\n            nb_fermante += 1\n    return nb_ouvrante == nb_fermante\n        \nbien_parenthesee(\"(2 + 4)) * 7\")"
+          },
+          "activityInstance": { "id": "1fbfcdae-d5d7-4a8e-9e22-99999a1eedf4" },
+          "chatMessageSent": {
+            "message": "là c'est bon mais il faut qu'on utilise un dictionnaire dans notre fonction"
+          }
+        },
+        "contextActivities": { "parent": "759" }
+      },
+      "timestamp": { "$date": "2024-11-12T05:33:26.503Z" },
+      "stored": { "$date": "2024-11-12T05:33:26.508Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "6732e8c3a90c4f677cac7ae1" },
+      "actor": { "account": "177441", "objectType": "Agent", "name": "1774" },
+      "verb": { "id": "SentInChat", "display": { "en": "SentInChat" } },
+      "object": { "objectType": "Activity", "id": "759" },
+      "context": {
+        "extensions": {
+          "codeSnapshot": {
+            "code": "def bien_parenthesee(chaine) :\n    paire = {}\n    nb_ouvrante = 0\n    nb_fermante = 0\n    for caractere in chaine :\n        if caractere == \"(\" :\n            nb_ouvrante += 1\n            nom_clé = \n        if caractere == \")\" :\n            nb_fermante += 1\n    return nb_ouvrante == nb_fermante\n        \nbien_parenthesee(\"(2 + 4)) * 7\")"
+          },
+          "activityInstance": { "id": "1fbfcdae-d5d7-4a8e-9e22-99999a1eedf4" },
+          "chatMessageSent": { "message": "bah j'ai fait le code autrement..." }
+        },
+        "contextActivities": { "parent": "759" }
+      },
+      "timestamp": { "$date": "2024-11-12T05:33:55.403Z" },
+      "stored": { "$date": "2024-11-12T05:33:55.407Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "6732e8d3a90c4f677cac7b0f" },
+      "actor": { "account": "177441", "objectType": "Agent", "name": "1774" },
+      "verb": { "id": "SentInChat", "display": { "en": "SentInChat" } },
+      "object": { "objectType": "Activity", "id": "759" },
+      "context": {
+        "extensions": {
+          "codeSnapshot": {
+            "code": "def bien_parenthesee(chaine) :\n    paire = {}\n    nb_ouvrante = 0\n    nb_fermante = 0\n    for caractere in chaine :\n        if caractere == \"(\" :\n            nb_ouvrante += 1\n            clé = s\n        if caractere == \")\" :\n            nb_fermante += 1\n    return nb_ouvrante == nb_fermante\n        \nbien_parenthesee(\"(2 + 4)) * 7\")"
+          },
+          "activityInstance": { "id": "1fbfcdae-d5d7-4a8e-9e22-99999a1eedf4" },
+          "chatMessageSent": {
+            "message": "mais c vrai faut utiliser un dictionnaire dans notre cas"
+          }
+        },
+        "contextActivities": { "parent": "759" }
+      },
+      "timestamp": { "$date": "2024-11-12T05:34:11.829Z" },
+      "stored": { "$date": "2024-11-12T05:34:11.834Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "6732e983a90c4f677cac7bfb" },
+      "actor": { "account": "177441", "objectType": "Agent", "name": "1774" },
+      "verb": {
+        "id": "Run from editor",
+        "display": { "en": "Run from editor" }
+      },
+      "object": {
+        "objectType": "code",
+        "id": "PythonSourceCode",
+        "definition": {
+          "extensions": {
+            "codeExecuted": {
+              "code": "def bien_parenthesee(chaine) :\n    paire = {}\n    nb_ouvrante = 0\n    nb_fermante = 0\n    for caractere in chaine :\n        if caractere == \"(\" :\n            nb_ouvrante += 1\n            clé = str(nb_ouvrante)\n            paire[clé] = \"en attente\"\n        if caractere == \")\" :\n            nb_fermante += 1\n            val = str(nb_fermante)\n            for ele in paire.keys():\n                if ele == val :\n                    paire[ele]= \"complet\"\n                else :\n                    \n    return nb_ouvrante == nb_fermante\n        \nbien_parenthesee(\"(2 + 4)) * 7\")\n"
+            }
+          }
+        }
+      },
+      "result": {
+        "success": false,
+        "response": "  File \"<exec>\", line 18\n    return nb_ouvrante == nb_fermante\nIndentationError: expected an indented block after 'else' statement on line 16\n"
+      },
+      "context": {
+        "extensions": {
+          "role": { "roleName": "Navigator" },
+          "activityInstance": { "id": "1fbfcdae-d5d7-4a8e-9e22-99999a1eedf4" }
+        },
+        "contextActivities": { "parent": "759" }
+      },
+      "timestamp": { "$date": "2024-11-12T05:37:04.963Z" },
+      "stored": { "$date": "2024-11-12T05:37:07.903Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "6732e9b8a90c4f677cac7c3b" },
+      "actor": { "account": "197872", "objectType": "Agent", "name": "1978" },
+      "verb": { "id": "SentInChat", "display": { "en": "SentInChat" } },
+      "object": { "objectType": "Activity", "id": "759" },
+      "context": {
+        "extensions": {
+          "codeSnapshot": {
+            "code": "def bien_parenthesee(chaine) :\n    paire = {}\n    nb_ouvrante = 0\n    nb_fermante = 0\n    for caractere in chaine :\n        if caractere == \"(\" :\n            nb_ouvrante += 1\n            clé = str(nb_ouvrante)\n            paire[clé] = \"en attente\"\n        if caractere == \")\" :\n            nb_fermante += 1\n            val = str(nb_fermante)\n            for ele in paire.keys():\n                if ele == val :\n                    paire[ele]= \"complet\"\n                else :\n                    \n    return nb_ouvrante == nb_fermante\n        \nbien_parenthesee(\"(2 + 4)) * 7\")"
+          },
+          "activityInstance": { "id": "1fbfcdae-d5d7-4a8e-9e22-99999a1eedf4" },
+          "chatMessageSent": { "message": "tu veux écrire ?" }
+        },
+        "contextActivities": { "parent": "759" }
+      },
+      "timestamp": { "$date": "2024-11-12T05:38:00.582Z" },
+      "stored": { "$date": "2024-11-12T05:38:00.586Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "6732e9c5a90c4f677cac7c4f" },
+      "actor": { "account": "177441", "objectType": "Agent", "name": "1774" },
+      "verb": { "id": "SentInChat", "display": { "en": "SentInChat" } },
+      "object": { "objectType": "Activity", "id": "759" },
+      "context": {
+        "extensions": {
+          "codeSnapshot": {
+            "code": "def bien_parenthesee(chaine) :\n    paire = {}\n    nb_ouvrante = 0\n    nb_fermante = 0\n    for caractere in chaine :\n        if caractere == \"(\" :\n            nb_ouvrante += 1\n            clé = str(nb_ouvrante)\n            paire[clé] = \"en attente\"\n        if caractere == \")\" :\n            nb_fermante += 1\n            val = str(nb_fermante)\n            for ele in paire.keys():\n                if ele == val :\n                    paire[ele]= \"complet\"\n                else :\n                    \n    return nb_ouvrante == nb_fermante\n        \nbien_parenthesee(\"(2 + 4)) * 7\")"
+          },
+          "activityInstance": { "id": "1fbfcdae-d5d7-4a8e-9e22-99999a1eedf4" },
+          "chatMessageSent": { "message": "essayer ouai " }
+        },
+        "contextActivities": { "parent": "759" }
+      },
+      "timestamp": { "$date": "2024-11-12T05:38:13.345Z" },
+      "stored": { "$date": "2024-11-12T05:38:13.349Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "6732e9cda90c4f677cac7c5b" },
+      "actor": { "account": "177441", "objectType": "Agent", "name": "1774" },
+      "verb": { "id": "SentInChat", "display": { "en": "SentInChat" } },
+      "object": { "objectType": "Activity", "id": "759" },
+      "context": {
+        "extensions": {
+          "codeSnapshot": {
+            "code": "def bien_parenthesee(chaine) :\n    paire = {}\n    nb_ouvrante = 0\n    nb_fermante = 0\n    for caractere in chaine :\n        if caractere == \"(\" :\n            nb_ouvrante += 1\n            clé = str(nb_ouvrante)\n            paire[clé] = \"en attente\"\n        if caractere == \")\" :\n            nb_fermante += 1\n            val = str(nb_fermante)\n            for ele in paire.keys():\n                if ele == val :\n                    paire[ele]= \"complet\"\n                else :\n                    \n    return nb_ouvrante == nb_fermante\n        \nbien_parenthesee(\"(2 + 4)) * 7\")"
+          },
+          "activityInstance": { "id": "1fbfcdae-d5d7-4a8e-9e22-99999a1eedf4" },
+          "chatMessageSent": { "message": "je te montre se que j'ai fait" }
+        },
+        "contextActivities": { "parent": "759" }
+      },
+      "timestamp": { "$date": "2024-11-12T05:38:21.880Z" },
+      "stored": { "$date": "2024-11-12T05:38:21.887Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "6732e9d0a90c4f677cac7c5f" },
+      "actor": { "account": "197872", "objectType": "Agent", "name": "1978" },
+      "verb": { "id": "SentInChat", "display": { "en": "SentInChat" } },
+      "object": { "objectType": "Activity", "id": "759" },
+      "context": {
+        "extensions": {
+          "codeSnapshot": {
+            "code": "def bien_parenthesee(chaine) :\n    paire = {}\n    nb_ouvrante = 0\n    nb_fermante = 0\n    for caractere in chaine :\n        if caractere == \"(\" :\n            nb_ouvrante += 1\n            clé = str(nb_ouvrante)\n            paire[clé] = \"en attente\"\n        if caractere == \")\" :\n            nb_fermante += 1\n            val = str(nb_fermante)\n            for ele in paire.keys():\n                if ele == val :\n                    paire[ele]= \"complet\"\n                else :\n                    \n    return nb_ouvrante == nb_fermante\n        \nbien_parenthesee(\"(2 + 4)) * 7\")"
+          },
+          "activityInstance": { "id": "1fbfcdae-d5d7-4a8e-9e22-99999a1eedf4" },
+          "chatMessageSent": { "message": "oui" }
+        },
+        "contextActivities": { "parent": "759" }
+      },
+      "timestamp": { "$date": "2024-11-12T05:38:24.529Z" },
+      "stored": { "$date": "2024-11-12T05:38:24.534Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "6732e9d8a90c4f677cac7c6d" },
+      "actor": { "account": "197872", "objectType": "Agent", "name": "1978" },
+      "verb": { "id": "SentInChat", "display": { "en": "SentInChat" } },
+      "object": { "objectType": "Activity", "id": "759" },
+      "context": {
+        "extensions": {
+          "codeSnapshot": {
+            "code": "def bien_parenthesee(chaine) :\n    paire = {}\n    nb_ouvrante = 0\n    nb_fermante = 0\n    for caractere in chaine :\n        if caractere == \"(\" :\n            nb_ouvrante += 1\n            clé = str(nb_ouvrante)\n            paire[clé] = \"en attente\"\n        if caractere == \")\" :\n            nb_fermante += 1\n            val = str(nb_fermante)\n            for ele in paire.keys():\n                if ele == val :\n                    paire[ele]= \"complet\"\n                else :\n                    \n    return nb_ouvrante == nb_fermante\n        \nbien_parenthesee(\"(2 + 4)) * 7\")"
+          },
+          "activityInstance": { "id": "1fbfcdae-d5d7-4a8e-9e22-99999a1eedf4" },
+          "chatMessageSent": { "message": "demande le droit d'édition" }
+        },
+        "contextActivities": { "parent": "759" }
+      },
+      "timestamp": { "$date": "2024-11-12T05:38:32.607Z" },
+      "stored": { "$date": "2024-11-12T05:38:32.612Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "6732e9d9a90c4f677cac7c6f" },
+      "actor": { "account": "177441", "objectType": "Agent", "name": "1774" },
+      "verb": {
+        "id": "EditionRequest",
+        "display": { "en": "Ask edition request" }
+      },
+      "object": {
+        "objectType": "request",
+        "id": "EditionRequest",
+        "definition": {
+          "extensions": {
+            "userRequested": {
+              "objectType": "Agent",
+              "account": "197872",
+              "name": "1978"
+            },
+            "requestId": "248aca28-1c52-478f-ab94-85ab3d482d38"
+          }
+        }
+      },
+      "context": {
+        "extensions": {
+          "activityInstance": { "id": "1fbfcdae-d5d7-4a8e-9e22-99999a1eedf4" }
+        },
+        "contextActivities": { "parent": "759" }
+      },
+      "timestamp": { "$date": "2024-11-12T05:38:32.810Z" },
+      "stored": { "$date": "2024-11-12T05:38:33.666Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "6732e9dca90c4f677cac7c71" },
+      "actor": { "account": "197872", "objectType": "Agent", "name": "1978" },
+      "verb": { "id": "Wrote", "display": { "en": "Wrote" } },
+      "object": {
+        "objectType": "code",
+        "id": "PythonSourceCode",
+        "definition": {
+          "extensions": {
+            "codeSnapshot": {
+              "code": "def bien_parenthesee(chaine) :\n    paire = {}\n    nb_ouvrante = 0\n    nb_fermante = 0\n    for caractere in chaine :\n        if caractere == \"(\" :\n            nb_ouvrante += 1\n            clé = str(nb_ouvrante)\n            paire[clé] = \"en attente\"\n        if caractere == \")\" :\n            nb_fermante += 1\n            val = str(nb_fermante)\n            for ele in paire.keys():\n                if ele == val :\n                    paire[ele]= \"complet\"\n                else :\n                    \n    return nb_ouvrante == nb_fermante\n        \nbien_parenthesee(\"(2 + 4)) * 7\")"
+            }
+          }
+        }
+      },
+      "context": {
+        "extensions": {
+          "activityInstance": { "id": "1fbfcdae-d5d7-4a8e-9e22-99999a1eedf4" }
+        },
+        "contextActivities": { "parent": "759" }
+      },
+      "timestamp": { "$date": "2024-11-12T05:38:36.950Z" },
+      "stored": { "$date": "2024-11-12T05:38:36.955Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "6732e9dca90c4f677cac7c73" },
+      "actor": { "account": "197872", "objectType": "Agent", "name": "1978" },
+      "verb": {
+        "id": "AnswerEditionRequest",
+        "display": { "en": "Answer edition request" }
+      },
+      "object": {
+        "objectType": "response",
+        "id": "EditionRequestResponse",
+        "definition": {
+          "extensions": {
+            "statmentOfCorrespondingRequest": {
+              "id": "248aca28-1c52-478f-ab94-85ab3d482d38"
+            }
+          }
+        }
+      },
+      "result": { "success": true },
+      "context": {
+        "extensions": {
+          "activityInstance": { "id": "1fbfcdae-d5d7-4a8e-9e22-99999a1eedf4" }
+        },
+        "contextActivities": { "parent": "759" }
+      },
+      "timestamp": { "$date": "2024-11-12T05:38:36.614Z" },
+      "stored": { "$date": "2024-11-12T05:38:36.959Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "6732e9e8a90c4f677cac7c85" },
+      "actor": { "account": "177441", "objectType": "Agent", "name": "1774" },
+      "verb": { "id": "SentInChat", "display": { "en": "SentInChat" } },
+      "object": { "objectType": "Activity", "id": "759" },
+      "context": {
+        "extensions": {
+          "codeSnapshot": {
+            "code": "def bien_parenthesee(chaine) :\n    paire = {}\n    nb_ouvrante = 0\n    nb_fermante = 0\n    for caractere in chaine :\n        if caractere == \"(\" :\n            nb_ouvrante += 1\n            clé = str(nb_ouvrante)\n            paire[clé] = \"en attente\"\n        if caractere == \")\" :\n            nb_fermante += 1\n            val = str(nb_fermante)\n            for ele in paire.keys():\n                if ele == val :\n                    paire[ele]= \"complet\"\n                else :\n                    \n    return nb_ouvrante == nb_fermante\n        \nbien_parenthesee(\"(2 + 4)) * 7\"\n"
+          },
+          "activityInstance": { "id": "1fbfcdae-d5d7-4a8e-9e22-99999a1eedf4" },
+          "chatMessageSent": { "message": "mercii" }
+        },
+        "contextActivities": { "parent": "759" }
+      },
+      "timestamp": { "$date": "2024-11-12T05:38:48.065Z" },
+      "stored": { "$date": "2024-11-12T05:38:48.072Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "6732e9f9a90c4f677cac7c93" },
+      "actor": { "account": "177441", "objectType": "Agent", "name": "1774" },
+      "verb": {
+        "id": "Run from editor",
+        "display": { "en": "Run from editor" }
+      },
+      "object": {
+        "objectType": "code",
+        "id": "PythonSourceCode",
+        "definition": {
+          "extensions": {
+            "codeExecuted": {
+              "code": "def bien_parenthesee(chaine) :\n    paire = {}\n    nb_ouvrante = 0\n    nb_fermante = 0\n    for caractere in chaine :\n        if caractere == \"(\" :\n            nb_ouvrante += 1\n            clé = str(nb_ouvrante)\n            paire[clé] = \"en attente\"\n        if caractere == \")\" :\n            nb_fermante += 1\n            val = str(nb_fermante)\n            for ele in paire.keys():\n                if ele == val :\n                    paire[ele]= \"complet\"\n                else :\n                    \n    return nb_ouvrante == nb_fermante\n        \nbien_parenthesee(\"(2 + 4)) * 7\"\n\n\ndef bien_parenthesee(chaine) :\n    paire = {}\n    nb_ouvrante = 0\n    nb_fermante = 0\n    for caractere in chaine :\n        if caractere == \"(\" :\n            nb_ouvrante += 1\n        if caractere == \")\":\n            nb_fermante += 1\n    if nb_fermante == nb_ouvrante :\n        return True \n    else:\n        return False\n            \nbien_parenthesee(\"(2 + 4)) * 7\")\n"
+            }
+          }
+        }
+      },
+      "result": {
+        "success": false,
+        "response": "  File \"<exec>\", line 18\n    return nb_ouvrante == nb_fermante\nIndentationError: expected an indented block after 'else' statement on line 16\n"
+      },
+      "context": {
+        "extensions": {
+          "role": { "roleName": "Driver" },
+          "activityInstance": { "id": "1fbfcdae-d5d7-4a8e-9e22-99999a1eedf4" }
+        },
+        "contextActivities": { "parent": "759" }
+      },
+      "timestamp": { "$date": "2024-11-12T05:39:05.024Z" },
+      "stored": { "$date": "2024-11-12T05:39:05.440Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "6732e9faa90c4f677cac7c95" },
+      "actor": { "account": "177441", "objectType": "Agent", "name": "1774" },
+      "verb": {
+        "id": "Run from editor",
+        "display": { "en": "Run from editor" }
+      },
+      "object": {
+        "objectType": "code",
+        "id": "PythonSourceCode",
+        "definition": {
+          "extensions": {
+            "codeExecuted": {
+              "code": "def bien_parenthesee(chaine) :\n    paire = {}\n    nb_ouvrante = 0\n    nb_fermante = 0\n    for caractere in chaine :\n        if caractere == \"(\" :\n            nb_ouvrante += 1\n            clé = str(nb_ouvrante)\n            paire[clé] = \"en attente\"\n        if caractere == \")\" :\n            nb_fermante += 1\n            val = str(nb_fermante)\n            for ele in paire.keys():\n                if ele == val :\n                    paire[ele]= \"complet\"\n                else :\n                    \n    return nb_ouvrante == nb_fermante\n        \nbien_parenthesee(\"(2 + 4)) * 7\"\n\n\ndef bien_parenthesee(chaine) :\n    paire = {}\n    nb_ouvrante = 0\n    nb_fermante = 0\n    for caractere in chaine :\n        if caractere == \"(\" :\n            nb_ouvrante += 1\n        if caractere == \")\":\n            nb_fermante += 1\n    if nb_fermante == nb_ouvrante :\n        return True \n    else:\n        return False\n            \nbien_parenthesee(\"(2 + 4)) * 7\")\n"
+            }
+          }
+        }
+      },
+      "result": {
+        "success": false,
+        "response": "  File \"<exec>\", line 18\n    return nb_ouvrante == nb_fermante\nIndentationError: expected an indented block after 'else' statement on line 16\n"
+      },
+      "context": {
+        "extensions": {
+          "role": { "roleName": "Driver" },
+          "activityInstance": { "id": "1fbfcdae-d5d7-4a8e-9e22-99999a1eedf4" }
+        },
+        "contextActivities": { "parent": "759" }
+      },
+      "timestamp": { "$date": "2024-11-12T05:39:06.852Z" },
+      "stored": { "$date": "2024-11-12T05:39:06.915Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "6732ea03a90c4f677cac7c9f" },
+      "actor": { "account": "197872", "objectType": "Agent", "name": "1978" },
+      "verb": { "id": "SentInChat", "display": { "en": "SentInChat" } },
+      "object": { "objectType": "Activity", "id": "759" },
+      "context": {
+        "extensions": {
+          "codeSnapshot": {
+            "code": "def bien_parenthesee(chaine) :\n    paire = {}\n    nb_ouvrante = 0\n    nb_fermante = 0\n    for caractere in chaine :\n        if caractere == \"(\" :\n            nb_ouvrante += 1\n            clé = str(nb_ouvrante)\n            paire[clé] = \"en attente\"\n        if caractere == \")\" :\n            nb_fermante += 1\n            val = str(nb_fermante)\n            for ele in paire.keys():\n                if ele == val :\n                    paire[ele]= \"complet\"\n                else :\n                    \n    return nb_ouvrante == nb_fermante\n        \nbien_parenthesee(\"(2 + 4)) * 7\"\n\n\ndef bien_parenthesee(chaine) :\n    paire = {}\n    nb_ouvrante = 0\n    nb_fermante = 0\n    for caractere in chaine :\n        if caractere == \"(\" :\n            nb_ouvrante += 1\n        if caractere == \")\":\n            nb_fermante += 1\n    if nb_fermante == nb_ouvrante :\n        return True \n    else:\n        return False\n            \nbien_parenthesee(\"(2 + 4)) * 7\")"
+          },
+          "activityInstance": { "id": "1fbfcdae-d5d7-4a8e-9e22-99999a1eedf4" },
+          "chatMessageSent": {
+            "message": "c'est la fonction de tout à l'heure"
+          }
+        },
+        "contextActivities": { "parent": "759" }
+      },
+      "timestamp": { "$date": "2024-11-12T05:39:15.630Z" },
+      "stored": { "$date": "2024-11-12T05:39:15.634Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "6732ea07a90c4f677cac7cad" },
+      "actor": { "account": "177441", "objectType": "Agent", "name": "1774" },
+      "verb": { "id": "SentInChat", "display": { "en": "SentInChat" } },
+      "object": { "objectType": "Activity", "id": "759" },
+      "context": {
+        "extensions": {
+          "codeSnapshot": {
+            "code": "def bien_parenthesee(chaine) :\n    paire = {}\n    nb_ouvrante = 0\n    nb_fermante = 0\n    for caractere in chaine :\n        if caractere == \"(\" :\n            nb_ouvrante += 1\n            clé = str(nb_ouvrante)\n            paire[clé] = \"en attente\"\n        if caractere == \")\" :\n            nb_fermante += 1\n            val = str(nb_fermante)\n            for ele in paire.keys():\n                if ele == val :\n                    paire[ele]= \"complet\"\n                else :\n                    \n    return nb_ouvrante == nb_fermante\n        \nbien_parenthesee(\"(2 + 4)) * 7\"\n\n\ndef bien_parenthesee(chaine) :\n    paire = {}\n    nb_ouvrante = 0\n    nb_fermante = 0\n    for caractere in chaine :\n        if caractere == \"(\" :\n            nb_ouvrante += 1\n        if caractere == \")\":\n            nb_fermante += 1\n    if nb_fermante == nb_ouvrante :\n        return True \n    else:\n        return False\n            \nbien_parenthesee(\"(2 + 4)) * 7\")"
+          },
+          "activityInstance": { "id": "1fbfcdae-d5d7-4a8e-9e22-99999a1eedf4" },
+          "chatMessageSent": {
+            "message": "je te met un instant en commentaire*"
+          }
+        },
+        "contextActivities": { "parent": "759" }
+      },
+      "timestamp": { "$date": "2024-11-12T05:39:19.555Z" },
+      "stored": { "$date": "2024-11-12T05:39:19.561Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "6732ea0ba90c4f677cac7cb9" },
+      "actor": { "account": "197872", "objectType": "Agent", "name": "1978" },
+      "verb": { "id": "SentInChat", "display": { "en": "SentInChat" } },
+      "object": { "objectType": "Activity", "id": "759" },
+      "context": {
+        "extensions": {
+          "codeSnapshot": {
+            "code": "def bien_parenthesee(chaine) :\n    paire = {}\n    nb_ouvrante = 0\n    nb_fermante = 0\n    for caractere in chaine :\n        if caractere == \"(\" :\n            nb_ouvrante += 1\n            clé = str(nb_ouvrante)\n            paire[clé] = \"en attente\"\n        if caractere == \")\" :\n            nb_fermante += 1\n            val = str(nb_fermante)\n            for ele in paire.keys():\n                if ele == val :\n                    paire[ele]= \"complet\"\n                else :\n                    \n    return nb_ouvrante == nb_fermante\n        \nbien_parenthesee(\"(2 + 4)) * 7\"\n\n\ndef bien_parenthesee(chaine) :\n    paire = {}\n    nb_ouvrante = 0\n    nb_fermante = 0\n    for caractere in chaine :\n        if caractere == \"(\" :\n            nb_ouvrante += 1\n        if caractere == \")\":\n            nb_fermante += 1\n    if nb_fermante == nb_ouvrante :\n        return True \n    else:\n        return False\n            \nbien_parenthesee(\"(2 + 4)) * 7\")"
+          },
+          "activityInstance": { "id": "1fbfcdae-d5d7-4a8e-9e22-99999a1eedf4" },
+          "chatMessageSent": { "message": "oui" }
+        },
+        "contextActivities": { "parent": "759" }
+      },
+      "timestamp": { "$date": "2024-11-12T05:39:23.321Z" },
+      "stored": { "$date": "2024-11-12T05:39:23.328Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "6732ea21a90c4f677cac7ce3" },
+      "actor": { "account": "177441", "objectType": "Agent", "name": "1774" },
+      "verb": {
+        "id": "Run from editor",
+        "display": { "en": "Run from editor" }
+      },
+      "object": {
+        "objectType": "code",
+        "id": "PythonSourceCode",
+        "definition": {
+          "extensions": {
+            "codeExecuted": {
+              "code": "\"\"\"def bien_parenthesee(chaine) :\n    paire = {}\n    nb_ouvrante = 0\n    nb_fermante = 0\n    for caractere in chaine :\n        if caractere == \"(\" :\n            nb_ouvrante += 1\n            clé = str(nb_ouvrante)\n            paire[clé] = \"en attente\"\n        if caractere == \")\" :\n            nb_fermante += 1\n            val = str(nb_fermante)\n            for ele in paire.keys():\n                if ele == val :\n                    paire[ele]= \"complet\"\n                else :\n                    \n    return nb_ouvrante == nb_fermante\n        \nbien_parenthesee(\"(2 + 4)) * 7\" \"\"\"\n\n\ndef bien_parenthesee(chaine) :\n    paire = {}\n    nb_ouvrante = 0\n    nb_fermante = 0\n    for caractere in chaine :\n        if caractere == \"(\" :\n            nb_ouvrante += 1\n        if caractere == \")\":\n            nb_fermante += 1\n    if nb_fermante == nb_ouvrante :\n        return True \n    else:\n        return False\n            \nbien_parenthesee(\"(2 + 4)) * 7\")\n"
+            }
+          }
+        }
+      },
+      "result": { "success": true, "response": "False" },
+      "context": {
+        "extensions": {
+          "role": { "roleName": "Driver" },
+          "activityInstance": { "id": "1fbfcdae-d5d7-4a8e-9e22-99999a1eedf4" }
+        },
+        "contextActivities": { "parent": "759" }
+      },
+      "timestamp": { "$date": "2024-11-12T05:39:44.755Z" },
+      "stored": { "$date": "2024-11-12T05:39:45.216Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "6732ea3ba90c4f677cac7d15" },
+      "actor": { "account": "177441", "objectType": "Agent", "name": "1774" },
+      "verb": { "id": "SentInChat", "display": { "en": "SentInChat" } },
+      "object": { "objectType": "Activity", "id": "759" },
+      "context": {
+        "extensions": {
+          "codeSnapshot": {
+            "code": "\"\"\"def bien_parenthesee(chaine) :\n    paire = {}\n    nb_ouvrante = 0\n    nb_fermante = 0\n    for caractere in chaine :\n        if caractere == \"(\" :\n            nb_ouvrante += 1\n            clé = str(nb_ouvrante)\n            paire[clé] = \"en attente\"\n        if caractere == \")\" :\n            nb_fermante += 1\n            val = str(nb_fermante)\n            for ele in paire.keys():\n                if ele == val :\n                    paire[ele]= \"complet\"\n                else :\n                    \n    return nb_ouvrante == nb_fermante\n        \nbien_parenthesee(\"(2 + 4)) * 7\" \"\"\"\n\n\ndef bien_parenthesee(chaine) :\n    paire = {}\n    nb_ouvrante = 0\n    nb_fermante = 0\n    for caractere in chaine :\n        if caractere == \"(\" :\n            nb_ouvrante += 1\n        if caractere == \")\":\n            nb_fermante += 1\n    if nb_fermante == nb_ouvrante :\n        return True \n    else:\n        return False\n            \nbien_parenthesee(\"(2 + 4)) * 7\")"
+          },
+          "activityInstance": { "id": "1fbfcdae-d5d7-4a8e-9e22-99999a1eedf4" },
+          "chatMessageSent": {
+            "message": "Moi j'ai fait comme sa mais je comprend pas le rapport avec le dictionnaire"
+          }
+        },
+        "contextActivities": { "parent": "759" }
+      },
+      "timestamp": { "$date": "2024-11-12T05:40:11.880Z" },
+      "stored": { "$date": "2024-11-12T05:40:11.885Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "6732ea8da90c4f677cac7da7" },
+      "actor": { "account": "197872", "objectType": "Agent", "name": "1978" },
+      "verb": { "id": "SentInChat", "display": { "en": "SentInChat" } },
+      "object": { "objectType": "Activity", "id": "759" },
+      "context": {
+        "extensions": {
+          "codeSnapshot": {
+            "code": "\"\"\"def bien_parenthesee(chaine) :\n    paire = {}\n    nb_ouvrante = 0\n    nb_fermante = 0\n    for caractere in chaine :\n        if caractere == \"(\" :\n            nb_ouvrante += 1\n            clé = str(nb_ouvrante)\n            paire[clé] = \"en attente\"\n        if caractere == \")\" :\n            nb_fermante += 1\n            val = str(nb_fermante)\n            for ele in paire.keys():\n                if ele == val :\n                    paire[ele]= \"complet\"\n                else :\n                    \n    return nb_ouvrante == nb_fermante\n        \nbien_parenthesee(\"(2 + 4)) * 7\" \"\"\"\n\nOUVRANT = '({[<'\nFERMANT = ')}]>'\n\ndef bien_parenthesee(chaine) :\n    paire = {[OUVRANT[i], FERMANT[i]]}\n    nb_ouvrante = 0\n    nb_fermante = 0\n    for caractere in chaine :\n        if caractere == \"(\" :\n            nb_ouvrante += 1\n        if caractere == \")\":\n            nb_fermante += 1\n    if nb_fermante == nb_ouvrante :\n        return True \n    else:\n        return False\n            \nbien_parenthesee(\"(2 + 4)) * 7\")"
+          },
+          "activityInstance": { "id": "1fbfcdae-d5d7-4a8e-9e22-99999a1eedf4" },
+          "chatMessageSent": { "message": "c'est bon j'ai trouvé " }
+        },
+        "contextActivities": { "parent": "759" }
+      },
+      "timestamp": { "$date": "2024-11-12T05:41:33.268Z" },
+      "stored": { "$date": "2024-11-12T05:41:33.274Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "6732ea8fa90c4f677cac7dad" },
+      "actor": { "account": "197872", "objectType": "Agent", "name": "1978" },
+      "verb": { "id": "SentInChat", "display": { "en": "SentInChat" } },
+      "object": { "objectType": "Activity", "id": "759" },
+      "context": {
+        "extensions": {
+          "codeSnapshot": {
+            "code": "\"\"\"def bien_parenthesee(chaine) :\n    paire = {}\n    nb_ouvrante = 0\n    nb_fermante = 0\n    for caractere in chaine :\n        if caractere == \"(\" :\n            nb_ouvrante += 1\n            clé = str(nb_ouvrante)\n            paire[clé] = \"en attente\"\n        if caractere == \")\" :\n            nb_fermante += 1\n            val = str(nb_fermante)\n            for ele in paire.keys():\n                if ele == val :\n                    paire[ele]= \"complet\"\n                else :\n                    \n    return nb_ouvrante == nb_fermante\n        \nbien_parenthesee(\"(2 + 4)) * 7\" \"\"\"\n\nOUVRANT = '({[<'\nFERMANT = ')}]>'\n\ndef bien_parenthesee(chaine) :\n    paire = {[OUVRANT[i], FERMANT[i]] for i in }\n    nb_ouvrante = 0\n    nb_fermante = 0\n    for caractere in chaine :\n        if caractere == \"(\" :\n            nb_ouvrante += 1\n        if caractere == \")\":\n            nb_fermante += 1\n    if nb_fermante == nb_ouvrante :\n        return True \n    else:\n        return False\n            \nbien_parenthesee(\"(2 + 4)) * 7\")"
+          },
+          "activityInstance": { "id": "1fbfcdae-d5d7-4a8e-9e22-99999a1eedf4" },
+          "chatMessageSent": { "message": "ça fonctionne" }
+        },
+        "contextActivities": { "parent": "759" }
+      },
+      "timestamp": { "$date": "2024-11-12T05:41:35.732Z" },
+      "stored": { "$date": "2024-11-12T05:41:35.738Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "6732eaaaa90c4f677cac7dd9" },
+      "actor": { "account": "177441", "objectType": "Agent", "name": "1774" },
+      "verb": { "id": "SentInChat", "display": { "en": "SentInChat" } },
+      "object": { "objectType": "Activity", "id": "759" },
+      "context": {
+        "extensions": {
+          "codeSnapshot": {
+            "code": "\"\"\"def bien_parenthesee(chaine) :\n    paire = {}\n    nb_ouvrante = 0\n    nb_fermante = 0\n    for caractere in chaine :\n        if caractere == \"(\" :\n            nb_ouvrante += 1\n            clé = str(nb_ouvrante)\n            paire[clé] = \"en attente\"\n        if caractere == \")\" :\n            nb_fermante += 1\n            val = str(nb_fermante)\n            for ele in paire.keys():\n                if ele == val :\n                    paire[ele]= \"complet\"\n                else :\n                    \n    return nb_ouvrante == nb_fermante\n        \nbien_parenthesee(\"(2 + 4)) * 7\" \"\"\"\n\nOUVRANT = '({[<'\nFERMANT = ')}]>'\n\ndef bien_parenthesee(chaine) :\n    paire = {[OUVRANT[i], FERMANT[i]] for i in range(4)}\n    nb_ouvrante = 0\n    nb_fermante = 0\n    for caractere in chaine :\n        if caractere == \"(\" :\n            nb_ouvrante += 1\n        if caractere == \")\":\n            nb_fermante += 1\n    if nb_fermante == nb_ouvrante :\n        return True \n    else:\n        return False\n            \nbien_parenthesee(\"(2 + 4)) * 7\")"
+          },
+          "activityInstance": { "id": "1fbfcdae-d5d7-4a8e-9e22-99999a1eedf4" },
+          "chatMessageSent": {
+            "message": "vasy je te laisse editer si tu veux"
+          }
+        },
+        "contextActivities": { "parent": "759" }
+      },
+      "timestamp": { "$date": "2024-11-12T05:42:02.607Z" },
+      "stored": { "$date": "2024-11-12T05:42:02.615Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "6732eab1a90c4f677cac7ddd" },
+      "actor": { "account": "197872", "objectType": "Agent", "name": "1978" },
+      "verb": { "id": "SentInChat", "display": { "en": "SentInChat" } },
+      "object": { "objectType": "Activity", "id": "759" },
+      "context": {
+        "extensions": {
+          "codeSnapshot": {
+            "code": "\"\"\"def bien_parenthesee(chaine) :\n    paire = {}\n    nb_ouvrante = 0\n    nb_fermante = 0\n    for caractere in chaine :\n        if caractere == \"(\" :\n            nb_ouvrante += 1\n            clé = str(nb_ouvrante)\n            paire[clé] = \"en attente\"\n        if caractere == \")\" :\n            nb_fermante += 1\n            val = str(nb_fermante)\n            for ele in paire.keys():\n                if ele == val :\n                    paire[ele]= \"complet\"\n                else :\n                    \n    return nb_ouvrante == nb_fermante\n        \nbien_parenthesee(\"(2 + 4)) * 7\" \"\"\"\n\nOUVRANT = '({[<'\nFERMANT = ')}]>'\n\ndef bien_parenthesee(chaine) :\n    paire = {[OUVRANT[i], FERMANT[i]] for i in range(4)}\n    nb_ouvrante = 0\n    nb_fermante = 0\n    for caractere in chaine :\n        if caractere == \"(\" :\n            nb_ouvrante += 1\n        if caractere == \")\":\n            nb_fermante += 1\n    if nb_fermante == nb_ouvrante :\n        return True \n    else:\n        return False\n            \nbien_parenthesee(\"(2 + 4)) * 7\")"
+          },
+          "activityInstance": { "id": "1fbfcdae-d5d7-4a8e-9e22-99999a1eedf4" },
+          "chatMessageSent": { "message": "okay" }
+        },
+        "contextActivities": { "parent": "759" }
+      },
+      "timestamp": { "$date": "2024-11-12T05:42:09.179Z" },
+      "stored": { "$date": "2024-11-12T05:42:09.185Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "6732eab3a90c4f677cac7de1" },
+      "actor": { "account": "197872", "objectType": "Agent", "name": "1978" },
+      "verb": {
+        "id": "EditionRequest",
+        "display": { "en": "Ask edition request" }
+      },
+      "object": {
+        "objectType": "request",
+        "id": "EditionRequest",
+        "definition": {
+          "extensions": {
+            "userRequested": {
+              "objectType": "Agent",
+              "account": "177441",
+              "name": "1774"
+            },
+            "requestId": "6402c93b-526d-49e3-beeb-f744efa150b6"
+          }
+        }
+      },
+      "context": {
+        "extensions": {
+          "activityInstance": { "id": "1fbfcdae-d5d7-4a8e-9e22-99999a1eedf4" }
+        },
+        "contextActivities": { "parent": "759" }
+      },
+      "timestamp": { "$date": "2024-11-12T05:42:11.154Z" },
+      "stored": { "$date": "2024-11-12T05:42:11.978Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "6732eab9a90c4f677cac7dfb" },
+      "actor": { "account": "177441", "objectType": "Agent", "name": "1774" },
+      "verb": { "id": "Wrote", "display": { "en": "Wrote" } },
+      "object": {
+        "objectType": "code",
+        "id": "PythonSourceCode",
+        "definition": {
+          "extensions": {
+            "codeSnapshot": {
+              "code": "\"\"\"def bien_parenthesee(chaine) :\n    paire = {}\n    nb_ouvrante = 0\n    nb_fermante = 0\n    for caractere in chaine :\n        if caractere == \"(\" :\n            nb_ouvrante += 1\n            clé = str(nb_ouvrante)\n            paire[clé] = \"en attente\"\n        if caractere == \")\" :\n            nb_fermante += 1\n            val = str(nb_fermante)\n            for ele in paire.keys():\n                if ele == val :\n                    paire[ele]= \"complet\"\n                else :\n                    \n    return nb_ouvrante == nb_fermante\n        \nbien_parenthesee(\"(2 + 4)) * 7\" \"\"\"\n\nOUVRANT = '({[<'\nFERMANT = ')}]>'\n\ndef bien_parenthesee(chaine) :\n    paire = {[OUVRANT[i], FERMANT[i]] for i in range(4)}\n    nb_ouvrante = 0\n    nb_fermante = 0\n    for caractere in chaine :\n        if caractere == \"(\" :\n            nb_ouvrante += 1\n        if caractere == \")\":\n            nb_fermante += 1\n    if nb_fermante == nb_ouvrante :\n        return True \n    else:\n        return False\n            \nbien_parenthesee(\"(2 + 4)) * 7\")"
+            }
+          }
+        }
+      },
+      "context": {
+        "extensions": {
+          "activityInstance": { "id": "1fbfcdae-d5d7-4a8e-9e22-99999a1eedf4" }
+        },
+        "contextActivities": { "parent": "759" }
+      },
+      "timestamp": { "$date": "2024-11-12T05:42:17.308Z" },
+      "stored": { "$date": "2024-11-12T05:42:17.313Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "6732eabba90c4f677cac7dff" },
+      "actor": { "account": "177441", "objectType": "Agent", "name": "1774" },
+      "verb": {
+        "id": "AnswerEditionRequest",
+        "display": { "en": "Answer edition request" }
+      },
+      "object": {
+        "objectType": "response",
+        "id": "EditionRequestResponse",
+        "definition": {
+          "extensions": {
+            "statmentOfCorrespondingRequest": {
+              "id": "6402c93b-526d-49e3-beeb-f744efa150b6"
+            }
+          }
+        }
+      },
+      "result": { "success": true },
+      "context": {
+        "extensions": {
+          "activityInstance": { "id": "1fbfcdae-d5d7-4a8e-9e22-99999a1eedf4" }
+        },
+        "contextActivities": { "parent": "759" }
+      },
+      "timestamp": { "$date": "2024-11-12T05:42:17.344Z" },
+      "stored": { "$date": "2024-11-12T05:42:19.166Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "6732eac5a90c4f677cac7e21" },
+      "actor": { "account": "177441", "objectType": "Agent", "name": "1774" },
+      "verb": {
+        "id": "Run from editor",
+        "display": { "en": "Run from editor" }
+      },
+      "object": {
+        "objectType": "code",
+        "id": "PythonSourceCode",
+        "definition": {
+          "extensions": {
+            "codeExecuted": {
+              "code": "def bien_parenthesee(chaine) :\n    bien = False\n    paire = {}\n    nb_ouvrante = 0\n    nb_fermante = 0\n    for caractere in chaine :\n        if caractere == \"(\" :\n            nb_ouvrante += 1\n            clé = str(nb_ouvrante)\n            paire[clé] = \"en attente\"\n        if caractere == \")\" :\n            nb_fermante += 1\n            val = str(nb_fermante)\n            for ele in paire.keys():\n                if ele == val :\n                    paire[ele]= \"complet\"\n                    bien = True\n                else :\n                    bien = False\n                    \n    return bien\n"
+            }
+          }
+        }
+      },
+      "result": { "success": true, "response": "" },
+      "context": {
+        "extensions": {
+          "role": { "roleName": "Navigator" },
+          "activityInstance": { "id": "1fbfcdae-d5d7-4a8e-9e22-99999a1eedf4" }
+        },
+        "contextActivities": { "parent": "759" }
+      },
+      "timestamp": { "$date": "2024-11-12T05:42:29.374Z" },
+      "stored": { "$date": "2024-11-12T05:42:29.791Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "6732eacca90c4f677cac7e2b" },
+      "actor": { "account": "177441", "objectType": "Agent", "name": "1774" },
+      "verb": {
+        "id": "Run from editor",
+        "display": { "en": "Run from editor" }
+      },
+      "object": {
+        "objectType": "code",
+        "id": "PythonSourceCode",
+        "definition": {
+          "extensions": {
+            "codeExecuted": {
+              "code": "def bien_parenthesee(chaine) :\n    bien = False\n    paire = {}\n    nb_ouvrante = 0\n    nb_fermante = 0\n    for caractere in chaine :\n        if caractere == \"(\" :\n            nb_ouvrante += 1\n            clé = str(nb_ouvrante)\n            paire[clé] = \"en attente\"\n        if caractere == \")\" :\n            nb_fermante += 1\n            val = str(nb_fermante)\n            for ele in paire.keys():\n                if ele == val :\n                    paire[ele]= \"complet\"\n                    bien = True\n                else :\n                    bien = False\n                    \n    return bien\n    \n\n"
+            }
+          }
+        }
+      },
+      "result": { "success": true, "response": "" },
+      "context": {
+        "extensions": {
+          "role": { "roleName": "Navigator" },
+          "activityInstance": { "id": "1fbfcdae-d5d7-4a8e-9e22-99999a1eedf4" }
+        },
+        "contextActivities": { "parent": "759" }
+      },
+      "timestamp": { "$date": "2024-11-12T05:42:35.618Z" },
+      "stored": { "$date": "2024-11-12T05:42:36.665Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "6732ead0a90c4f677cac7e31" },
+      "actor": { "account": "197872", "objectType": "Agent", "name": "1978" },
+      "verb": {
+        "id": "Run from editor",
+        "display": { "en": "Run from editor" }
+      },
+      "object": {
+        "objectType": "code",
+        "id": "PythonSourceCode",
+        "definition": {
+          "extensions": {
+            "codeExecuted": {
+              "code": "def bien_parenthesee(chaine) :\n    bien = False\n    paire = {}\n    nb_ouvrante = 0\n    nb_fermante = 0\n    for caractere in chaine :\n        if caractere == \"(\" :\n            nb_ouvrante += 1\n            clé = str(nb_ouvrante)\n            paire[clé] = \"en attente\"\n        if caractere == \")\" :\n            nb_fermante += 1\n            val = str(nb_fermante)\n            for ele in paire.keys():\n                if ele == val :\n                    paire[ele]= \"complet\"\n                    bien = True\n                else :\n                    bien = False\n                    \n    return bien\n    \nbien_parenthesee(\"(2 + 4) * 7\")\n"
+            }
+          }
+        }
+      },
+      "result": { "success": true, "response": "True" },
+      "context": {
+        "extensions": {
+          "role": { "roleName": "Driver" },
+          "activityInstance": { "id": "1fbfcdae-d5d7-4a8e-9e22-99999a1eedf4" }
+        },
+        "contextActivities": { "parent": "759" }
+      },
+      "timestamp": { "$date": "2024-11-12T05:42:40.321Z" },
+      "stored": { "$date": "2024-11-12T05:42:40.651Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "6732ead0a90c4f677cac7e33" },
+      "actor": { "account": "177441", "objectType": "Agent", "name": "1774" },
+      "verb": {
+        "id": "Run from editor",
+        "display": { "en": "Run from editor" }
+      },
+      "object": {
+        "objectType": "code",
+        "id": "PythonSourceCode",
+        "definition": {
+          "extensions": {
+            "codeExecuted": {
+              "code": "def bien_parenthesee(chaine) :\n    bien = False\n    paire = {}\n    nb_ouvrante = 0\n    nb_fermante = 0\n    for caractere in chaine :\n        if caractere == \"(\" :\n            nb_ouvrante += 1\n            clé = str(nb_ouvrante)\n            paire[clé] = \"en attente\"\n        if caractere == \")\" :\n            nb_fermante += 1\n            val = str(nb_fermante)\n            for ele in paire.keys():\n                if ele == val :\n                    paire[ele]= \"complet\"\n                    bien = True\n                else :\n                    bien = False\n                    \n    return bien\n    \nbien_parenthesee(\"(2 + 4) * 7\")\n"
+            }
+          }
+        }
+      },
+      "result": { "success": true, "response": "True" },
+      "context": {
+        "extensions": {
+          "role": { "roleName": "Navigator" },
+          "activityInstance": { "id": "1fbfcdae-d5d7-4a8e-9e22-99999a1eedf4" }
+        },
+        "contextActivities": { "parent": "759" }
+      },
+      "timestamp": { "$date": "2024-11-12T05:42:40.253Z" },
+      "stored": { "$date": "2024-11-12T05:42:40.685Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "6732eadca90c4f677cac7e47" },
+      "actor": { "account": "197872", "objectType": "Agent", "name": "1978" },
+      "verb": {
+        "id": "Run from editor",
+        "display": { "en": "Run from editor" }
+      },
+      "object": {
+        "objectType": "code",
+        "id": "PythonSourceCode",
+        "definition": {
+          "extensions": {
+            "codeExecuted": {
+              "code": "def bien_parenthesee(chaine) :\n    bien = False\n    paire = {}\n    nb_ouvrante = 0\n    nb_fermante = 0\n    for caractere in chaine :\n        if caractere == \"(\" :\n            nb_ouvrante += 1\n            clé = str(nb_ouvrante)\n            paire[clé] = \"en attente\"\n        if caractere == \")\" :\n            nb_fermante += 1\n            val = str(nb_fermante)\n            for ele in paire.keys():\n                if ele == val :\n                    paire[ele]= \"complet\"\n                    bien = True\n                else :\n                    bien = False\n                    \n    return bien\n    \nbien_parenthesee(\"(2 + 4)))) * 7\")\n"
+            }
+          }
+        }
+      },
+      "result": { "success": true, "response": "False" },
+      "context": {
+        "extensions": {
+          "role": { "roleName": "Driver" },
+          "activityInstance": { "id": "1fbfcdae-d5d7-4a8e-9e22-99999a1eedf4" }
+        },
+        "contextActivities": { "parent": "759" }
+      },
+      "timestamp": { "$date": "2024-11-12T05:42:52.135Z" },
+      "stored": { "$date": "2024-11-12T05:42:52.472Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "6732eadda90c4f677cac7e49" },
+      "actor": { "account": "177441", "objectType": "Agent", "name": "1774" },
+      "verb": {
+        "id": "Run from editor",
+        "display": { "en": "Run from editor" }
+      },
+      "object": {
+        "objectType": "code",
+        "id": "PythonSourceCode",
+        "definition": {
+          "extensions": {
+            "codeExecuted": {
+              "code": "def bien_parenthesee(chaine) :\n    bien = False\n    paire = {}\n    nb_ouvrante = 0\n    nb_fermante = 0\n    for caractere in chaine :\n        if caractere == \"(\" :\n            nb_ouvrante += 1\n            clé = str(nb_ouvrante)\n            paire[clé] = \"en attente\"\n        if caractere == \")\" :\n            nb_fermante += 1\n            val = str(nb_fermante)\n            for ele in paire.keys():\n                if ele == val :\n                    paire[ele]= \"complet\"\n                    bien = True\n                else :\n                    bien = False\n                    \n    return bien\n    \nbien_parenthesee(\"(2 + 4)))) * 7\")\n"
+            }
+          }
+        }
+      },
+      "result": { "success": true, "response": "False" },
+      "context": {
+        "extensions": {
+          "role": { "roleName": "Navigator" },
+          "activityInstance": { "id": "1fbfcdae-d5d7-4a8e-9e22-99999a1eedf4" }
+        },
+        "contextActivities": { "parent": "759" }
+      },
+      "timestamp": { "$date": "2024-11-12T05:42:52.212Z" },
+      "stored": { "$date": "2024-11-12T05:42:53.083Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "6732eae3a90c4f677cac7e5d" },
+      "actor": { "account": "197872", "objectType": "Agent", "name": "1978" },
+      "verb": {
+        "id": "Run from editor",
+        "display": { "en": "Run from editor" }
+      },
+      "object": {
+        "objectType": "code",
+        "id": "PythonSourceCode",
+        "definition": {
+          "extensions": {
+            "codeExecuted": {
+              "code": "def bien_parenthesee(chaine) :\n    bien = False\n    paire = {}\n    nb_ouvrante = 0\n    nb_fermante = 0\n    for caractere in chaine :\n        if caractere == \"(\" :\n            nb_ouvrante += 1\n            clé = str(nb_ouvrante)\n            paire[clé] = \"en attente\"\n        if caractere == \")\" :\n            nb_fermante += 1\n            val = str(nb_fermante)\n            for ele in paire.keys():\n                if ele == val :\n                    paire[ele]= \"complet\"\n                    bien = True\n                else :\n                    bien = False\n                    \n    return bien\n    \nbien_parenthesee(\"((((2 + 4)))) * 7\")\n"
+            }
+          }
+        }
+      },
+      "result": { "success": true, "response": "True" },
+      "context": {
+        "extensions": {
+          "role": { "roleName": "Driver" },
+          "activityInstance": { "id": "1fbfcdae-d5d7-4a8e-9e22-99999a1eedf4" }
+        },
+        "contextActivities": { "parent": "759" }
+      },
+      "timestamp": { "$date": "2024-11-12T05:42:58.872Z" },
+      "stored": { "$date": "2024-11-12T05:42:59.887Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "6732eae7a90c4f677cac7e61" },
+      "actor": { "account": "177441", "objectType": "Agent", "name": "1774" },
+      "verb": { "id": "SentInChat", "display": { "en": "SentInChat" } },
+      "object": { "objectType": "Activity", "id": "759" },
+      "context": {
+        "extensions": {
+          "codeSnapshot": {
+            "code": "def bien_parenthesee(chaine) :\n    bien = False\n    paire = {}\n    nb_ouvrante = 0\n    nb_fermante = 0\n    for caractere in chaine :\n        if caractere == \"(\" :\n            nb_ouvrante += 1\n            clé = str(nb_ouvrante)\n            paire[clé] = \"en attente\"\n        if caractere == \")\" :\n            nb_fermante += 1\n            val = str(nb_fermante)\n            for ele in paire.keys():\n                if ele == val :\n                    paire[ele]= \"complet\"\n                    bien = True\n                else :\n                    bien = False\n                    \n    return bien\n    \nbien_parenthesee(\"((((2 + 4)))) * 7\")"
+          },
+          "activityInstance": { "id": "1fbfcdae-d5d7-4a8e-9e22-99999a1eedf4" },
+          "chatMessageSent": { "message": "ouiii sa fonctionne super !" }
+        },
+        "contextActivities": { "parent": "759" }
+      },
+      "timestamp": { "$date": "2024-11-12T05:43:03.152Z" },
+      "stored": { "$date": "2024-11-12T05:43:03.157Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "6732eaeba90c4f677cac7e69" },
+      "actor": { "account": "197872", "objectType": "Agent", "name": "1978" },
+      "verb": { "id": "SentInChat", "display": { "en": "SentInChat" } },
+      "object": { "objectType": "Activity", "id": "759" },
+      "context": {
+        "extensions": {
+          "codeSnapshot": {
+            "code": "def bien_parenthesee(chaine) :\n    bien = False\n    paire = {}\n    nb_ouvrante = 0\n    nb_fermante = 0\n    for caractere in chaine :\n        if caractere == \"(\" :\n            nb_ouvrante += 1\n            clé = str(nb_ouvrante)\n            paire[clé] = \"en attente\"\n        if caractere == \")\" :\n            nb_fermante += 1\n            val = str(nb_fermante)\n            for ele in paire.keys():\n                if ele == val :\n                    paire[ele]= \"complet\"\n                    bien = True\n                else :\n                    bien = False\n                    \n    return bien\n    \nbien_parenthesee(\"((((2 + 4)))) * 7\")"
+          },
+          "activityInstance": { "id": "1fbfcdae-d5d7-4a8e-9e22-99999a1eedf4" },
+          "chatMessageSent": { "message": "on peut faire finir l'activité" }
+        },
+        "contextActivities": { "parent": "759" }
+      },
+      "timestamp": { "$date": "2024-11-12T05:43:07.370Z" },
+      "stored": { "$date": "2024-11-12T05:43:07.376Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "6732eaeda90c4f677cac7e6d" },
+      "actor": { "account": "177441", "objectType": "Agent", "name": "1774" },
+      "verb": { "id": "SentInChat", "display": { "en": "SentInChat" } },
+      "object": { "objectType": "Activity", "id": "759" },
+      "context": {
+        "extensions": {
+          "codeSnapshot": {
+            "code": "def bien_parenthesee(chaine) :\n    bien = False\n    paire = {}\n    nb_ouvrante = 0\n    nb_fermante = 0\n    for caractere in chaine :\n        if caractere == \"(\" :\n            nb_ouvrante += 1\n            clé = str(nb_ouvrante)\n            paire[clé] = \"en attente\"\n        if caractere == \")\" :\n            nb_fermante += 1\n            val = str(nb_fermante)\n            for ele in paire.keys():\n                if ele == val :\n                    paire[ele]= \"complet\"\n                    bien = True\n                else :\n                    bien = False\n                    \n    return bien\n    \nbien_parenthesee(\"((((2 + 4)))) * 7\")"
+          },
+          "activityInstance": { "id": "1fbfcdae-d5d7-4a8e-9e22-99999a1eedf4" },
+          "chatMessageSent": { "message": "bravo" }
+        },
+        "contextActivities": { "parent": "759" }
+      },
+      "timestamp": { "$date": "2024-11-12T05:43:09.555Z" },
+      "stored": { "$date": "2024-11-12T05:43:09.559Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "6732eaefa90c4f677cac7e73" },
+      "actor": { "account": "177441", "objectType": "Agent", "name": "1774" },
+      "verb": { "id": "SentInChat", "display": { "en": "SentInChat" } },
+      "object": { "objectType": "Activity", "id": "759" },
+      "context": {
+        "extensions": {
+          "codeSnapshot": {
+            "code": "def bien_parenthesee(chaine) :\n    bien = False\n    paire = {}\n    nb_ouvrante = 0\n    nb_fermante = 0\n    for caractere in chaine :\n        if caractere == \"(\" :\n            nb_ouvrante += 1\n            clé = str(nb_ouvrante)\n            paire[clé] = \"en attente\"\n        if caractere == \")\" :\n            nb_fermante += 1\n            val = str(nb_fermante)\n            for ele in paire.keys():\n                if ele == val :\n                    paire[ele]= \"complet\"\n                    bien = True\n                else :\n                    bien = False\n                    \n    return bien\n    \nbien_parenthesee(\"((((2 + 4)))) * 7\")"
+          },
+          "activityInstance": { "id": "1fbfcdae-d5d7-4a8e-9e22-99999a1eedf4" },
+          "chatMessageSent": { "message": "yep" }
+        },
+        "contextActivities": { "parent": "759" }
+      },
+      "timestamp": { "$date": "2024-11-12T05:43:11.800Z" },
+      "stored": { "$date": "2024-11-12T05:43:11.805Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "6732eaf0a90c4f677cac7e75" },
+      "actor": { "account": "197872", "objectType": "Agent", "name": "1978" },
+      "verb": { "id": "SentInChat", "display": { "en": "SentInChat" } },
+      "object": { "objectType": "Activity", "id": "759" },
+      "context": {
+        "extensions": {
+          "codeSnapshot": {
+            "code": "def bien_parenthesee(chaine) :\n    bien = False\n    paire = {}\n    nb_ouvrante = 0\n    nb_fermante = 0\n    for caractere in chaine :\n        if caractere == \"(\" :\n            nb_ouvrante += 1\n            clé = str(nb_ouvrante)\n            paire[clé] = \"en attente\"\n        if caractere == \")\" :\n            nb_fermante += 1\n            val = str(nb_fermante)\n            for ele in paire.keys():\n                if ele == val :\n                    paire[ele]= \"complet\"\n                    bien = True\n                else :\n                    bien = False\n                    \n    return bien\n    \nbien_parenthesee(\"((((2 + 4)))) * 7\")"
+          },
+          "activityInstance": { "id": "1fbfcdae-d5d7-4a8e-9e22-99999a1eedf4" },
+          "chatMessageSent": { "message": "gg " }
+        },
+        "contextActivities": { "parent": "759" }
+      },
+      "timestamp": { "$date": "2024-11-12T05:43:12.710Z" },
+      "stored": { "$date": "2024-11-12T05:43:12.716Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "6732eaf2a90c4f677cac7e79" },
+      "actor": { "account": "177441", "objectType": "Agent", "name": "1774" },
+      "verb": { "id": "SentInChat", "display": { "en": "SentInChat" } },
+      "object": { "objectType": "Activity", "id": "759" },
+      "context": {
+        "extensions": {
+          "codeSnapshot": {
+            "code": "def bien_parenthesee(chaine) :\n    bien = False\n    paire = {}\n    nb_ouvrante = 0\n    nb_fermante = 0\n    for caractere in chaine :\n        if caractere == \"(\" :\n            nb_ouvrante += 1\n            clé = str(nb_ouvrante)\n            paire[clé] = \"en attente\"\n        if caractere == \")\" :\n            nb_fermante += 1\n            val = str(nb_fermante)\n            for ele in paire.keys():\n                if ele == val :\n                    paire[ele]= \"complet\"\n                    bien = True\n                else :\n                    bien = False\n                    \n    return bien\n    \nbien_parenthesee(\"((((2 + 4)))) * 7\")"
+          },
+          "activityInstance": { "id": "1fbfcdae-d5d7-4a8e-9e22-99999a1eedf4" },
+          "chatMessageSent": { "message": "byy" }
+        },
+        "contextActivities": { "parent": "759" }
+      },
+      "timestamp": { "$date": "2024-11-12T05:43:14.375Z" },
+      "stored": { "$date": "2024-11-12T05:43:14.381Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "6732eaf9a90c4f677cac7e7f" },
+      "actor": { "account": "177441", "objectType": "Agent", "name": "1774" },
+      "verb": { "id": "Disconnected", "display": { "en": "Disconnected" } },
+      "object": { "objectType": "Activity", "id": "759" },
+      "context": {
+        "extensions": {
+          "role": { "roleName": "Navigator" },
+          "activityInstance": { "id": "1fbfcdae-d5d7-4a8e-9e22-99999a1eedf4" }
+        },
+        "contextActivities": { "parent": "759" }
+      },
+      "timestamp": { "$date": "2024-11-12T05:43:21.531Z" },
+      "stored": { "$date": "2024-11-12T05:43:21.550Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "6732eafda90c4f677cac7e83" },
+      "actor": { "account": "177441", "objectType": "Agent", "name": "1774" },
+      "verb": { "id": "Connected", "display": { "en": "Connected" } },
+      "object": { "objectType": "Activity", "id": "759" },
+      "context": {
+        "extensions": {
+          "role": { "roleName": "Navigator" },
+          "activityInstance": { "id": "1fbfcdae-d5d7-4a8e-9e22-99999a1eedf4" }
+        },
+        "contextActivities": { "parent": "759" }
+      },
+      "timestamp": { "$date": "2024-11-12T05:43:25.284Z" },
+      "stored": { "$date": "2024-11-12T05:43:25.292Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "6732eaffa90c4f677cac7e91" },
+      "actor": { "account": "197872", "objectType": "Agent", "name": "1978" },
+      "verb": { "id": "EndedActivity", "display": { "en": "EndedActivity" } },
+      "object": { "objectType": "Activity", "id": "759" },
+      "context": {
+        "extensions": {
+          "activityInstance": { "id": "1fbfcdae-d5d7-4a8e-9e22-99999a1eedf4" }
+        },
+        "contextActivities": { "parent": "759" }
+      },
+      "timestamp": { "$date": "2024-11-12T05:43:27.650Z" },
+      "stored": { "$date": "2024-11-12T05:43:27.993Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "6732eb00a90c4f677cac7e93" },
+      "actor": { "account": "177441", "objectType": "Agent", "name": "1774" },
+      "verb": { "id": "EndedActivity", "display": { "en": "EndedActivity" } },
+      "object": { "objectType": "Activity", "id": "759" },
+      "context": {
+        "extensions": {
+          "activityInstance": { "id": "1fbfcdae-d5d7-4a8e-9e22-99999a1eedf4" }
+        },
+        "contextActivities": { "parent": "759" }
+      },
+      "timestamp": { "$date": "2024-11-12T05:43:25.280Z" },
+      "stored": { "$date": "2024-11-12T05:43:28.722Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "6732eb32a90c4f677cac7ebb" },
+      "actor": { "account": "197872", "objectType": "Agent", "name": "1978" },
+      "verb": { "id": "Wrote", "display": { "en": "Wrote" } },
+      "object": {
+        "objectType": "code",
+        "id": "PythonSourceCode",
+        "definition": {
+          "extensions": {
+            "codeSnapshot": {
+              "code": "def bien_parenthesee(chaine) :\n    bien = False\n    paire = {}\n    nb_ouvrante = 0\n    nb_fermante = 0\n    for caractere in chaine :\n        if caractere == \"(\" :\n            nb_ouvrante += 1\n            clé = str(nb_ouvrante)\n            paire[clé] = \"en attente\"\n        if caractere == \")\" :\n            nb_fermante += 1\n            val = str(nb_fermante)\n            for ele in paire.keys():\n                if ele == val :\n                    paire[ele]= \"complet\"\n                    bien = True\n                else :\n                    bien = False\n                    \n    return bien\n    \nbien_parenthesee(\"((((2 + 4)))) * 7\")"
+            }
+          }
+        }
+      },
+      "context": {
+        "extensions": {
+          "activityInstance": { "id": "1fbfcdae-d5d7-4a8e-9e22-99999a1eedf4" }
+        },
+        "contextActivities": { "parent": "759" }
+      },
+      "timestamp": { "$date": "2024-11-12T05:44:18.153Z" },
+      "stored": { "$date": "2024-11-12T05:44:18.158Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "6732eb32a90c4f677cac7ebd" },
+      "actor": { "account": "197872", "objectType": "Agent", "name": "1978" },
+      "verb": { "id": "Disconnected", "display": { "en": "Disconnected" } },
+      "object": { "objectType": "Activity", "id": "759" },
+      "context": {
+        "extensions": {
+          "role": { "roleName": "Driver" },
+          "activityInstance": { "id": "1fbfcdae-d5d7-4a8e-9e22-99999a1eedf4" }
+        },
+        "contextActivities": { "parent": "759" }
+      },
+      "timestamp": { "$date": "2024-11-12T05:44:18.155Z" },
+      "stored": { "$date": "2024-11-12T05:44:18.160Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "6732eb33a90c4f677cac7ebf" },
+      "actor": { "account": "177441", "objectType": "Agent", "name": "1774" },
+      "verb": { "id": "Disconnected", "display": { "en": "Disconnected" } },
+      "object": { "objectType": "Activity", "id": "759" },
+      "context": {
+        "extensions": {
+          "role": { "roleName": "Navigator" },
+          "activityInstance": { "id": "1fbfcdae-d5d7-4a8e-9e22-99999a1eedf4" }
+        },
+        "contextActivities": { "parent": "759" }
+      },
+      "timestamp": { "$date": "2024-11-12T05:44:19.031Z" },
+      "stored": { "$date": "2024-11-12T05:44:19.038Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "6732eb34a90c4f677cac7ec5" },
+      "actor": { "account": "177441", "objectType": "Agent", "name": "1774" },
+      "verb": { "id": "Connected", "display": { "en": "Connected" } },
+      "object": { "objectType": "Activity", "id": "759" },
+      "context": {
+        "extensions": {
+          "role": { "roleName": "Driver" },
+          "activityInstance": { "id": "1fbfcdae-d5d7-4a8e-9e22-99999a1eedf4" }
+        },
+        "contextActivities": { "parent": "759" }
+      },
+      "timestamp": { "$date": "2024-11-12T05:44:20.625Z" },
+      "stored": { "$date": "2024-11-12T05:44:20.631Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "6732eb4aa90c4f677cac7ef7" },
+      "actor": { "account": "177441", "objectType": "Agent", "name": "1774" },
+      "verb": { "id": "Wrote", "display": { "en": "Wrote" } },
+      "object": {
+        "objectType": "code",
+        "id": "PythonSourceCode",
+        "definition": {
+          "extensions": {
+            "codeSnapshot": {
+              "code": "def bien_parenthesee(chaine) :\n    bien = False\n    paire = {}\n    nb_ouvrante = 0\n    nb_fermante = 0\n    for caractere in chaine :\n        if caractere == \"(\" :\n            nb_ouvrante += 1\n            clé = str(nb_ouvrante)\n            paire[clé] = \"en attente\"\n        if caractere == \")\" :\n            nb_fermante += 1\n            val = str(nb_fermante)\n            for ele in paire.keys():\n                if ele == val :\n                    paire[ele]= \"complet\"\n                    bien = True\n                else :\n                    bien = False\n                    \n    return bien\n    \nbien_parenthesee(\"((((2 + 4)))) * 7\")"
+            }
+          }
+        }
+      },
+      "context": {
+        "extensions": {
+          "activityInstance": { "id": "1fbfcdae-d5d7-4a8e-9e22-99999a1eedf4" }
+        },
+        "contextActivities": { "parent": "759" }
+      },
+      "timestamp": { "$date": "2024-11-12T05:44:42.534Z" },
+      "stored": { "$date": "2024-11-12T05:44:42.539Z" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "6732eb4aa90c4f677cac7ef9" },
+      "actor": { "account": "177441", "objectType": "Agent", "name": "1774" },
+      "verb": { "id": "Disconnected", "display": { "en": "Disconnected" } },
+      "object": { "objectType": "Activity", "id": "759" },
+      "context": {
+        "extensions": {
+          "role": { "roleName": "Driver" },
+          "activityInstance": { "id": "1fbfcdae-d5d7-4a8e-9e22-99999a1eedf4" }
+        },
+        "contextActivities": { "parent": "759" }
+      },
+      "timestamp": { "$date": "2024-11-12T05:44:42.535Z" },
+      "stored": { "$date": "2024-11-12T05:44:42.542Z" },
+      "__v": 0
+    }
+  ],
+  "start": "2024-11-12T05:17:58.999Z",
+  "profileStudent1": {
+    "Gender": 0,
+    "ProgrammingExperience": 0.3262962962962963,
+    "SelfEfficacy": 0.575
+  },
+  "profileStudent2": {
+    "Gender": 1,
+    "ProgrammingExperience": 0.37569934640522873,
+    "SelfEfficacy": 0.95
+  },
+  "tag": "postest2",
+  "number_of_statements_student1": [
+    { "type": "PairedWith", "amount": 1 },
+    { "type": "Connected", "amount": 1 },
+    { "type": "SentInChat", "amount": 16 },
+    { "type": "Run from editor", "amount": 10 },
+    { "type": "Wrote", "amount": 2 },
+    { "type": "AnswerEditionRequest", "amount": 1 },
+    { "type": "EditionRequest", "amount": 1 },
+    { "type": "EndedActivity", "amount": 1 },
+    { "type": "Disconnected", "amount": 1 }
+  ],
+  "number_of_statements_student2": [
+    { "type": "Connected", "amount": 3 },
+    { "type": "SentInChat", "amount": 14 },
+    { "type": "Run from editor", "amount": 14 },
+    { "type": "EditionRequest", "amount": 1 },
+    { "type": "Wrote", "amount": 2 },
+    { "type": "AnswerEditionRequest", "amount": 1 },
+    { "type": "Disconnected", "amount": 3 },
+    { "type": "EndedActivity", "amount": 1 }
+  ],
+  "compatibility_posttest_result_student1": "1.0000",
+  "compatibility_posttest_result_student2": "0.5833",
+  "roleHistoryStudent1": [
+    { "role": "Driver", "timestamp": "2024-11-12T05:17:58.999Z" },
+    { "role": "Navigator", "timestamp": "2024-11-12T05:38:36.614Z" },
+    { "role": "Driver", "timestamp": "2024-11-12T05:42:17.344Z" }
+  ],
+  "roleHistoryStudent2": [
+    { "role": "Navigator", "timestamp": "2024-11-12T05:18:01.319Z" },
+    { "role": "Driver", "timestamp": "2024-11-12T05:38:36.614Z" },
+    { "role": "Navigator", "timestamp": "2024-11-12T05:42:17.344Z" }
+  ],
+  "charWrittenStudent1": 1030,
+  "charWrittenStudent2": 451,
+  "engagementStudent1": 0.3901304386242646,
+  "engagementStudent2": 0.30500719750241145,
+  "engagementGroup": 0.34756881806333806,
+  "pairingResults": {
+    "matchDiff": 0.15159813980955195,
+    "matchingStrategyName": "Engagment"
+  },
+  "gradeStudent1": 0.16666666666666666,
+  "gradeStudent2": 0.16666666666666666
+}
