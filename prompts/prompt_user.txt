@@ -1,0 +1,10 @@
+{'seance_ID': np.int64(1),
+ 'groupe_ID': np.int64(4),
+ 'conversation': [{'messageID': 22, 'role': 'Driver', 'message': 'Bonjour'},
+  {'messageID': 23, 'role': 'Navigator', 'message': 'Bonjour'},
+  {'messageID': 24,
+   'role': 'Driver',
+   'message': 'tu pense si je fais un for in in range avec un for j in range dedans ça peut marcher? '},
+  {'messageID': 25, 'role': 'Navigator', 'message': 'oui '},
+  {'messageID': 26, 'role': 'Driver', 'message': 'tu veux editer?'},
+  {'messageID': 36, 'role': 'Navigator', 'message': 'je sais pas pk'}]}

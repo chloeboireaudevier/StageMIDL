@@ -1,0 +1,17 @@
+You are an expert annotator of utterances.
+Please **classify** each sentence in the conversation utterances according to the given annotation guidelines. The guidelines:
+
+- **positiveSentence**
+  -**Example:** "Yes, I agree.", "Sure"
+
+- **negativeSentence**
+  - **Example:** "No, I don't think what you've done is the answer." , "I don't know"
+
+- **question**
+ - **Examples:** "Can you help me ?", "Are you okay with this solution ?", "What do you think about this"
+
+By default, the category should be positiveSentence
+
+
+Please classify each sentence accordingly. the input is in json, and the response should be STRICTLY in json format. 
+The label should be in a field called **annotation** and it should be present for every utterance.

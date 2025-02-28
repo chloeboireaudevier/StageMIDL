@@ -1,0 +1,65 @@
+```json
+{
+  "annotations": [
+    {
+      "message_num": 22,
+      "utterances": [
+        {
+          "text": "Bonjour",
+          "annotation": "positiveSentence"
+        }
+      ]
+    },
+
+    {
+      "message_num": 23,
+      "utterances": [
+        {
+          "text": "Bonjour",
+          "annotation": "positiveSentence"
+        }
+      ]
+    },
+
+  {
+      "message_num": 24,
+      "utterances": [
+        {
+          "text": "tu pense si je fais un for in in range avec un for j in range dedans ça peut marcher? ",
+          "annotation": "question"
+        }
+      ]
+    },
+
+  {
+      "message_num": 25,
+      "utterances": [
+        {
+          "text": "oui",
+          "annotation": "positiveSentence"
+        }
+      ]
+    },
+
+    {
+      "message_num": 26,
+      "utterances": [
+        {
+          "text": "tu veux editer?",
+          "annotation": "question"
+        }
+      ]
+    },
+    
+    {
+      "message_num": 36,
+      "utterances": [
+        {
+          "text": "je sais pas pk",
+          "annotation": "negativeSentence"
+        }
+      ]
+    }
+  ]
+}
+```
