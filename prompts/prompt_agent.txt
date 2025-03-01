@@ -6,7 +6,8 @@
       "utterances": [
         {
           "text": "Bonjour",
-          "annotation": "positiveSentence"
+          "form": "positiveSentence",
+          "tone" : positiveTone
         }
       ]
     },
@@ -16,7 +17,8 @@
       "utterances": [
         {
           "text": "Bonjour",
-          "annotation": "positiveSentence"
+          "form": "positiveSentence",
+          "tone" : positiveTone
         }
       ]
     },
@@ -26,7 +28,8 @@
       "utterances": [
         {
           "text": "tu pense si je fais un for in in range avec un for j in range dedans ça peut marcher? ",
-          "annotation": "question"
+          "form": "question",
+          "tone" : positiveTone
         }
       ]
     },
@@ -36,7 +39,8 @@
       "utterances": [
         {
           "text": "oui",
-          "annotation": "positiveSentence"
+          "form": "positiveSentence",
+          "tone" : positiveTone
         }
       ]
     },
@@ -46,17 +50,30 @@
       "utterances": [
         {
           "text": "tu veux editer?",
-          "annotation": "question"
+          "form": "question",
+          "tone" : positiveTone
         }
       ]
     },
-    
+
     {
       "message_num": 36,
       "utterances": [
         {
           "text": "je sais pas pk",
-          "annotation": "negativeSentence"
+          "form": "negativeSentence",
+          "tone" : positiveTone
+        }
+      ]
+    },
+
+    {
+      "message_num": 999,
+      "utterances": [
+        {
+          "text": "bouge la fais qqch",
+          "form": "positiveSentence",
+          "tone" : negativeTone
         }
       ]
     }
