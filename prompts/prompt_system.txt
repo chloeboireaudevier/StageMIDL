@@ -4,7 +4,7 @@ Please **classify** each sentence in the conversation utterances according to th
 For the first category, **form**, the guidelines are :
 
 - **positiveSentence**
-  -**Example:** "Yes, I agree.", "Sure"
+  -**Example:** "Yes, I agree.", "Sure", "I think it's right", "There's errors"
 
 - **negativeSentence**
   - **Example:** "No, I don't think what you've done is the answer." , "I don't know"
@@ -12,17 +12,17 @@ For the first category, **form**, the guidelines are :
 - **question**
  - **Examples:** "Can you help me ?", "Are you okay with this solution ?", "What do you think about this"
 
-By default, the category should be positiveSentence
+By default, the category should be positiveSentence. An appearence of "not" does not necessarily signify that the sentence should be labeled with negativeSentence ; it should be labelled with negativeSentence only if the sentence expresses negation, denial, unsureness or opposition.  
 
 For the second category, **tone**, the guidelines are :
 
 - **positiveTone**
-  -**Examples:** "Excellent !", "That's great"
+  -**Guidelines:** used by default, when the sentence is descriptive, or joyful
+  -**Examples:** "Excellent !", "That's great", "it says that there are some errors"
 
 - **negativeTone**
+  -**Guidelines:** used **only** if the sentence expresses an annoyed tone, or is disrespectful
   -**Examples:** "Bad", "You suck"
-
-By default, the category should be positiveTone
 
 Please classify each sentence accordingly. the input is in json, and the response should be STRICTLY in json format. 
 The label should be in a field called **annotation** and it should be present for every utterance.

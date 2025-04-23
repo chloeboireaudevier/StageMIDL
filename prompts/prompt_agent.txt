@@ -7,7 +7,7 @@
         {
           "text": "Bonjour",
           "form": "positiveSentence",
-          "tone" : positiveTone
+          "tone" : "positiveTone"
         }
       ]
     },
@@ -18,7 +18,7 @@
         {
           "text": "Bonjour",
           "form": "positiveSentence",
-          "tone" : positiveTone
+          "tone" : "positiveTone"
         }
       ]
     },
@@ -29,7 +29,7 @@
         {
           "text": "tu pense si je fais un for in in range avec un for j in range dedans ça peut marcher? ",
           "form": "question",
-          "tone" : positiveTone
+          "tone" : "positiveTone"
         }
       ]
     },
@@ -40,7 +40,7 @@
         {
           "text": "oui",
           "form": "positiveSentence",
-          "tone" : positiveTone
+          "tone" : "positiveTone"
         }
       ]
     },
@@ -51,7 +51,7 @@
         {
           "text": "tu veux editer?",
           "form": "question",
-          "tone" : positiveTone
+          "tone" : "positiveTone"
         }
       ]
     },
@@ -62,7 +62,7 @@
         {
           "text": "je sais pas pk",
           "form": "negativeSentence",
-          "tone" : positiveTone
+          "tone" : "positiveTone"
         }
       ]
     },
@@ -73,10 +73,76 @@
         {
           "text": "bouge la fais qqch",
           "form": "positiveSentence",
-          "tone" : negativeTone
+          "tone" : "negativeTone"
         }
       ]
-    }
+    },
+
+    {
+      "message_num": 49,
+      "utterances": [
+        {
+          "text": "Yo!",
+          "form": "positiveSentence",
+          "tone" : "positiveTone"
+        }
+      ]
+    },
+
+    {
+      "message_num": 50,
+      "utterances": [
+        {
+          "text": "OUI",
+          "form": "positiveSentence",
+          "tone" : "positiveTone"
+        }
+      ]
+    },
+
+    {
+      "message_num": 51,
+      "utterances": [
+        {
+          "text": ",????",
+          "form": "question",
+          "tone" : "positiveTone"
+        }
+      ]
+    },
+
+    {
+      "message_num": 52,
+      "utterances": [
+        {
+          "text": "Oui",
+          "form": "positiveSentence",
+          "tone" : "positiveTone"
+        }
+      ]
+    },
+
+    {
+      "message_num": 53,
+      "utterances": [
+        {
+          "text": "C'est bon pour toi",
+          "form": "positiveSentence",
+          "tone" : "positiveTone"
+        }
+      ]
+    },
+
+    {
+      "message_num": 54,
+      "utterances": [
+        {
+          "text": "C'est bon",
+          "form": "positiveSentence",
+          "tone" : "positiveTone"
+        }
+      ]
+    },
   ]
 }
 ```
