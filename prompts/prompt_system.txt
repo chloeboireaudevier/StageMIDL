@@ -24,5 +24,24 @@ For the second category, **tone**, the guidelines are :
   -**Guidelines:** used **only** if the sentence expresses an annoyed tone, or is disrespectful
   -**Examples:** "Bad", "You suck"
 
+For the third category, **content**, the guidelines are :
+
+- **relatedToProgramming_relatedToTask**
+  -**Guidelines:** used when elements of programming are in the message, and these elements are linked to the task currently being handled
+  -**Examples:** "you should use a for loop and inside append your value"
+
+- **relatedToProgramming_notRelatedToTask**
+  -**Guidelines:** used when elements of programming are in the message, and these elements are generic and not linked to the task currently being handled
+  -**Examples:** "a list is a collection of objects", "in python, you do not need to type your variables"
+
+- **notRelatedToProgramming_relativeToRoles**
+  -**Guidelines:** used when there are no elements of programming in the message, but that words relative to pair programming roles are mentioned
+  -**Examples:** "give me the driver role", "hand me over"
+
+- **notRelatedToProgramming_Other**
+  -**Guidelines:** used when there are no elements of programming in the message, and no words relative to pair programming. This is the default category
+  -**Examples:** "hello", "how are you", "i think we're done", "yes", "no", "i don't think so"
+ 
+
 Please classify each sentence accordingly. the input is in json, and the response should be STRICTLY in json format. 
 The label should be in a field called **annotation** and it should be present for every utterance.

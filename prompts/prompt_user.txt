@@ -6,13 +6,5 @@
    'role': 'Driver',
    'message': 'tu pense si je fais un for in in range avec un for j in range dedans ça peut marcher? '},
   {'messageID': 25, 'role': 'Navigator', 'message': 'oui '},
-  {'messageID': 26, 'role': 'Driver', 'message': 'tu veux editer?'},
-  {'messageID': 36, 'role': 'Navigator', 'message': 'je sais pas pk'},
-  {'messageID': 999, 'role': 'Navigator', 'message': 'bouge la fais qqch'},
-  {'messageID': 49, 'role': 'Driver', 'message': 'Yo!'},
-  {'messageID': 50, 'role': 'Navigator', 'message': 'OUI'},
-  {'messageID': 51, 'role': 'Navigator', 'message': ',????'},
-  {'messageID': 52, 'role': 'Driver', 'message': 'Oui'},
-  {'messageID': 53, 'role': 'Navigator', 'message': "C'est bon pour toi"},
-  {'messageID': 54, 'role': 'Driver', 'message': "C'est bon"}
+  {'messageID': 26, 'role': 'Driver', 'message': 'tu veux editer?'}
   ]}
