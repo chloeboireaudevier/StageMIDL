@@ -9,6 +9,9 @@ For the first category, **form**, the guidelines are :
 - **negativeSentence**
   - **Example:** "No, I don't think what you've done is the answer." , "I don't know"
 
+- **imperativeSentence**
+  - **Example:** "Add a parethesis to line 3", "Write a for loop"
+
 - **question**
  - **Examples:** "Can you help me ?", "Are you okay with this solution ?", "What do you think about this"
 

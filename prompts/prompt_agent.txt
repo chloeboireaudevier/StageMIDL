@@ -59,6 +59,18 @@
           "content" : "notRelatedToProgramming_relativeToRoles"
         }
       ]
+    },
+
+    {
+      "message_num": 27,
+      "utterances": [
+        {
+          "text": "ecris ;; ligne 32",
+          "form": "imperativeSentence",
+          "tone" : "positiveTone",
+          "content" : "relatedToProgramming_relatedToTask"
+        }
+      ]
     }
   ]
 }

@@ -6,5 +6,6 @@
    'role': 'Driver',
    'message': 'tu pense si je fais un for in in range avec un for j in range dedans ça peut marcher? '},
   {'messageID': 25, 'role': 'Navigator', 'message': 'oui '},
-  {'messageID': 26, 'role': 'Driver', 'message': 'tu veux editer?'}
+  {'messageID': 26, 'role': 'Driver', 'message': 'tu veux editer?'},
+  {'messageID': 27, 'role': 'Driver', 'message': 'ecris ;; ligne 32'}
   ]}
