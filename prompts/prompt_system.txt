@@ -29,6 +29,8 @@ For the first category, **form**, the guidelines are :
   - **Guidelines:** This is the default annotation for the "form" category. If none of the above apply, then classify the sentence using this annotation.
   - **Examples:** "Yes, I agree.", "Sure", "I think it's right", "There's errors"
 
+-> END OF FORM CATEGORY
+
 ## Category **tone**
 
 For the second category, **tone**, the guidelines are :
@@ -40,6 +42,8 @@ For the second category, **tone**, the guidelines are :
 - **positiveTone**
   -**Guidelines:** This is the default annotation for the "tone" category. If none of the above apply, then classify the sentence using this annotation.
   -**Examples:** "Excellent !", "That's great", "it says that there are some errors"
+
+-> END OF TONE CATEGORY
 
 ## Category **content**
 
@@ -60,3 +64,47 @@ For the third category, **content**, the guidelines are :
 - **notRelatedToProgramming_Other**
   -**Guidelines:** This is the default annotation for the "content" category. If none of the above apply, then classify the sentence using this annotation.
   -**Examples:** "hello", "how are you", "i think we're done", "yes", "no", "i don't think so"
+
+-> END OF CONTENT CATEGORY
+
+## Category **nature**
+
+For the fourth category, **nature**, the guidelines are :
+
+-**responseValidity**
+  -**Guidelines:** used when the message tells the student is what they are doing is the correct response or not
+  -**Examples:** "i don't think that works", "yes, i think that's right"
+
+-**motivationnalFeedback**
+  -**Guidelines:** used when the aim of the message is to keep the student going, to encourage them
+  -**Examples:** "keep going, "don't give up"
+
+-**correctResponse**
+  -**Guidelines:** used when the message gives the answer to the problem. Can be code, or just the way to achieve the goal.
+  -**Examples:** "You should write this : print(value)", "list = [1,2,3,4] line 45", "do a for loop"
+
+-**taskKnowledge**
+  -**Guidelines:** used when the aim of the message is to help the student with information relative to the current task.
+  -**Examples:** "the roman numerals here are going to be put in a dictionnary to access them easily"
+
+-**conceptKnowledge**
+  -**Guidelines:** used when the aim of the message is to help the student with information about programming concepts
+  -**Examples:** "A dictionnary is like a list but instead of using an integer index you use what's called a key"
+
+-**howToProceed**
+  -**Guidelines:** used when the message gives hints to answer to the problem.
+  -**Examples:** "maybe you could try a for loop ?"
+
+-**errors**
+  -**Guidelines:** used when the messsage points out errors or misconceptions on the student's work or train of thoughts
+  -**Examples:** "maybe you could try a for loop ?"
+
+-**askingForHelp**
+  -**Guidelines:** used when the aim of the message is to ask the other student to help with a task, or concepts
+  -**Examples:** "you forgot to return your value", "a is a string, not an int"
+
+- **noFeedback**
+  -**Guidelines:** This is the default annotation for the "nature" category. If none of the above apply, then classify the sentence using this annotation.
+  -**Examples:** "hello", "how are you", "i think we're done", "yes", "no", "i don't think so"
+
+-> END OF NATURE CATEGORY

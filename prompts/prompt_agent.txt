@@ -8,7 +8,8 @@
           "text": "Bonjour",
           "form": "positiveSentence",
           "tone" : "positiveTone",
-          "content" : "notRelatedToProgramming_Other"
+          "content" : "notRelatedToProgramming_Other",
+          "nature" : "noFeedback"
         }
       ]
     },
@@ -20,7 +21,8 @@
           "text": "Bonjour",
           "form": "positiveSentence",
           "tone" : "positiveTone",
-          "content" : "notRelatedToProgramming_Other"
+          "content" : "notRelatedToProgramming_Other",
+          "nature" : "noFeedback"
         }
       ]
     },
@@ -32,7 +34,8 @@
           "text": "tu pense si je fais un for in in range avec un for j in range dedans ça peut marcher? ",
           "form": "question",
           "tone" : "positiveTone",
-          "content" : "relatedToProgramming_relatedToTask"
+          "content" : "relatedToProgramming_relatedToTask",
+          "nature" : "askingForHelp"
         }
       ]
     },
@@ -44,7 +47,8 @@
           "text": "oui",
           "form": "positiveSentence",
           "tone" : "positiveTone",
-          "content" : "notRelatedToProgramming_Other"
+          "content" : "notRelatedToProgramming_Other",
+          "nature" : "responseValidity"
         }
       ]
     },
@@ -56,7 +60,8 @@
           "text": "tu veux editer?",
           "form": "question",
           "tone" : "positiveTone",
-          "content" : "notRelatedToProgramming_relativeToRoles"
+          "content" : "notRelatedToProgramming_relativeToRoles",
+          "nature" : "noFeedback"
         }
       ]
     },
@@ -68,7 +73,8 @@
           "text": "ecris ;; ligne 32",
           "form": "imperativeSentence",
           "tone" : "positiveTone",
-          "content" : "relatedToProgramming_relatedToTask"
+          "content" : "relatedToProgramming_relatedToTask",
+          "nature" : "correctResponse"
         }
       ]
     },
@@ -80,7 +86,8 @@
           "text": "",
           "form": "positiveSentence",
           "tone" : "positiveTone",
-          "content" : "notRelatedToProgramming_Other"
+          "content" : "notRelatedToProgramming_Other",
+          "nature" : "noFeedback"
         }
       ]
     }
