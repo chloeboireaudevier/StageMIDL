@@ -1,2 +1,0 @@
-mistralKey = 262yhg1xyir3SnqWKjbGimJVKRy4KYml
-openAiKey = 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
