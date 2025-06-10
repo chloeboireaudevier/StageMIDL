@@ -1,0 +1,26 @@
+,seance_ID,groupe_ID,role,messageID,utterance_num,message,forme,ton,content,nature
+0,np.int64(1),np.int64(4),Driver,22,0,Bonjour,positiveSentence,positiveTone,notRelatedToProgramming_Other,noFeedback
+1,np.int64(1),np.int64(4),Navigator,23,0,Bonjour,positiveSentence,positiveTone,notRelatedToProgramming_Other,noFeedback
+2,np.int64(1),np.int64(4),Driver,24,0,tu pense si je fais un for in in range avec un for j in range dedans ça peut marcher? ,question,positiveTone,relatedToProgramming_relatedToTask,askingForHelp
+3,np.int64(1),np.int64(4),Navigator,25,0,oui ,positiveSentence,positiveTone,notRelatedToProgramming_Other,responseValidity
+4,np.int64(1),np.int64(4),Driver,26,0,tu veux editer?,question,positiveTone,notRelatedToProgramming_relativeToRoles,askingForHelp
+5,np.int64(1),np.int64(4),Navigator,27,0,comme tu veux,positiveSentence,positiveTone,notRelatedToProgramming_Other,noFeedback
+6,np.int64(1),np.int64(4),Driver,28,0,je teste si ça marche pas on echange,positiveSentence,positiveTone,relatedToProgramming_relatedToTask,errors
+7,np.int64(1),np.int64(4),Navigator,29,0,vsy ,positiveSentence,positiveTone,notRelatedToProgramming_Other,noFeedback
+8,np.int64(1),np.int64(4),Navigator,30,0,"en vrai c'est pas mieux de faire un ""if len(a) != len(b)""",negativeSentence,positiveTone,relatedToProgramming_relatedToTask,howToProceed
+9,np.int64(1),np.int64(4),Driver,31,0,tu veux teste?,question,positiveTone,notRelatedToProgramming_relativeToRoles,askingForHelp
+10,np.int64(1),np.int64(4),Driver,32,0,demande l'édition,imperativeSentence,positiveTone,notRelatedToProgramming_relativeToRoles,howToProceed
+11,np.int64(1),np.int64(4),Navigator,33,0,vsy je teste le code,positiveSentence,positiveTone,relatedToProgramming_relatedToTask,noFeedback
+12,np.int64(1),np.int64(4),Navigator,34,0,quand je teste le code il me disent y'a des erreurs de type,positiveSentence,positiveTone,relatedToProgramming_relatedToTask,errors
+13,np.int64(1),np.int64(4),Navigator,35,0,pour int,positiveSentence,positiveTone,relatedToProgramming_notRelatedToTask,noFeedback
+14,np.int64(1),np.int64(4),Navigator,36,0,je sais pas pk,negativeSentence,positiveTone,notRelatedToProgramming_Other,noFeedback
+15,np.int64(1),np.int64(4),Driver,37,0,demande a éditer je te passe la main tu teste ce que tu as dis,imperativeSentence,positiveTone,notRelatedToProgramming_relativeToRoles,howToProceed
+16,np.int64(1),np.int64(4),Navigator,38,0,vsy je sauvegarde juste le ocde que t'a déja fait,positiveSentence,positiveTone,relatedToProgramming_relatedToTask,noFeedback
+17,np.int64(1),np.int64(4),Driver,39,0,ok,positiveSentence,positiveTone,notRelatedToProgramming_Other,noFeedback
+18,np.int64(1),np.int64(4),Driver,40,0,je supprime,positiveSentence,positiveTone,notRelatedToProgramming_Other,noFeedback
+19,np.int64(1),np.int64(4),Navigator,41,0,c bon t'as la main,positiveSentence,positiveTone,notRelatedToProgramming_relativeToRoles,noFeedback
+20,np.int64(1),np.int64(4),Driver,42,0,"je crois c'est bon , je suis pas sur",negativeSentence,positiveTone,notRelatedToProgramming_Other,noFeedback
+21,np.int64(1),np.int64(4),Driver,43,0,tu peux tester?,question,positiveTone,notRelatedToProgramming_relativeToRoles,askingForHelp
+22,np.int64(1),np.int64(4),Navigator,44,0,il y a des erreurs sur plusieurs lignes mais le dernier j'ai pas,positiveSentence,positiveTone,relatedToProgramming_relatedToTask,errors
+23,np.int64(1),np.int64(4),Navigator,45,0,sur le return positions,positiveSentence,positiveTone,relatedToProgramming_relatedToTask,errors
+24,np.int64(1),np.int64(4),Navigator,46,0,on fini l'activité ducoup?,question,positiveTone,notRelatedToProgramming_Other,askingForHelp
