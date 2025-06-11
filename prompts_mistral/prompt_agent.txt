@@ -1,0 +1,96 @@
+```json
+{
+  "annotations": [
+    {
+      "message_num": 22,
+      "utterances": [
+        {
+          "text": "Bonjour",
+          "form": "positiveSentence",
+          "tone" : "positiveTone",
+          "content" : "notRelatedToProgramming_Other",
+          "nature" : "noFeedback"
+        }
+      ]
+    },
+
+    {
+      "message_num": 23,
+      "utterances": [
+        {
+          "text": "Bonjour",
+          "form": "positiveSentence",
+          "tone" : "positiveTone",
+          "content" : "notRelatedToProgramming_Other",
+          "nature" : "noFeedback"
+        }
+      ]
+    },
+
+  {
+      "message_num": 24,
+      "utterances": [
+        {
+          "text": "tu pense si je fais un for in in range avec un for j in range dedans ça peut marcher? ",
+          "form": "question",
+          "tone" : "positiveTone",
+          "content" : "relatedToProgramming_relatedToTask",
+          "nature" : "askingForHelp"
+        }
+      ]
+    },
+
+  {
+      "message_num": 25,
+      "utterances": [
+        {
+          "text": "oui",
+          "form": "positiveSentence",
+          "tone" : "positiveTone",
+          "content" : "notRelatedToProgramming_Other",
+          "nature" : "responseValidity"
+        }
+      ]
+    },
+
+    {
+      "message_num": 26,
+      "utterances": [
+        {
+          "text": "tu veux editer?",
+          "form": "question",
+          "tone" : "positiveTone",
+          "content" : "notRelatedToProgramming_relativeToRoles",
+          "nature" : "noFeedback"
+        }
+      ]
+    },
+
+    {
+      "message_num": 27,
+      "utterances": [
+        {
+          "text": "ecris ;; ligne 32",
+          "form": "imperativeSentence",
+          "tone" : "positiveTone",
+          "content" : "relatedToProgramming_relatedToTask",
+          "nature" : "correctResponse"
+        }
+      ]
+    },
+
+    {
+      "message_num": 28,
+      "utterances": [
+        {
+          "text": "",
+          "form": "positiveSentence",
+          "tone" : "positiveTone",
+          "content" : "notRelatedToProgramming_Other",
+          "nature" : "noFeedback"
+        }
+      ]
+    }
+  ]
+}
+```
