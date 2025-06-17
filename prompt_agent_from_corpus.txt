@@ -1,0 +1,581 @@
+```json
+{
+  "annotations": [
+    {
+      "message_num": 24,
+      "utterances": [
+        {
+          "text": "tu pense si je fais un for in in range avec un for j in range dedans ?a peut marcher? ",
+          "form": "question",
+          "tone": "positiveTone",
+          "content": "relatedToProgramming_relatedToTask",
+          "nature": "askingForHelp"
+        }
+      ]
+    },
+    {
+      "message_num": 30,
+      "utterances": [
+        {
+          "text": "en vrai c'est pas mieux de faire un \"if len(a) != len(b)\"",
+          "form": "question",
+          "tone": "positiveTone",
+          "content": "relatedToProgramming_relatedToTask",
+          "nature": "howToProceed"
+        }
+      ]
+    },
+    {
+      "message_num": 34,
+      "utterances": [
+        {
+          "text": "quand je teste le code il me disent y'a des erreurs de type",
+          "form": "positiveSentence",
+          "tone": "positiveTone",
+          "content": "relatedToProgramming_relatedToTask",
+          "nature": "errors"
+        }
+      ]
+    },
+    {
+      "message_num": 56,
+      "utterances": [
+        {
+          "text": "def coincide(tableau1, tableau2):     # On s'assure que les deux tableaux ont la m?me longueur     if len(tableau1) != len(tableau2):         return []      # On cr?e un tableau vide pour stocker les indices o? les ?l?ments sont identiques     result = []          # On parcourt les deux tableaux et on compare les ?l?ments     for i in range(len(tableau1)):         if tableau1[i] == tableau2[i]:             result.append(i)      return result  # Exemples d'utilisation : print(coincide([78, 23, 12, 12, 54, 32], [67, 23, 44, 12, 54, 32]))  # [1, 3, 4, 5] print(coincide([\"antoine\", \"isaac\", \"denis\"], [\"jeanne\", \"sofiane\", \"lise\"]))  # []",
+          "form": "positiveSentence",
+          "tone": "positiveTone",
+          "content": "relatedToProgramming_relatedToTask",
+          "nature": "correctResponse"
+        }
+      ]
+    },
+    {
+      "message_num": 73,
+      "utterances": [
+        {
+          "text": "ta pas besoin du return  []",
+          "form": "positiveSentence",
+          "tone": "positiveTone",
+          "content": "relatedToProgramming_relatedToTask",
+          "nature": "errors"
+        }
+      ]
+    },
+    {
+      "message_num": 75,
+      "utterances": [
+        {
+          "text": "c'est ok ",
+          "form": "positiveSentence",
+          "tone": "positiveTone",
+          "content": "notRelatedToProgramming_Other",
+          "nature": "responseValidity"
+        }
+      ]
+    },
+    {
+      "message_num": 82,
+      "utterances": [
+        {
+          "text": "et la ta compris un peu le contexte ? ",
+          "form": "question",
+          "tone": "positiveTone",
+          "content": "relatedToProgramming_relatedToTask",
+          "nature": "taskKnowledge"
+        }
+      ]
+    },
+    {
+      "message_num": 83,
+      "utterances": [
+        {
+          "text": "je sais qu''il faut impl?menter le tableau pour l'utiliser dans la fonction coincide",
+          "form": "positiveSentence",
+          "tone": "positiveTone",
+          "content": "relatedToProgramming_relatedToTask",
+          "nature": "noFeedback"
+        }
+      ]
+    },
+    {
+      "message_num": 134,
+      "utterances": [
+        {
+          "text": "j'essaye encore",
+          "form": "positiveSentence",
+          "tone": "positiveTone",
+          "content": "notRelatedToProgramming_Other",
+          "nature": "noFeedback"
+        }
+      ]
+    },
+    {
+      "message_num": 161,
+      "utterances": [
+        {
+          "text": "Utilise append pour ajouter un ?l?ment dans une liste",
+          "form": "imperativeSentence",
+          "tone": "positiveTone",
+          "content": "relatedToProgramming_notRelatedToTask",
+          "nature": "howToProceed"
+        }
+      ]
+    },
+    {
+      "message_num": 175,
+      "utterances": [
+        {
+          "text": "commence gros ou laisse moi la main",
+          "form": "imperativeSentence",
+          "tone": "negativeTone",
+          "content": "notRelatedToProgramming_relativeToRoles",
+          "nature": "howToProceed"
+        }
+      ]
+    },
+    {
+      "message_num": 179,
+      "utterances": [
+        {
+          "text": "mais il faut que l'on parcours les deux tableaux ",
+          "form": "positiveSentence",
+          "tone": "positiveTone",
+          "content": "relatedToProgramming_relatedToTask",
+          "nature": "howToProceed"
+        }
+      ]
+    },
+    {
+      "message_num": 180,
+      "utterances": [
+        {
+          "text": "et tu as raison pour le tableau vide",
+          "form": "positiveSentence",
+          "tone": "positiveTone",
+          "content": "relatedToProgramming_relatedToTask",
+          "nature": "responseValidity"
+        }
+      ]
+    },
+    {
+      "message_num": 203,
+      "utterances": [
+        {
+          "text": "il faudrait que 'on prenne l'indice",
+          "form": "positiveSentence",
+          "tone": "positiveTone",
+          "content": "relatedToProgramming_relatedToTask",
+          "nature": "howToProceed"
+        }
+      ]
+    },
+    {
+      "message_num": 205,
+      "utterances": [
+        {
+          "text": "et qu'il soit mis dans egal",
+          "form": "positiveSentence",
+          "tone": "positiveTone",
+          "content": "relatedToProgramming_relatedToTask",
+          "nature": "howToProceed"
+        }
+      ]
+    },
+    {
+      "message_num": 244,
+      "utterances": [
+        {
+          "text": "le True et le False c'est pour dire que ils sont ?gaux ?",
+          "form": "question",
+          "tone": "positiveTone",
+          "content": "relatedToProgramming_relatedToTask",
+          "nature": "askingForHelp"
+        }
+      ]
+    },
+    {
+      "message_num": 245,
+      "utterances": [
+        {
+          "text": "si ils sont egaux ou pas",
+          "form": "positiveSentence",
+          "tone": "positiveTone",
+          "content": "relatedToProgramming_relatedToTask",
+          "nature": "askingForHelp"
+        }
+      ]
+    },
+    {
+      "message_num": 246,
+      "utterances": [
+        {
+          "text": "Non c\u0019est la r?ponse qu\u0019il va renvoyer, True ils sont les m?me nombre d\u0019?l?ments, False : il n\u0019ont pas le m?me nombre",
+          "form": "positiveSentence",
+          "tone": "positiveTone",
+          "content": "relatedToProgramming_relatedToTask",
+          "nature": "taskKnowledge"
+        }
+      ]
+    },
+    {
+      "message_num": 262,
+      "utterances": [
+        {
+          "text": "faut mettre la longueur du tableau noramlement ",
+          "form": "imperativeSentence",
+          "tone": "positiveTone",
+          "content": "relatedToProgramming_relatedToTask",
+          "nature": "howToProceed"
+        }
+      ]
+    },
+    {
+      "message_num": 264,
+      "utterances": [
+        {
+          "text": "oui je pense mais il y'a aussi le truc de la position",
+          "form": "positiveSentence",
+          "tone": "positiveTone",
+          "content": "relatedToProgramming_relatedToTask",
+          "nature": "taskKnowledge"
+        }
+      ]
+    },
+    {
+      "message_num": 267,
+      "utterances": [
+        {
+          "text": "il faut mettre le (i) a coter d'append",
+          "form": "imperativeSentence",
+          "tone": "positiveTone",
+          "content": "relatedToProgramming_relatedToTask",
+          "nature": "howToProceed"
+        }
+      ]
+    },
+    {
+      "message_num": 298,
+      "utterances": [
+        {
+          "text": "for i in range(0,len(list_1) : ?",
+          "form": "question",
+          "tone": "positiveTone",
+          "content": "relatedToProgramming_relatedToTask",
+          "nature": "correctResponse"
+        }
+      ]
+    },
+    {
+      "message_num": 316,
+      "utterances": [
+        {
+          "text": "enleve le ? entre 67 et 23 dans la deuxi?me liste",
+          "form": "imperativeSentence",
+          "tone": "positiveTone",
+          "content": "relatedToProgramming_relatedToTask",
+          "nature": "errors"
+        }
+      ]
+    },
+    {
+      "message_num": 345,
+      "utterances": [
+        {
+          "text": "Tu peux prendre la main si tu veux",
+          "form": "positiveSentence",
+          "tone": "positiveTone",
+          "content": "notRelatedToProgramming_relativeToRoles",
+          "nature": "noFeedback"
+        }
+      ]
+    },
+    {
+      "message_num": 377,
+      "utterances": [
+        {
+          "text": "je crois qu'il faut d?finir une fonction coincide",
+          "form": "positiveSentence",
+          "tone": "positiveTone",
+          "content": "relatedToProgramming_relatedToTask",
+          "nature": "taskKnowledge"
+        }
+      ]
+    },
+    {
+      "message_num": 380,
+      "utterances": [
+        {
+          "text": "bah commence par ?crire def coincide (....",
+          "form": "imperativeSentence",
+          "tone": "positiveTone",
+          "content": "relatedToProgramming_relatedToTask",
+          "nature": "howToProceed"
+        }
+      ]
+    },
+    {
+      "message_num": 429,
+      "utterances": [
+        {
+          "text": "line 4 apparement mais je crois qu'il faut juste que j'utilise des [] a la place de ()",
+          "form": "positiveSentence",
+          "tone": "positiveTone",
+          "content": "relatedToProgramming_relatedToTask",
+          "nature": "errors"
+        }
+      ]
+    },
+    {
+      "message_num": 1398,
+      "utterances": [
+        {
+          "text": "il faudra regarder aussi si I et d?rri?re un X , un V ou un M et donc on -1",
+          "form": "positiveSentence",
+          "tone": "positiveTone",
+          "content": "relatedToProgramming_relatedToTask",
+          "nature": "taskKnowledge"
+        }
+      ]
+    },
+    {
+      "message_num": 1400,
+      "utterances": [
+        {
+          "text": "en arg un string et ton dictionnaire ",
+          "form": "positiveSentence",
+          "tone": "positiveTone",
+          "content": "relatedToProgramming_relatedToTask",
+          "nature": "howToProceed"
+        }
+      ]
+    },
+    {
+      "message_num": 1401,
+      "utterances": [
+        {
+          "text": "donc une double boucle et rouler jeunesse",
+          "form": "positiveSentence",
+          "tone": "positiveTone",
+          "content": "relatedToProgramming_relatedToTask",
+          "nature": "howToProceed"
+        }
+      ]
+    },
+    {
+      "message_num": 1405,
+      "utterances": [
+        {
+          "text": "alors mon chef les arguments sont foireux ",
+          "form": "positiveSentence",
+          "tone": "positiveTone",
+          "content": "relatedToProgramming_relatedToTask",
+          "nature": "errors"
+        }
+      ]
+    },
+    {
+      "message_num": 1433,
+      "utterances": [
+        {
+          "text": "Y a pas la valeur D dans le dic",
+          "form": "negativeSentence",
+          "tone": "positiveTone",
+          "content": "relatedToProgramming_relatedToTask",
+          "nature": "errors"
+        }
+      ]
+    },
+    {
+      "message_num": 1497,
+      "utterances": [
+        {
+          "text": "jusque la je pense que tableau va contenir les encadreurs qui se trouve dans la chaine",
+          "form": "positiveSentence",
+          "tone": "positiveTone",
+          "content": "relatedToProgramming_relatedToTask",
+          "nature": "taskKnowledge"
+        }
+      ]
+    },
+    {
+      "message_num": 1500,
+      "utterances": [
+        {
+          "text": "normalement le dernier ouvrant correspond au premier fermant, je me demande s'il faudrait pas un dict?",
+          "form": "positiveSentence",
+          "tone": "positiveTone",
+          "content": "relatedToProgramming_relatedToTask",
+          "nature": "howToProceed"
+        }
+      ]
+    },
+    {
+      "message_num": 1512,
+      "utterances": [
+        {
+          "text": "> bien_parenthesee(\"(2 + 4) * 7\") Traceback (most recent call last):   File \"<console>\", line 1, in <module>   File \"<exec>\", line 11, in bien_parenthesee TypeError: 'str' object is not callable",
+          "form": "positiveSentence",
+          "tone": "positiveTone",
+          "content": "relatedToProgramming_relatedToTask",
+          "nature": "errors"
+        }
+      ]
+    },
+    {
+      "message_num": 1517,
+      "utterances": [
+        {
+          "text": "pour le premiere exemple c'est bon ?a r?pond true",
+          "form": "positiveSentence",
+          "tone": "positiveTone",
+          "content": "relatedToProgramming_relatedToTask",
+          "nature": "responseValidity"
+        }
+      ]
+    },
+    {
+      "message_num": 1518,
+      "utterances": [
+        {
+          "text": "mais pour ce qui sont faux il rpond aussi True",
+          "form": "positiveSentence",
+          "tone": "positiveTone",
+          "content": "relatedToProgramming_relatedToTask",
+          "nature": "responseValidity"
+        }
+      ]
+    },
+    {
+      "message_num": 1522,
+      "utterances": [
+        {
+          "text": "c'est deux points dans un dictionnaire pas ?gale",
+          "form": "positiveSentence",
+          "tone": "positiveTone",
+          "content": "relatedToProgramming_notRelatedToTask",
+          "nature": "errors"
+        }
+      ]
+    },
+    {
+      "message_num": 1528,
+      "utterances": [
+        {
+          "text": "en fait je veux mettre les valeurs de chaque lettre dans le tableau valeurs et ensuite je calcule le r?sultat en manipulant les ?l?ments du tableau ",
+          "form": "positiveSentence",
+          "tone": "positiveTone",
+          "content": "relatedToProgramming_relatedToTask",
+          "nature": "howToProceed"
+        }
+      ]
+    },
+    {
+      "message_num": 1529,
+      "utterances": [
+        {
+          "text": "tu dois s?parer les ?l?ment de la chaine et la fonction qui permet sa je crois c sprace()",
+          "form": "imperativeSentence",
+          "tone": "positiveTone",
+          "content": "relatedToProgramming_relatedToTask",
+          "nature": "howToProceed"
+        }
+      ]
+    },
+    {
+      "message_num": 1675,
+      "utterances": [
+        {
+          "text": "Faut regard? si y'a un cl? avec une valeur n?gative",
+          "form": "positiveSentence",
+          "tone": "positiveTone",
+          "content": "relatedToProgramming_relatedToTask",
+          "nature": "howToProceed"
+        }
+      ]
+    },
+    {
+      "message_num": 1677,
+      "utterances": [
+        {
+          "text": "une cl? avec une valeur diff?rent de 0",
+          "form": "positiveSentence",
+          "tone": "positiveTone",
+          "content": "relatedToProgramming_relatedToTask",
+          "nature": "howToProceed"
+        }
+      ]
+    },
+    {
+      "message_num": 1678,
+      "utterances": [
+        {
+          "text": "prcq ouvrant fermant ?a s'annule",
+          "form": "positiveSentence",
+          "tone": "positiveTone",
+          "content": "relatedToProgramming_relatedToTask",
+          "nature": "taskKnowledge"
+        }
+      ]
+    },
+    {
+      "message_num": 1681,
+      "utterances": [
+        {
+          "text": "tu vois quand y'aa un ouvrant on fait +1",
+          "form": "positiveSentence",
+          "tone": "positiveTone",
+          "content": "relatedToProgramming_relatedToTask",
+          "nature": "taskKnowledge"
+        }
+      ]
+    },
+    {
+      "message_num": 1692,
+      "utterances": [
+        {
+          "text": "for e in syntaxe.values():",
+          "form": "positiveSentence",
+          "tone": "positiveTone",
+          "content": "relatedToProgramming_relatedToTask",
+          "nature": "correctResponse"
+        }
+      ]
+    },
+    {
+      "message_num": 1713,
+      "utterances": [
+        {
+          "text": "D?finir un dictionnaire pour associer les d?limiteurs ouvrants et fermants par le variable paire ",
+          "form": "imperativeSentence",
+          "tone": "positiveTone",
+          "content": "relatedToProgramming_relatedToTask",
+          "nature": "howToProceed"
+        }
+      ]
+    },
+    {
+      "message_num": 1760,
+      "utterances": [
+        {
+          "text": "T'as mis totol, return tatol",
+          "form": "positiveSentence",
+          "tone": "positiveTone",
+          "content": "relatedToProgramming_relatedToTask",
+          "nature": "errors"
+        }
+      ]
+    },
+    {
+      "message_num": 9999,
+      "utterances": [
+        {
+          "text": "Tu fais un while et dedans tu incrementes",
+          "form": "imperativeSentence",
+          "tone": "positiveTone",
+          "content": "relatedToProgramming_relatedToTask",
+          "nature": "howToProceed"
+        }
+      ]
+    }
+  ]
+}
