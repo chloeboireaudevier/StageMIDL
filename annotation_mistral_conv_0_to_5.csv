@@ -1,48 +1,48 @@
 ,seance_ID,groupe_ID,role,messageID,utterance_num,message,forme,ton,content,nature
-0,1,0,Navigator,0,0,Tu es qui ?,question,positiveTone,notRelatedToProgramming_Other,askingForHelp
-1,1,0,Navigator,1,0,On se met 5 partout ok ?,positiveSentence,positiveTone,notRelatedToProgramming_Other,noFeedback
+0,1,0,Navigator,0,0,"Tu es qui ,",question,positiveTone,notRelatedToProgramming_Other,askingForHelp
+1,1,0,Navigator,1,0,On se met 5 partout ok ?,imperativeSentence,positiveTone,notRelatedToProgramming_Other,taskKnowledge
 2,1,1,Driver,2,0,Opé,positiveSentence,positiveTone,notRelatedToProgramming_Other,noFeedback
 3,1,1,Driver,3,0,Opé lmkt,positiveSentence,positiveTone,notRelatedToProgramming_Other,noFeedback
-4,1,1,Navigator,4,0,A PAR SA LE COUZ ,negativeSentence,negativeTone,notRelatedToProgramming_Other,noFeedback
+4,1,1,Navigator,4,0,A PAR SA LE COUZ ,positiveSentence,positiveTone,notRelatedToProgramming_Other,noFeedback
 5,1,1,Navigator,5,0,Opé ,positiveSentence,positiveTone,notRelatedToProgramming_Other,noFeedback
 6,1,1,Navigator,6,0,Ou lé jolie ? ,question,positiveTone,notRelatedToProgramming_Other,noFeedback
-7,1,1,Navigator,7,0,A ou ,question,positiveTone,notRelatedToProgramming_Other,noFeedback
-8,1,1,Navigator,8,0,Commencé ,positiveSentence,positiveTone,notRelatedToProgramming_Other,noFeedback
+7,1,1,Navigator,7,0,A ou ,positiveSentence,positiveTone,notRelatedToProgramming_Other,noFeedback
+8,1,1,Navigator,8,0,Commencé ,imperativeSentence,positiveTone,notRelatedToProgramming_Other,askingForHelp
 9,1,1,Navigator,9,0,Comment nous fé la ,question,positiveTone,notRelatedToProgramming_Other,askingForHelp
-10,1,1,Navigator,10,0,c'est kwé faut fait ,question,positiveTone,notRelatedToProgramming_Other,askingForHelp
-11,1,1,Navigator,11,0,Lève ton main un coup la ,imperativeSentence,positiveTone,notRelatedToProgramming_relativeToRoles,noFeedback
-12,1,1,Navigator,12,0,aide a moins un coup la ,imperativeSentence,positiveTone,notRelatedToProgramming_relativeToRoles,askingForHelp
+10,1,1,Navigator,10,0,c'est kwé faut fait ,positiveSentence,positiveTone,notRelatedToProgramming_Other,noFeedback
+11,1,1,Navigator,11,0,Lève ton main un coup la ,imperativeSentence,positiveTone,notRelatedToProgramming_Other,noFeedback
+12,1,1,Navigator,12,0,aide a moins un coup la ,positiveSentence,positiveTone,notRelatedToProgramming_Other,askingForHelp
 13,1,2,Driver,13,0,roro,positiveSentence,positiveTone,notRelatedToProgramming_Other,noFeedback
 14,1,2,Driver,14,0,Qui est là,question,positiveTone,notRelatedToProgramming_Other,askingForHelp
-15,1,3,Driver,15,0,je ne sais pas comment voir le résultat ,negativeSentence,positiveTone,notRelatedToProgramming_Other,askingForHelp
+15,1,3,Driver,15,0,je ne sais pas comment voir le résultat ,negativeSentence,positiveTone,relatedToProgramming_notRelatedToTask,askingForHelp
 16,1,3,Navigator,16,0,faut mettre print(coincide),positiveSentence,positiveTone,relatedToProgramming_relatedToTask,correctResponse
-17,1,3,Driver,17,0,essaye,imperativeSentence,positiveTone,notRelatedToProgramming_Other,howToProceed
+17,1,3,Driver,17,0,essaye,imperativeSentence,positiveTone,notRelatedToProgramming_Other,noFeedback
 18,1,3,Navigator,18,0,attend,positiveSentence,positiveTone,notRelatedToProgramming_Other,noFeedback
-19,1,3,Driver,19,0,je crois que c'est bon,positiveSentence,positiveTone,notRelatedToProgramming_Other,responseValidity
+19,1,3,Driver,19,0,je crois que c'est bon,positiveSentence,positiveTone,relatedToProgramming_relatedToTask,responseValidity
 20,1,3,Navigator,20,0,attend,positiveSentence,positiveTone,notRelatedToProgramming_Other,noFeedback
 21,1,3,Navigator,21,0,attend,positiveSentence,positiveTone,notRelatedToProgramming_Other,noFeedback
 22,1,4,Driver,22,0,Bonjour,positiveSentence,positiveTone,notRelatedToProgramming_Other,noFeedback
 23,1,4,Navigator,23,0,Bonjour,positiveSentence,positiveTone,notRelatedToProgramming_Other,noFeedback
-24,1,4,Driver,24,0,tu pense si je fais un for in in range avec un for j in range dedans ça peut marcher? ,question,positiveTone,relatedToProgramming_relatedToTask,askingForHelp
-25,1,4,Navigator,25,0,oui ,positiveSentence,positiveTone,notRelatedToProgramming_Other,responseValidity
+24,1,4,Driver,24,0,tu pense si je fais un for in in range avec un for j in range dedans ça peut marcher?,question,positiveTone,relatedToProgramming_relatedToTask,askingForHelp
+25,1,4,Navigator,25,0,oui,positiveSentence,positiveTone,notRelatedToProgramming_Other,responseValidity
 26,1,4,Driver,26,0,tu veux editer?,question,positiveTone,notRelatedToProgramming_relativeToRoles,askingForHelp
 27,1,4,Navigator,27,0,comme tu veux,positiveSentence,positiveTone,notRelatedToProgramming_Other,noFeedback
-28,1,4,Driver,28,0,je teste si ça marche pas on echange,positiveSentence,positiveTone,notRelatedToProgramming_relativeToRoles,howToProceed
-29,1,4,Navigator,29,0,vsy ,positiveSentence,positiveTone,notRelatedToProgramming_Other,noFeedback
+28,1,4,Driver,28,0,je teste si ça marche pas on echange,positiveSentence,positiveTone,notRelatedToProgramming_relativeToRoles,noFeedback
+29,1,4,Navigator,29,0,vsy,positiveSentence,positiveTone,notRelatedToProgramming_Other,noFeedback
 30,1,4,Navigator,30,0,"en vrai c'est pas mieux de faire un ""if len(a) != len(b)""",positiveSentence,positiveTone,relatedToProgramming_relatedToTask,taskKnowledge
 31,1,4,Driver,31,0,tu veux teste?,question,positiveTone,notRelatedToProgramming_relativeToRoles,askingForHelp
-32,1,4,Driver,32,0,demande l'édition,imperativeSentence,positiveTone,notRelatedToProgramming_relativeToRoles,askingForHelp
-33,1,4,Navigator,33,0,vsy je teste le code,positiveSentence,positiveTone,notRelatedToProgramming_Other,howToProceed
-34,1,4,Navigator,34,0,quand je teste le code il me disent y'a des erreurs de type,negativeSentence,negativeTone,relatedToProgramming_relatedToTask,errors
-35,1,4,Navigator,35,0,pour int,positiveSentence,positiveTone,relatedToProgramming_notRelatedToTask,noFeedback
-36,1,4,Navigator,36,0,je sais pas pk,negativeSentence,negativeTone,notRelatedToProgramming_Other,askingForHelp
-37,1,4,Driver,37,0,demande a éditer je te passe la main tu teste ce que tu as dis,positiveSentence,positiveTone,notRelatedToProgramming_relativeToRoles,howToProceed
+32,1,4,Driver,32,0,demande l'édition,positiveSentence,positiveTone,notRelatedToProgramming_relativeToRoles,askingForHelp
+33,1,4,Navigator,33,0,vsy je teste le code,positiveSentence,positiveTone,notRelatedToProgramming_Other,noFeedback
+34,1,4,Navigator,34,0,quand je teste le code il me disent y'a des erreurs de type,negativeSentence,positiveTone,relatedToProgramming_relatedToTask,errors
+35,1,4,Navigator,35,0,pour int,positiveSentence,positiveTone,relatedToProgramming_notRelatedToTask,conceptKnowledge
+36,1,4,Navigator,36,0,je sais pas pk,negativeSentence,positiveTone,notRelatedToProgramming_Other,noFeedback
+37,1,4,Driver,37,0,demande a éditer je te passe la main tu teste ce que tu as dis,positiveSentence,positiveTone,notRelatedToProgramming_relativeToRoles,askingForHelp
 38,1,4,Navigator,38,0,vsy je sauvegarde juste le ocde que t'a déja fait,positiveSentence,positiveTone,notRelatedToProgramming_Other,noFeedback
 39,1,4,Driver,39,0,ok,positiveSentence,positiveTone,notRelatedToProgramming_Other,noFeedback
-40,1,4,Driver,40,0,je supprime,positiveSentence,positiveTone,notRelatedToProgramming_relativeToRoles,howToProceed
+40,1,4,Driver,40,0,je supprime,positiveSentence,positiveTone,notRelatedToProgramming_Other,noFeedback
 41,1,4,Navigator,41,0,c bon t'as la main,positiveSentence,positiveTone,notRelatedToProgramming_relativeToRoles,noFeedback
-42,1,4,Driver,42,0,"je crois c'est bon , je suis pas sur",negativeSentence,negativeTone,notRelatedToProgramming_Other,askingForHelp
+42,1,4,Driver,42,0,"je crois c'est bon , je suis pas sur",positiveSentence,positiveTone,relatedToProgramming_relatedToTask,responseValidity
 43,1,4,Driver,43,0,tu peux tester?,question,positiveTone,notRelatedToProgramming_relativeToRoles,askingForHelp
-44,1,4,Navigator,44,0,il y a des erreurs sur plusieurs lignes mais le dernier j'ai pas,negativeSentence,negativeTone,relatedToProgramming_relatedToTask,errors
+44,1,4,Navigator,44,0,il y a des erreurs sur plusieurs lignes mais le dernier j'ai pas,negativeSentence,positiveTone,relatedToProgramming_relatedToTask,errors
 45,1,4,Navigator,45,0,sur le return positions,positiveSentence,positiveTone,relatedToProgramming_relatedToTask,taskKnowledge
-46,1,4,Navigator,46,0,on fini l'activité ducoup?,question,positiveTone,notRelatedToProgramming_Other,askingForHelp
+46,1,4,Navigator,46,0,on fini l'activité ducoup?,question,positiveTone,notRelatedToProgramming_Other,noFeedback

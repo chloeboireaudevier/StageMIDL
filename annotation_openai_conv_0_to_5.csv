@@ -1,6 +1,6 @@
 ,seance_ID,groupe_ID,role,messageID,utterance_num,message,forme,ton,content,nature
-0,np.int64(1),np.int64(0),Navigator,0,0,"Tu es qui ,",question,positiveTone,notRelatedToProgramming_Other,noFeedback
-1,np.int64(1),np.int64(0),Navigator,1,0,On se met 5 partout ok ?,question,positiveTone,notRelatedToProgramming_Other,noFeedback
+0,1,0,Navigator,0,0,"Tu es qui ,",question,positiveTone,notRelatedToProgramming_Other,noFeedback
+1,1,0,Navigator,1,0,On se met 5 partout ok ?,question,positiveTone,notRelatedToProgramming_Other,noFeedback
 2,np.int64(1),np.int64(1),Driver,2,0,Opé,positiveSentence,positiveTone,notRelatedToProgramming_Other,noFeedback
 3,np.int64(1),np.int64(1),Driver,3,0,Opé lmkt,positiveSentence,positiveTone,notRelatedToProgramming_Other,noFeedback
 4,np.int64(1),np.int64(1),Navigator,4,0,A PAR SA LE COUZ ,positiveSentence,positiveTone,notRelatedToProgramming_Other,noFeedback
@@ -9,13 +9,13 @@
 7,np.int64(1),np.int64(1),Navigator,7,0,A ou ,positiveSentence,positiveTone,notRelatedToProgramming_Other,noFeedback
 8,np.int64(1),np.int64(1),Navigator,8,0,Commencé ,positiveSentence,positiveTone,notRelatedToProgramming_Other,noFeedback
 9,np.int64(1),np.int64(1),Navigator,9,0,Comment nous fé la ,question,positiveTone,notRelatedToProgramming_Other,noFeedback
-10,np.int64(1),np.int64(1),Navigator,10,0,c'est kwé faut fait ,question,positiveTone,notRelatedToProgramming_Other,noFeedback
+10,np.int64(1),np.int64(1),Navigator,10,0,c'est kwé faut fait ,positiveSentence,positiveTone,notRelatedToProgramming_Other,noFeedback
 11,np.int64(1),np.int64(1),Navigator,11,0,Lève ton main un coup la ,imperativeSentence,positiveTone,notRelatedToProgramming_Other,noFeedback
 12,np.int64(1),np.int64(1),Navigator,12,0,aide a moins un coup la ,imperativeSentence,positiveTone,notRelatedToProgramming_Other,noFeedback
-13,np.int64(1),np.int64(2),Driver,13,0,roro,notRelatedToProgramming_Other,positiveTone,notRelatedToProgramming_Other,noFeedback
-14,np.int64(1),np.int64(2),Driver,14,0,Qui est là,question,positiveTone,notRelatedToProgramming_Other,noFeedback
+13,1,2,Driver,13,0,roro,positiveSentence,positiveTone,notRelatedToProgramming_Other,noFeedback
+14,1,2,Driver,14,0,Qui est là,question,positiveTone,notRelatedToProgramming_Other,noFeedback
 15,np.int64(1),np.int64(3),Driver,15,0,je ne sais pas comment voir le résultat ,negativeSentence,positiveTone,notRelatedToProgramming_Other,noFeedback
-16,np.int64(1),np.int64(3),Navigator,16,0,faut mettre print(coincide),positiveSentence,positiveTone,relatedToProgramming_relatedToTask,correctResponse
+16,np.int64(1),np.int64(3),Navigator,16,0,faut mettre print(coincide),imperativeSentence,positiveTone,relatedToProgramming_relatedToTask,correctResponse
 17,np.int64(1),np.int64(3),Driver,17,0,essaye,imperativeSentence,positiveTone,notRelatedToProgramming_Other,noFeedback
 18,np.int64(1),np.int64(3),Navigator,18,0,attend,imperativeSentence,positiveTone,notRelatedToProgramming_Other,noFeedback
 19,np.int64(1),np.int64(3),Driver,19,0,je crois que c'est bon,positiveSentence,positiveTone,notRelatedToProgramming_Other,responseValidity
@@ -37,12 +37,12 @@
 35,np.int64(1),np.int64(4),Navigator,35,0,pour int,positiveSentence,positiveTone,notRelatedToProgramming_Other,noFeedback
 36,np.int64(1),np.int64(4),Navigator,36,0,je sais pas pk,negativeSentence,positiveTone,notRelatedToProgramming_Other,noFeedback
 37,np.int64(1),np.int64(4),Driver,37,0,demande a éditer je te passe la main tu teste ce que tu as dis,imperativeSentence,positiveTone,notRelatedToProgramming_relativeToRoles,noFeedback
-38,np.int64(1),np.int64(4),Navigator,38,0,vsy je sauvegarde juste le ocde que t'a déja fait,positiveSentence,positiveTone,relatedToProgramming_notRelatedToTask,noFeedback
+38,np.int64(1),np.int64(4),Navigator,38,0,vsy je sauvegarde juste le ocde que t'a déja fait,positiveSentence,positiveTone,relatedToProgramming_relatedToTask,noFeedback
 39,np.int64(1),np.int64(4),Driver,39,0,ok,positiveSentence,positiveTone,notRelatedToProgramming_Other,noFeedback
-40,np.int64(1),np.int64(4),Driver,40,0,je supprime,positiveSentence,positiveTone,notRelatedToProgramming_Other,noFeedback
+40,np.int64(1),np.int64(4),Driver,40,0,je supprime,positiveSentence,positiveTone,relatedToProgramming_relatedToTask,noFeedback
 41,np.int64(1),np.int64(4),Navigator,41,0,c bon t'as la main,positiveSentence,positiveTone,notRelatedToProgramming_relativeToRoles,noFeedback
-42,np.int64(1),np.int64(4),Driver,42,0,"je crois c'est bon , je suis pas sur",positiveSentence,positiveTone,notRelatedToProgramming_Other,responseValidity
+42,np.int64(1),np.int64(4),Driver,42,0,"je crois c'est bon , je suis pas sur",positiveSentence,positiveTone,notRelatedToProgramming_Other,noFeedback
 43,np.int64(1),np.int64(4),Driver,43,0,tu peux tester?,question,positiveTone,notRelatedToProgramming_relativeToRoles,noFeedback
 44,np.int64(1),np.int64(4),Navigator,44,0,il y a des erreurs sur plusieurs lignes mais le dernier j'ai pas,positiveSentence,positiveTone,relatedToProgramming_relatedToTask,errors
-45,np.int64(1),np.int64(4),Navigator,45,0,sur le return positions,positiveSentence,positiveTone,relatedToProgramming_relatedToTask,noFeedback
+45,np.int64(1),np.int64(4),Navigator,45,0,sur le return positions,positiveSentence,positiveTone,relatedToProgramming_relatedToTask,errors
 46,np.int64(1),np.int64(4),Navigator,46,0,on fini l'activité ducoup?,question,positiveTone,notRelatedToProgramming_Other,noFeedback
