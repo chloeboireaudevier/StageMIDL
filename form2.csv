@@ -1,94 +1,48 @@
-,seance_ID,groupe_ID,role,messageID,utterance_num,message,forme,ton,content,nature,formv2
-0,1,4,Driver,24,0,tu pense si je fais un for in in range avec un for j in range dedans ?a peut marcher? ,negativeSentence,positiveTone,relatedToProgramming_relatedToTask,askingForHelp,question
-1,1,4,Navigator,30,0,"en vrai c'est pas mieux de faire un ""if len(a) != len(b)""",positiveSentence,positiveTone,relatedToProgramming_relatedToTask,correctResponse,neutral
-2,1,4,Navigator,34,0,quand je teste le code il me disent y'a des erreurs de type,positiveSentence,negativeTone,notRelatedToProgramming_Other,errors,neutral
-3,1,4,Navigator,56,0,"def coincide(tableau1, tableau2):     # On s'assure que les deux tableaux ont la m?me longueur     if len(tableau1) != len(tableau2):         return []      # On cr?e un tableau vide pour stocker les indices o? les ?l?ments sont identiques     result = []          # On parcourt les deux tableaux et on compare les ?l?ments     for i in range(len(tableau1)):         if tableau1[i] == tableau2[i]:             result.append(i)      return result  # Exemples d'utilisation : print(coincide([78, 23, 12, 12, 54, 32], [67, 23, 44, 12, 54, 32]))  # [1, 3, 4, 5] print(coincide([""antoine"", ""isaac"", ""denis""], [""jeanne"", ""sofiane"", ""lise""]))  # []",positiveSentence,positiveTone,relatedToProgramming_relatedToTask,taskKnowledge,neutral
-4,1,4,Navigator,73,0,ta pas besoin du return  [],positiveSentence,positiveTone,relatedToProgramming_relatedToTask,correctResponse,neutral
-5,1,4,Navigator,75,0,c'est ok ,positiveSentence,positiveTone,notRelatedToProgramming_Other,noFeedback,neutral
-6,1,4,Navigator,82,0,et la ta compris un peu le contexte ? ,question,positiveTone,notRelatedToProgramming_relativeToRoles,askingForHelp,question
-7,1,4,Driver,83,0,je sais qu''il faut impl?menter le tableau pour l'utiliser dans la fonction coincide,positiveSentence,positiveTone,relatedToProgramming_relatedToTask,taskKnowledge,neutral
-8,1,4,Driver,134,0,j'essaye encore,positiveSentence,positiveTone,notRelatedToProgramming_Other,noFeedback,neutral
-9,1,4,Navigator,161,0,Utilise append pour ajouter un ?l?ment dans une liste,imperativeSentence,positiveTone,relatedToProgramming_relatedToTask,correctResponse,neutral
-10,1,4,Navigator,175,0,commence gros ou laisse moi la main,positiveSentence,positiveTone,notRelatedToProgramming_relativeToRoles,askingForHelp,neutral
-11,1,4,Navigator,179,0,mais il faut que l'on parcours les deux tableaux ,positiveSentence,positiveTone,relatedToProgramming_relatedToTask,taskKnowledge,neutral
-12,1,4,Navigator,180,0,et tu as raison pour le tableau vide,positiveSentence,positiveTone,relatedToProgramming_relatedToTask,correctResponse,neutral
-13,1,4,Navigator,203,0,il faudrait que 'on prenne l'indice,positiveSentence,positiveTone,relatedToProgramming_relatedToTask,taskKnowledge,neutral
-14,1,4,Navigator,205,0,et qu'il soit mis dans egal,positiveSentence,positiveTone,relatedToProgramming_relatedToTask,taskKnowledge,neutral
-15,1,4,Driver,244,0,le True et le False c'est pour dire que ils sont ?gaux ?,positiveSentence,positiveTone,relatedToProgramming_notRelatedToTask,conceptKnowledge,neutral
-16,1,4,Driver,245,0,si ils sont egaux ou pas,question,positiveTone,relatedToProgramming_notRelatedToTask,askingForHelp,question
-17,1,4,Navigator,246,0,"Non cest la r?ponse quil va renvoyer, True ils sont les m?me nombre d?l?ments, False : il nont pas le m?me nombre",positiveSentence,positiveTone,relatedToProgramming_notRelatedToTask,conceptKnowledge,neutral
-18,1,4,Navigator,262,0,faut mettre la longueur du tableau noramlement ,positiveSentence,positiveTone,relatedToProgramming_relatedToTask,taskKnowledge,neutral
-19,1,4,Navigator,264,0,oui je pense mais il y'a aussi le truc de la position,positiveSentence,positiveTone,relatedToProgramming_relatedToTask,taskKnowledge,neutral
-20,1,4,Navigator,267,0,il faut mettre le (i) a coter d'append,positiveSentence,positiveTone,relatedToProgramming_relatedToTask,correctResponse,neutral
-21,1,4,Navigator,298,0,"for i in range(0,len(list_1) : ?",positiveSentence,positiveTone,relatedToProgramming_relatedToTask,taskKnowledge,neutral
-22,1,4,Navigator,316,0,enleve le ? entre 67 et 23 dans la deuxi?me liste,imperativeSentence,positiveTone,relatedToProgramming_relatedToTask,correctResponse,neutral
-23,1,4,Driver,345,0,Tu peux prendre la main si tu veux,positiveSentence,positiveTone,notRelatedToProgramming_relativeToRoles,askingForHelp,neutral
-24,1,4,Navigator,377,0,je crois qu'il faut d?finir une fonction coincide,positiveSentence,positiveTone,relatedToProgramming_relatedToTask,taskKnowledge,neutral
-25,1,4,Navigator,380,0,bah commence par ?crire def coincide (....,positiveSentence,positiveTone,relatedToProgramming_relatedToTask,taskKnowledge,neutral
-26,1,4,Driver,429,0,line 4 apparement mais je crois qu'il faut juste que j'utilise des [] a la place de (),positiveSentence,positiveTone,relatedToProgramming_relatedToTask,askingForHelp,neutral
-27,1,4,Navigator,1398,0,"il faudra regarder aussi si I et d?rri?re un X , un V ou un M et donc on -1",positiveSentence,positiveTone,relatedToProgramming_relatedToTask,taskKnowledge,neutral
-28,1,4,Navigator,1400,0,en arg un string et ton dictionnaire ,positiveSentence,positiveTone,relatedToProgramming_relatedToTask,taskKnowledge,neutral
-29,1,4,Navigator,1401,0,donc une double boucle et rouler jeunesse,positiveSentence,positiveTone,relatedToProgramming_relatedToTask,taskKnowledge,neutral
-30,1,4,Driver,1405,0,alors mon chef les arguments sont foireux ,positiveSentence,negativeTone,notRelatedToProgramming_Other,errors,neutral
-31,1,4,Navigator,1433,0,Y a pas la valeur D dans le dic,positiveSentence,positiveTone,relatedToProgramming_notRelatedToTask,conceptKnowledge,neutral
-32,1,4,Driver,1497,0,jusque la je pense que tableau va contenir les encadreurs qui se trouve dans la chaine,positiveSentence,positiveTone,relatedToProgramming_relatedToTask,taskKnowledge,neutral
-33,1,4,Driver,1500,0,"normalement le dernier ouvrant correspond au premier fermant, je me demande s'il faudrait pas un dict?",positiveSentence,positiveTone,relatedToProgramming_relatedToTask,askingForHelp,neutral
-34,1,4,Navigator,1512,0,"> bien_parenthesee(""(2 + 4) * 7"") Traceback (most recent call last):   File ""<console>"", line 1, in <module>   File ""<exec>"", line 11, in bien_parenthesee TypeError: 'str' object is not callable",positiveSentence,negativeTone,notRelatedToProgramming_Other,errors,neutral
-35,1,4,Navigator,1517,0,pour le premiere exemple c'est bon ?a r?pond true,positiveSentence,positiveTone,relatedToProgramming_relatedToTask,responseValidity,neutral
-36,1,4,Navigator,1518,0,mais pour ce qui sont faux il rpond aussi True,positiveSentence,negativeTone,relatedToProgramming_relatedToTask,errors,neutral
-37,1,4,Navigator,1522,0,c'est deux points dans un dictionnaire pas ?gale,positiveSentence,positiveTone,relatedToProgramming_notRelatedToTask,conceptKnowledge,neutral
-38,1,4,Navigator,1528,0,en fait je veux mettre les valeurs de chaque lettre dans le tableau valeurs et ensuite je calcule le r?sultat en manipulant les ?l?ments du tableau ,positiveSentence,positiveTone,relatedToProgramming_relatedToTask,taskKnowledge,neutral
-39,1,4,Driver,1529,0,tu dois s?parer les ?l?ment de la chaine et la fonction qui permet sa je crois c sprace(),positiveSentence,positiveTone,relatedToProgramming_relatedToTask,taskKnowledge,neutral
-40,1,4,Navigator,1675,0,Faut regard? si y'a un cl? avec une valeur n?gative,positiveSentence,positiveTone,relatedToProgramming_relatedToTask,taskKnowledge,neutral
-41,1,4,Navigator,1677,0,une cl? avec une valeur diff?rent de 0,positiveSentence,positiveTone,relatedToProgramming_relatedToTask,taskKnowledge,neutral
-42,1,4,Navigator,1678,0,prcq ouvrant fermant ?a s'annule,positiveSentence,positiveTone,relatedToProgramming_relatedToTask,conceptKnowledge,neutral
-43,1,4,Navigator,1681,0,tu vois quand y'aa un ouvrant on fait +1,positiveSentence,positiveTone,relatedToProgramming_relatedToTask,conceptKnowledge,neutral
-44,1,4,Navigator,1692,0,for e in syntaxe.values():,positiveSentence,positiveTone,relatedToProgramming_relatedToTask,taskKnowledge,neutral
-45,1,4,Navigator,1713,0,D?finir un dictionnaire pour associer les d?limiteurs ouvrants et fermants par le variable paire ,positiveSentence,positiveTone,relatedToProgramming_relatedToTask,taskKnowledge,neutral
-46,1,4,Navigator,1760,0,"T'as mis totol, return tatol",positiveSentence,negativeTone,notRelatedToProgramming_Other,errors,neutral
-47,1,4,/,9999,0,Tu fais un while et dedans tu incrementes,positiveSentence,positiveTone,notRelatedToProgramming_Other,motivationnalFeedback,neutral
-48,1,1,Driver,2,0,Opé,positiveSentence,positiveTone,notRelatedToProgramming_Other,noFeedback,neutral
-49,1,1,Driver,3,0,Opé lmkt,positiveSentence,positiveTone,notRelatedToProgramming_Other,noFeedback,neutral
-50,1,1,Navigator,4,0,A PAR SA LE COUZ ,positiveSentence,positiveTone,notRelatedToProgramming_Other,noFeedback,neutral
-51,1,1,Navigator,5,0,Opé ,positiveSentence,positiveTone,notRelatedToProgramming_Other,noFeedback,neutral
-52,1,1,Navigator,6,0,Ou lé jolie ? ,question,positiveTone,notRelatedToProgramming_Other,noFeedback,neutral
-53,1,1,Navigator,7,0,A ou ,positiveSentence,positiveTone,notRelatedToProgramming_Other,noFeedback,neutral
-54,1,1,Navigator,8,0,Commencé ,positiveSentence,positiveTone,notRelatedToProgramming_Other,noFeedback,neutral
-55,1,1,Navigator,9,0,Comment nous fé la ,question,positiveTone,notRelatedToProgramming_Other,noFeedback,neutral
-56,1,1,Navigator,10,0,c'est kwé faut fait ,positiveSentence,positiveTone,notRelatedToProgramming_Other,noFeedback,neutral
-57,1,1,Navigator,11,0,Lève ton main un coup la ,positiveSentence,positiveTone,notRelatedToProgramming_Other,noFeedback,neutral
-58,1,1,Navigator,12,0,aide a moins un coup la ,positiveSentence,positiveTone,notRelatedToProgramming_Other,noFeedback,neutral
-59,1,2,Driver,13,0,roro,positiveSentence,positiveTone,notRelatedToProgramming_Other,noFeedback,neutral
-60,1,2,Driver,14,0,Qui est là,question,positiveTone,notRelatedToProgramming_Other,noFeedback,question
-61,1,3,Driver,15,0,je ne sais pas comment voir le résultat ,negativeSentence,positiveTone,notRelatedToProgramming_Other,askingForHelp,neutral
-62,1,3,Navigator,16,0,faut mettre print(coincide),positiveSentence,positiveTone,relatedToProgramming_relatedToTask,correctResponse,neutral
-63,1,3,Driver,17,0,essaye,positiveSentence,positiveTone,notRelatedToProgramming_Other,howToProceed,imperativeSentence
-64,1,3,Navigator,18,0,attend,positiveSentence,positiveTone,notRelatedToProgramming_Other,noFeedback,neutral
-65,1,3,Driver,19,0,je crois que c'est bon,positiveSentence,positiveTone,notRelatedToProgramming_Other,responseValidity,neutral
-66,1,3,Navigator,20,0,attend,positiveSentence,positiveTone,notRelatedToProgramming_Other,noFeedback,neutral
-67,1,3,Navigator,21,0,attend,positiveSentence,positiveTone,notRelatedToProgramming_Other,noFeedback,neutral
-68,1,4,Driver,22,0,Bonjour,positiveSentence,positiveTone,notRelatedToProgramming_Other,noFeedback,neutral
-69,1,4,Navigator,23,0,Bonjour,positiveSentence,positiveTone,notRelatedToProgramming_Other,noFeedback,neutral
-70,1,4,Driver,24,1,tu pense si je fais un for in in range avec un for j in range dedans ça peut marcher? ,question,positiveTone,relatedToProgramming_relatedToTask,askingForHelp,question
-71,1,4,Navigator,25,0,oui ,positiveSentence,positiveTone,notRelatedToProgramming_Other,noFeedback,neutral
-72,1,4,Driver,26,0,tu veux editer?,question,positiveTone,notRelatedToProgramming_relativeToRoles,askingForHelp,question
-73,1,4,Navigator,27,0,comme tu veux,positiveSentence,positiveTone,notRelatedToProgramming_Other,noFeedback,neutral
-74,1,4,Driver,28,0,je teste si ça marche pas on echange,positiveSentence,positiveTone,notRelatedToProgramming_relativeToRoles,noFeedback,neutral
-75,1,4,Navigator,29,0,vsy ,positiveSentence,positiveTone,notRelatedToProgramming_Other,noFeedback,neutral
-76,1,4,Navigator,30,1,"en vrai c'est pas mieux de faire un ""if len(a) != len(b)""",positiveSentence,positiveTone,relatedToProgramming_relatedToTask,correctResponse,neutral
-77,1,4,Driver,31,0,tu veux teste?,question,positiveTone,notRelatedToProgramming_relativeToRoles,askingForHelp,question
-78,1,4,Driver,32,0,demande l'édition,positiveSentence,positiveTone,notRelatedToProgramming_relativeToRoles,askingForHelp,neutral
-79,1,4,Navigator,33,0,vsy je teste le code,positiveSentence,positiveTone,notRelatedToProgramming_Other,noFeedback,neutral
-80,1,4,Navigator,34,1,quand je teste le code il me disent y'a des erreurs de type,negativeSentence,negativeTone,relatedToProgramming_notRelatedToTask,errors,neutral
-81,1,4,Navigator,35,0,pour int,positiveSentence,positiveTone,notRelatedToProgramming_Other,noFeedback,neutral
-82,1,4,Navigator,36,0,je sais pas pk,negativeSentence,negativeTone,notRelatedToProgramming_Other,noFeedback,neutral
-83,1,4,Driver,37,0,demande a éditer je te passe la main tu teste ce que tu as dis,positiveSentence,positiveTone,notRelatedToProgramming_relativeToRoles,askingForHelp,neutral
-84,1,4,Navigator,38,0,vsy je sauvegarde juste le ocde que t'a déja fait,positiveSentence,positiveTone,notRelatedToProgramming_Other,noFeedback,neutral
-85,1,4,Driver,39,0,ok,positiveSentence,positiveTone,notRelatedToProgramming_Other,noFeedback,neutral
-86,1,4,Driver,40,0,je supprime,positiveSentence,positiveTone,notRelatedToProgramming_Other,noFeedback,neutral
-87,1,4,Navigator,41,0,c bon t'as la main,positiveSentence,positiveTone,notRelatedToProgramming_relativeToRoles,noFeedback,neutral
-88,1,4,Driver,42,0,"je crois c'est bon , je suis pas sur",negativeSentence,negativeTone,relatedToProgramming_relatedToTask,responseValidity,neutral
-89,1,4,Driver,43,0,tu peux tester?,question,positiveTone,notRelatedToProgramming_relativeToRoles,askingForHelp,question
-90,1,4,Navigator,44,0,il y a des erreurs sur plusieurs lignes mais le dernier j'ai pas,negativeSentence,negativeTone,relatedToProgramming_notRelatedToTask,errors,neutral
-91,1,4,Navigator,45,0,sur le return positions,positiveSentence,positiveTone,relatedToProgramming_notRelatedToTask,taskKnowledge,neutral
-92,1,4,Navigator,46,0,on fini l'activité ducoup?,question,positiveTone,notRelatedToProgramming_Other,noFeedback,question
+,seance_ID,groupe_ID,file_ID,role,messageID,utterance_num,message,forme,ton,content,nature,formv2
+0,1,0,023a3090-7b0a-48c4-93f0-c200d9afce41,Navigator,0,0,"Tu es qui ,",question,neutral,notRelatedToProgramming_Other,askingForHelp,question
+1,1,0,023a3090-7b0a-48c4-93f0-c200d9afce41,Navigator,1,0,On se met 5 partout ok ?,positiveSentence,positiveTone,notRelatedToProgramming_Other,noFeedback,neutral
+2,1,1,0435458c-dc49-4094-b970-1db125fc235c,Driver,2,0,Opé,positiveSentence,positiveTone,notRelatedToProgramming_Other,noFeedback,neutral
+3,1,1,0435458c-dc49-4094-b970-1db125fc235c,Driver,3,0,Opé lmkt,positiveSentence,positiveTone,notRelatedToProgramming_Other,noFeedback,neutral
+4,1,1,0435458c-dc49-4094-b970-1db125fc235c,Navigator,4,0,A PAR SA LE COUZ ,positiveSentence,negativeTone,notRelatedToProgramming_Other,noFeedback,neutral
+5,1,1,0435458c-dc49-4094-b970-1db125fc235c,Navigator,5,0,Opé ,positiveSentence,positiveTone,notRelatedToProgramming_Other,noFeedback,neutral
+6,1,1,0435458c-dc49-4094-b970-1db125fc235c,Navigator,6,0,Ou lé jolie ? ,question,positiveTone,notRelatedToProgramming_Other,noFeedback,neutral
+7,1,1,0435458c-dc49-4094-b970-1db125fc235c,Navigator,7,0,A ou ,positiveSentence,positiveTone,notRelatedToProgramming_Other,noFeedback,neutral
+8,1,1,0435458c-dc49-4094-b970-1db125fc235c,Navigator,8,0,Commencé ,positiveSentence,positiveTone,notRelatedToProgramming_Other,noFeedback,neutral
+9,1,1,0435458c-dc49-4094-b970-1db125fc235c,Navigator,9,0,Comment nous fé la ,question,positiveTone,notRelatedToProgramming_Other,noFeedback,neutral
+10,1,1,0435458c-dc49-4094-b970-1db125fc235c,Navigator,10,0,c'est kwé faut fait ,positiveSentence,positiveTone,notRelatedToProgramming_Other,noFeedback,neutral
+11,1,1,0435458c-dc49-4094-b970-1db125fc235c,Navigator,11,0,Lève ton main un coup la ,imperativeSentence,positiveTone,notRelatedToProgramming_Other,noFeedback,neutral
+12,1,1,0435458c-dc49-4094-b970-1db125fc235c,Navigator,12,0,aide a moins un coup la ,positiveSentence,positiveTone,notRelatedToProgramming_Other,noFeedback,neutral
+13,1,2,0dfd43cb-9957-4102-954a-899ca075e56d,Driver,13,0,roro,neutral,positiveTone,notRelatedToProgramming_Other,noFeedback,neutral
+14,1,2,0dfd43cb-9957-4102-954a-899ca075e56d,Driver,14,0,Qui est là,question,positiveTone,notRelatedToProgramming_Other,askingForHelp,question
+15,1,3,1869acdd-5df3-4c97-8bbd-5108569203eb,Driver,15,0,je ne sais pas comment voir le résultat ,negativeSentence,neutral,relatedToProgramming_notRelatedToTask,askingForHelp,neutral
+16,1,3,1869acdd-5df3-4c97-8bbd-5108569203eb,Navigator,16,0,faut mettre print(coincide),positiveSentence,positiveTone,relatedToProgramming_relatedToTask,correctResponse,neutral
+17,1,3,1869acdd-5df3-4c97-8bbd-5108569203eb,Driver,17,0,essaye,imperativeSentence,positiveTone,notRelatedToProgramming_Other,noFeedback,neutral
+18,1,3,1869acdd-5df3-4c97-8bbd-5108569203eb,Navigator,18,0,attend,positiveSentence,neutral,notRelatedToProgramming_Other,noFeedback,neutral
+19,1,3,1869acdd-5df3-4c97-8bbd-5108569203eb,Driver,19,0,je crois que c'est bon,positiveSentence,positiveTone,notRelatedToProgramming_Other,noFeedback,neutral
+20,1,3,1869acdd-5df3-4c97-8bbd-5108569203eb,Navigator,20,0,attend,positiveSentence,neutral,notRelatedToProgramming_Other,noFeedback,neutral
+21,1,3,1869acdd-5df3-4c97-8bbd-5108569203eb,Navigator,21,0,attend,positiveSentence,neutral,notRelatedToProgramming_Other,noFeedback,neutral
+22,1,4,1db9dee2-2702-457f-aa07-6b60589446ce,Driver,22,0,Bonjour,positiveSentence,positiveTone,notRelatedToProgramming_Other,noFeedback,neutral
+23,1,4,1db9dee2-2702-457f-aa07-6b60589446ce,Navigator,23,0,Bonjour,positiveSentence,positiveTone,notRelatedToProgramming_Other,noFeedback,neutral
+24,1,4,1db9dee2-2702-457f-aa07-6b60589446ce,Driver,24,0,tu pense si je fais un for in in range avec un for j in range dedans ça peut marcher? ,question,neutral,relatedToProgramming_relatedToTask,askingForHelp,question
+25,1,4,1db9dee2-2702-457f-aa07-6b60589446ce,Navigator,25,0,oui ,positiveSentence,positiveTone,notRelatedToProgramming_Other,noFeedback,neutral
+26,1,4,1db9dee2-2702-457f-aa07-6b60589446ce,Driver,26,0,tu veux editer?,question,neutral,notRelatedToProgramming_Other,askingForHelp,question
+27,1,4,1db9dee2-2702-457f-aa07-6b60589446ce,Navigator,27,0,comme tu veux,positiveSentence,positiveTone,notRelatedToProgramming_Other,noFeedback,neutral
+28,1,4,1db9dee2-2702-457f-aa07-6b60589446ce,Driver,28,0,je teste si ça marche pas on echange,positiveSentence,positiveTone,notRelatedToProgramming_Other,noFeedback,neutral
+29,1,4,1db9dee2-2702-457f-aa07-6b60589446ce,Navigator,29,0,vsy ,positiveSentence,positiveTone,notRelatedToProgramming_Other,noFeedback,neutral
+30,1,4,1db9dee2-2702-457f-aa07-6b60589446ce,Navigator,30,0,"en vrai c'est pas mieux de faire un ""if len(a) != len(b)""",positiveSentence,positiveTone,relatedToProgramming_relatedToTask,correctResponse,neutral
+31,1,4,1db9dee2-2702-457f-aa07-6b60589446ce,Driver,31,0,tu veux teste?,question,neutral,notRelatedToProgramming_Other,askingForHelp,question
+32,1,4,1db9dee2-2702-457f-aa07-6b60589446ce,Driver,32,0,demande l'édition,imperativeSentence,neutral,notRelatedToProgramming_Other,askingForHelp,imperativeSentence
+33,1,4,1db9dee2-2702-457f-aa07-6b60589446ce,Navigator,33,0,vsy je teste le code,positiveSentence,positiveTone,notRelatedToProgramming_Other,noFeedback,neutral
+34,1,4,1db9dee2-2702-457f-aa07-6b60589446ce,Navigator,34,0,quand je teste le code il me disent y'a des erreurs de type,negativeSentence,neutral,relatedToProgramming_notRelatedToTask,errors,neutral
+35,1,4,1db9dee2-2702-457f-aa07-6b60589446ce,Navigator,35,0,pour int,positiveSentence,neutral,relatedToProgramming_notRelatedToTask,taskKnowledge,neutral
+36,1,4,1db9dee2-2702-457f-aa07-6b60589446ce,Navigator,36,0,je sais pas pk,negativeSentence,neutral,notRelatedToProgramming_Other,noFeedback,neutral
+37,1,4,1db9dee2-2702-457f-aa07-6b60589446ce,Driver,37,0,demande a éditer je te passe la main tu teste ce que tu as dis,positiveSentence,positiveTone,notRelatedToProgramming_Other,askingForHelp,neutral
+38,1,4,1db9dee2-2702-457f-aa07-6b60589446ce,Navigator,38,0,vsy je sauvegarde juste le ocde que t'a déja fait,positiveSentence,positiveTone,notRelatedToProgramming_Other,noFeedback,neutral
+39,1,4,1db9dee2-2702-457f-aa07-6b60589446ce,Driver,39,0,ok,positiveSentence,positiveTone,notRelatedToProgramming_Other,noFeedback,neutral
+40,1,4,1db9dee2-2702-457f-aa07-6b60589446ce,Driver,40,0,je supprime,positiveSentence,neutral,notRelatedToProgramming_Other,noFeedback,neutral
+41,1,4,1db9dee2-2702-457f-aa07-6b60589446ce,Navigator,41,0,c bon t'as la main,positiveSentence,positiveTone,notRelatedToProgramming_Other,noFeedback,neutral
+42,1,4,1db9dee2-2702-457f-aa07-6b60589446ce,Driver,42,0,"je crois c'est bon , je suis pas sur",negativeSentence,neutral,notRelatedToProgramming_Other,noFeedback,neutral
+43,1,4,1db9dee2-2702-457f-aa07-6b60589446ce,Driver,43,0,tu peux tester?,question,neutral,notRelatedToProgramming_Other,askingForHelp,question
+44,1,4,1db9dee2-2702-457f-aa07-6b60589446ce,Navigator,44,0,il y a des erreurs sur plusieurs lignes mais le dernier j'ai pas,negativeSentence,neutral,relatedToProgramming_notRelatedToTask,errors,neutral
+45,1,4,1db9dee2-2702-457f-aa07-6b60589446ce,Navigator,45,0,sur le return positions,positiveSentence,neutral,relatedToProgramming_notRelatedToTask,taskKnowledge,neutral
+46,1,4,1db9dee2-2702-457f-aa07-6b60589446ce,Navigator,46,0,on fini l'activité ducoup?,question,neutral,notRelatedToProgramming_Other,askingForHelp,question
