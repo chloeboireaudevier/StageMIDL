@@ -5,15 +5,7 @@
       "message_num": -1,
       "utterances": [
         {
-          "forme": "instruction"
-        }
-      ]
-    },
-    {
-      "message_num": 24,
-      "utterances": [
-        {
-          "forme": "explication"
+          "forme": "proposition_conseil"
         }
       ]
     },
@@ -21,7 +13,7 @@
       "message_num": 34,
       "utterances": [
         {
-          "forme": "explication"
+          "forme": "proposition_validation"
         }
       ]
     },
@@ -29,23 +21,7 @@
       "message_num": 56,
       "utterances": [
         {
-          "forme": "instruction"
-        }
-      ]
-    },
-    {
-      "message_num": 83,
-      "utterances": [
-        {
-          "forme": "explication"
-        }
-      ]
-    },
-    {
-      "message_num": 161,
-      "utterances": [
-        {
-          "forme": "instruction"
+          "forme": "proposition_conseil"
         }
       ]
     },
@@ -53,7 +29,7 @@
       "message_num": 179,
       "utterances": [
         {
-          "forme": "instruction"
+          "forme": "proposition_conseil"
         }
       ]
     },
@@ -61,31 +37,31 @@
       "message_num": 180,
       "utterances": [
         {
-          "forme": "validation"
+          "forme": "proposition_validation"
         }
       ]
     },
     {
-      "message_num": 244,
+      "message_num": 203,
       "utterances": [
         {
-          "forme": "explication"
+          "forme": "proposition_conseil"
         }
       ]
     },
     {
-      "message_num": 245,
+      "message_num": 205,
       "utterances": [
         {
-          "forme": "explication"
+          "forme": "proposition_conseil"
         }
       ]
     },
     {
-      "message_num": 246,
+      "message_num": 262,
       "utterances": [
         {
-          "forme": "explication"
+          "forme": "proposition_conseil"
         }
       ]
     },
@@ -93,15 +69,7 @@
       "message_num": 267,
       "utterances": [
         {
-          "forme": "instruction"
-        }
-      ]
-    },
-    {
-      "message_num": 298,
-      "utterances": [
-        {
-          "forme": "instruction"
+          "forme": "proposition_conseil"
         }
       ]
     },
@@ -109,7 +77,7 @@
       "message_num": 316,
       "utterances": [
         {
-          "forme": "instruction"
+          "forme": "proposition_conseil"
         }
       ]
     },
@@ -117,7 +85,7 @@
       "message_num": 377,
       "utterances": [
         {
-          "forme": "explication"
+          "forme": "proposition_conseil"
         }
       ]
     },
@@ -125,15 +93,7 @@
       "message_num": 380,
       "utterances": [
         {
-          "forme": "instruction"
-        }
-      ]
-    },
-    {
-      "message_num": 429,
-      "utterances": [
-        {
-          "forme": "explication"
+          "forme": "proposition_conseil"
         }
       ]
     },
@@ -141,7 +101,7 @@
       "message_num": 1398,
       "utterances": [
         {
-          "forme": "explication"
+          "forme": "proposition_conseil"
         }
       ]
     },
@@ -149,7 +109,7 @@
       "message_num": 1400,
       "utterances": [
         {
-          "forme": "instruction"
+          "forme": "proposition_conseil"
         }
       ]
     },
@@ -157,31 +117,7 @@
       "message_num": 1405,
       "utterances": [
         {
-          "forme": "explication"
-        }
-      ]
-    },
-    {
-      "message_num": 1433,
-      "utterances": [
-        {
-          "forme": "explication"
-        }
-      ]
-    },
-    {
-      "message_num": 1497,
-      "utterances": [
-        {
-          "forme": "explication"
-        }
-      ]
-    },
-    {
-      "message_num": 1500,
-      "utterances": [
-        {
-          "forme": "explication"
+          "forme": "proposition_validation"
         }
       ]
     },
@@ -189,7 +125,23 @@
       "message_num": 1517,
       "utterances": [
         {
-          "forme": "validation"
+          "forme": "proposition_validation"
+        }
+      ]
+    },
+    {
+      "message_num": 1518,
+      "utterances": [
+        {
+          "forme": "proposition_validation"
+        }
+      ]
+    },
+    {
+      "message_num": 1522,
+      "utterances": [
+        {
+          "forme": "proposition_conseil"
         }
       ]
     },
@@ -197,7 +149,7 @@
       "message_num": 1528,
       "utterances": [
         {
-          "forme": "explication"
+          "forme": "proposition_conseil"
         }
       ]
     },
@@ -205,23 +157,23 @@
       "message_num": 1529,
       "utterances": [
         {
-          "forme": "instruction"
+          "forme": "proposition_conseil"
         }
       ]
     },
     {
-      "message_num": 1678,
+      "message_num": 1675,
       "utterances": [
         {
-          "forme": "explication"
+          "forme": "proposition_conseil"
         }
       ]
     },
     {
-      "message_num": 1681,
+      "message_num": 1677,
       "utterances": [
         {
-          "forme": "explication"
+          "forme": "proposition_conseil"
         }
       ]
     },
@@ -229,15 +181,15 @@
       "message_num": 1692,
       "utterances": [
         {
-          "forme": "instruction"
+          "forme": "proposition_conseil"
         }
       ]
     },
     {
-      "message_num": 1760,
+      "message_num": 1713,
       "utterances": [
         {
-          "forme": "explication"
+          "forme": "proposition_conseil"
         }
       ]
     }
