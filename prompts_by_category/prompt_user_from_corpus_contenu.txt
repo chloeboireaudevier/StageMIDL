@@ -1,0 +1,176 @@
+{
+  "seance_ID": 1,
+  "groupe_ID": 4,
+  "conversation": [
+    {
+      "messageID": -1,
+      "role": "TEST",
+      "message": "Tu fais un while et dedans tu incrementes"
+    },
+    {
+      "messageID": 24,
+      "role": "Driver",
+      "message": "tu pense si je fais un for in in range avec un for j in range dedans ï¿½a peut marcher? "
+    },
+    {
+      "messageID": 30,
+      "role": "Navigator",
+      "message": "en vrai c'est pas mieux de faire un \"if len(a) != len(b)\""
+    },
+    {
+      "messageID": 34,
+      "role": "Navigator",
+      "message": "quand je teste le code il me disent y'a des erreurs de type"
+    },
+    {
+      "messageID": 56,
+      "role": "Navigator",
+      "message": "def coincide(tableau1, tableau2):     # On s'assure que les deux tableaux ont la mï¿½me longueur     if len(tableau1) != len(tableau2):         return []      # On crï¿½e un tableau vide pour stocker les indices oï¿½ les ï¿½lï¿½ments sont identiques     result = []          # On parcourt les deux tableaux et on compare les ï¿½lï¿½ments     for i in range(len(tableau1)):         if tableau1[i] == tableau2[i]:             result.append(i)      return result  # Exemples d'utilisation : print(coincide([78, 23, 12, 12, 54, 32], [67, 23, 44, 12, 54, 32]))  # [1, 3, 4, 5] print(coincide([\"antoine\", \"isaac\", \"denis\"], [\"jeanne\", \"sofiane\", \"lise\"]))  # []"
+    },
+    {
+      "messageID": 73,
+      "role": "Navigator",
+      "message": "ta pas besoin du return  []"
+    },
+    {
+      "messageID": 75,
+      "role": "Navigator",
+      "message": "c'est ok "
+    },
+    {
+      "messageID": 82,
+      "role": "Navigator",
+      "message": "et la ta compris un peu le contexte ? "
+    },
+    {
+      "messageID": 83,
+      "role": "Driver",
+      "message": "je sais qu''il faut implï¿½menter le tableau pour l'utiliser dans la fonction coincide"
+    },
+    {
+      "messageID": 134,
+      "role": "Driver",
+      "message": "j'essaye encore"
+    },
+    {
+      "messageID": 175,
+      "role": "Navigator",
+      "message": "commence gros ou laisse moi la main"
+    },
+    {
+      "messageID": 179,
+      "role": "Navigator",
+      "message": "mais il faut que l'on parcours les deux tableaux "
+    },
+    {
+      "messageID": 180,
+      "role": "Navigator",
+      "message": "et tu as raison pour le tableau vide"
+    },
+    {
+      "messageID": 203,
+      "role": "Navigator",
+      "message": "il faudrait que 'on prenne l'indice"
+    },
+    {
+      "messageID": 244,
+      "role": "Driver",
+      "message": "le True et le False c'est pour dire que ils sont ï¿½gaux ?"
+    },
+    {
+      "messageID": 246,
+      "role": "Navigator",
+      "message": "Non c\u0019est la rï¿½ponse qu\u0019il va renvoyer, True ils sont les mï¿½me nombre d\u0019ï¿½lï¿½ments, False : il n\u0019ont pas le mï¿½me nombre"
+    },
+    {
+      "messageID": 262,
+      "role": "Navigator",
+      "message": "faut mettre la longueur du tableau noramlement "
+    },
+    {
+      "messageID": 298,
+      "role": "Navigator",
+      "message": "for i in range(0,len(list_1) : ?"
+    },
+    {
+      "messageID": 316,
+      "role": "Navigator",
+      "message": "enleve le ? entre 67 et 23 dans la deuxiï¿½me liste"
+    },
+    {
+      "messageID": 345,
+      "role": "Driver",
+      "message": "Tu peux prendre la main si tu veux"
+    },
+    {
+      "messageID": 380,
+      "role": "Navigator",
+      "message": "bah commence par ï¿½crire def coincide (...."
+    },
+    {
+      "messageID": 429,
+      "role": "Driver",
+      "message": "line 4 apparement mais je crois qu'il faut juste que j'utilise des [] a la place de ()"
+    },
+    {
+      "messageID": 1400,
+      "role": "Navigator",
+      "message": "en arg un string et ton dictionnaire "
+    },
+    {
+      "messageID": 1401,
+      "role": "Navigator",
+      "message": "donc une double boucle et rouler jeunesse"
+    },
+    {
+      "messageID": 1405,
+      "role": "Driver",
+      "message": "alors mon chef les arguments sont foireux "
+    },
+    {
+      "messageID": 1433,
+      "role": "Navigator",
+      "message": "Y a pas la valeur D dans le dic"
+    },
+    {
+      "messageID": 1497,
+      "role": "Driver",
+      "message": "jusque la je pense que tableau va contenir les encadreurs qui se trouve dans la chaine"
+    },
+    {
+      "messageID": 1500,
+      "role": "Driver",
+      "message": "normalement le dernier ouvrant correspond au premier fermant, je me demande s'il faudrait pas un dict?"
+    },
+    {
+      "messageID": 1512,
+      "role": "Navigator",
+      "message": "> bien_parenthesee(\"(2 + 4) * 7\") Traceback (most recent call last):   File \"<console>\", line 1, in <module>   File \"<exec>\", line 11, in bien_parenthesee TypeError: 'str' object is not callable"
+    },
+    {
+      "messageID": 1528,
+      "role": "Navigator",
+      "message": "en fait je veux mettre les valeurs de chaque lettre dans le tableau valeurs et ensuite je calcule le rï¿½sultat en manipulant les ï¿½lï¿½ments du tableau "
+    },
+    {
+      "messageID": 1675,
+      "role": "Navigator",
+      "message": "Faut regardï¿½ si y'a un clï¿½ avec une valeur nï¿½gative"
+    },
+    {
+      "messageID": 1677,
+      "role": "Navigator",
+      "message": "une clï¿½ avec une valeur diffï¿½rent de 0"
+    },
+    {
+      "messageID": 1713,
+      "role": "Navigator",
+      "message": "Dï¿½finir un dictionnaire pour associer les dï¿½limiteurs ouvrants et fermants par le variable paire "
+    },
+    {
+      "messageID": 1760,
+      "role": "Navigator",
+      "message": "T'as mis totol, return tatol"
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+```json
+{
+  "annotations": [
+    {
+      "message_num": -1,
+      "utterances": [
+        {
+          "nature": "Informations sur comment proceder"
+        }
+      ]
+    },
+    {
+      "message_num": 30,
+      "utterances": [
+        {
+          "nature": "Informations sur comment proceder"
+        }
+      ]
+    },
+    {
+      "message_num": 56,
+      "utterances": [
+        {
+          "nature": "Reponse correcte"
+        }
+      ]
+    },
+    {
+      "message_num": 134,
+      "utterances": [
+        {
+          "nature": "No feedback"
+        }
+      ]
+    },
+    {
+      "message_num": 180,
+      "utterances": [
+        {
+          "nature": "Validite de la reponse"
+        }
+      ]
+    },
+    {
+      "message_num": 203,
+      "utterances": [
+        {
+          "nature": "Informations sur comment proceder"
+        }
+      ]
+    },
+    {
+      "message_num": 205,
+      "utterances": [
+        {
+          "nature": "Informations sur comment proceder"
+        }
+      ]
+    },
+    {
+      "message_num": 244,
+      "utterances": [
+        {
+          "nature": "Demande d'aide"
+        }
+      ]
+    },
+    {
+      "message_num": 245,
+      "utterances": [
+        {
+          "nature": "Demande d'aide"
+        }
+      ]
+    },
+    {
+      "message_num": 262,
+      "utterances": [
+        {
+          "nature": "Informations sur comment proceder"
+        }
+      ]
+    },
+    {
+      "message_num": 380,
+      "utterances": [
+        {
+          "nature": "Informations sur comment proceder"
+        }
+      ]
+    },
+    {
+      "message_num": 1400,
+      "utterances": [
+        {
+          "nature": "Informations sur comment proceder"
+        }
+      ]
+    },
+    {
+      "message_num": 1401,
+      "utterances": [
+        {
+          "nature": "Informations sur comment proceder"
+        }
+      ]
+    },
+    {
+      "message_num": 1517,
+      "utterances": [
+        {
+          "nature": "Validite de la reponse"
+        }
+      ]
+    },
+    {
+      "message_num": 1528,
+      "utterances": [
+        {
+          "nature": "Informations sur comment proceder"
+        }
+      ]
+    },
+    {
+      "message_num": 1529,
+      "utterances": [
+        {
+          "nature": "Informations sur comment proceder"
+        }
+      ]
+    },
+    {
+      "message_num": 1675,
+      "utterances": [
+        {
+          "nature": "Informations sur comment proceder"
+        }
+      ]
+    },
+    {
+      "message_num": 1677,
+      "utterances": [
+        {
+          "nature": "Informations sur comment proceder"
+        }
+      ]
+    },
+    {
+      "message_num": 1713,
+      "utterances": [
+        {
+          "nature": "Informations sur comment proceder"
+        }
+      ]
+    }
+  ]
+}
+```

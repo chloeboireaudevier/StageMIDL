@@ -1,0 +1,246 @@
+```json
+{
+  "annotations": [
+    {
+      "message_num": -1,
+      "utterances": [
+        {
+          "forme": "instruction"
+        }
+      ]
+    },
+    {
+      "message_num": 24,
+      "utterances": [
+        {
+          "forme": "explication"
+        }
+      ]
+    },
+    {
+      "message_num": 34,
+      "utterances": [
+        {
+          "forme": "explication"
+        }
+      ]
+    },
+    {
+      "message_num": 56,
+      "utterances": [
+        {
+          "forme": "instruction"
+        }
+      ]
+    },
+    {
+      "message_num": 83,
+      "utterances": [
+        {
+          "forme": "explication"
+        }
+      ]
+    },
+    {
+      "message_num": 161,
+      "utterances": [
+        {
+          "forme": "instruction"
+        }
+      ]
+    },
+    {
+      "message_num": 179,
+      "utterances": [
+        {
+          "forme": "instruction"
+        }
+      ]
+    },
+    {
+      "message_num": 180,
+      "utterances": [
+        {
+          "forme": "validation"
+        }
+      ]
+    },
+    {
+      "message_num": 244,
+      "utterances": [
+        {
+          "forme": "explication"
+        }
+      ]
+    },
+    {
+      "message_num": 245,
+      "utterances": [
+        {
+          "forme": "explication"
+        }
+      ]
+    },
+    {
+      "message_num": 246,
+      "utterances": [
+        {
+          "forme": "explication"
+        }
+      ]
+    },
+    {
+      "message_num": 267,
+      "utterances": [
+        {
+          "forme": "instruction"
+        }
+      ]
+    },
+    {
+      "message_num": 298,
+      "utterances": [
+        {
+          "forme": "instruction"
+        }
+      ]
+    },
+    {
+      "message_num": 316,
+      "utterances": [
+        {
+          "forme": "instruction"
+        }
+      ]
+    },
+    {
+      "message_num": 377,
+      "utterances": [
+        {
+          "forme": "explication"
+        }
+      ]
+    },
+    {
+      "message_num": 380,
+      "utterances": [
+        {
+          "forme": "instruction"
+        }
+      ]
+    },
+    {
+      "message_num": 429,
+      "utterances": [
+        {
+          "forme": "explication"
+        }
+      ]
+    },
+    {
+      "message_num": 1398,
+      "utterances": [
+        {
+          "forme": "explication"
+        }
+      ]
+    },
+    {
+      "message_num": 1400,
+      "utterances": [
+        {
+          "forme": "instruction"
+        }
+      ]
+    },
+    {
+      "message_num": 1405,
+      "utterances": [
+        {
+          "forme": "explication"
+        }
+      ]
+    },
+    {
+      "message_num": 1433,
+      "utterances": [
+        {
+          "forme": "explication"
+        }
+      ]
+    },
+    {
+      "message_num": 1497,
+      "utterances": [
+        {
+          "forme": "explication"
+        }
+      ]
+    },
+    {
+      "message_num": 1500,
+      "utterances": [
+        {
+          "forme": "explication"
+        }
+      ]
+    },
+    {
+      "message_num": 1517,
+      "utterances": [
+        {
+          "forme": "validation"
+        }
+      ]
+    },
+    {
+      "message_num": 1528,
+      "utterances": [
+        {
+          "forme": "explication"
+        }
+      ]
+    },
+    {
+      "message_num": 1529,
+      "utterances": [
+        {
+          "forme": "instruction"
+        }
+      ]
+    },
+    {
+      "message_num": 1678,
+      "utterances": [
+        {
+          "forme": "explication"
+        }
+      ]
+    },
+    {
+      "message_num": 1681,
+      "utterances": [
+        {
+          "forme": "explication"
+        }
+      ]
+    },
+    {
+      "message_num": 1692,
+      "utterances": [
+        {
+          "forme": "instruction"
+        }
+      ]
+    },
+    {
+      "message_num": 1760,
+      "utterances": [
+        {
+          "forme": "explication"
+        }
+      ]
+    }
+  ]
+}
+```

@@ -1,0 +1,278 @@
+```json
+{
+  "annotations": [
+    {
+      "message_num": -1,
+      "utterances": [
+        {
+          "contenu": "relatedToProgramming_relatedToTask"
+        }
+      ]
+    },
+    {
+      "message_num": 24,
+      "utterances": [
+        {
+          "contenu": "relatedToProgramming_relatedToTask"
+        }
+      ]
+    },
+    {
+      "message_num": 30,
+      "utterances": [
+        {
+          "contenu": "relatedToProgramming_relatedToTask"
+        }
+      ]
+    },
+    {
+      "message_num": 34,
+      "utterances": [
+        {
+          "contenu": "relatedToProgramming_relatedToTask"
+        }
+      ]
+    },
+    {
+      "message_num": 56,
+      "utterances": [
+        {
+          "contenu": "relatedToProgramming_relatedToTask"
+        }
+      ]
+    },
+    {
+      "message_num": 73,
+      "utterances": [
+        {
+          "contenu": "relatedToProgramming_relatedToTask"
+        }
+      ]
+    },
+    {
+      "message_num": 75,
+      "utterances": [
+        {
+          "contenu": "notRelatedToProgramming_Other"
+        }
+      ]
+    },
+    {
+      "message_num": 82,
+      "utterances": [
+        {
+          "contenu": "notRelatedToProgramming_Other"
+        }
+      ]
+    },
+    {
+      "message_num": 83,
+      "utterances": [
+        {
+          "contenu": "relatedToProgramming_relatedToTask"
+        }
+      ]
+    },
+    {
+      "message_num": 134,
+      "utterances": [
+        {
+          "contenu": "notRelatedToProgramming_Other"
+        }
+      ]
+    },
+    {
+      "message_num": 175,
+      "utterances": [
+        {
+          "contenu": "notRelatedToProgramming_relativeToRoles"
+        }
+      ]
+    },
+    {
+      "message_num": 179,
+      "utterances": [
+        {
+          "contenu": "relatedToProgramming_relatedToTask"
+        }
+      ]
+    },
+    {
+      "message_num": 180,
+      "utterances": [
+        {
+          "contenu": "relatedToProgramming_relatedToTask"
+        }
+      ]
+    },
+    {
+      "message_num": 203,
+      "utterances": [
+        {
+          "contenu": "relatedToProgramming_relatedToTask"
+        }
+      ]
+    },
+    {
+      "message_num": 244,
+      "utterances": [
+        {
+          "contenu": "relatedToProgramming_relatedToTask"
+        }
+      ]
+    },
+    {
+      "message_num": 246,
+      "utterances": [
+        {
+          "contenu": "relatedToProgramming_relatedToTask"
+        }
+      ]
+    },
+    {
+      "message_num": 262,
+      "utterances": [
+        {
+          "contenu": "relatedToProgramming_relatedToTask"
+        }
+      ]
+    },
+    {
+      "message_num": 298,
+      "utterances": [
+        {
+          "contenu": "relatedToProgramming_relatedToTask"
+        }
+      ]
+    },
+    {
+      "message_num": 316,
+      "utterances": [
+        {
+          "contenu": "relatedToProgramming_relatedToTask"
+        }
+      ]
+    },
+    {
+      "message_num": 345,
+      "utterances": [
+        {
+          "contenu": "notRelatedToProgramming_relativeToRoles"
+        }
+      ]
+    },
+    {
+      "message_num": 380,
+      "utterances": [
+        {
+          "contenu": "relatedToProgramming_relatedToTask"
+        }
+      ]
+    },
+    {
+      "message_num": 429,
+      "utterances": [
+        {
+          "contenu": "relatedToProgramming_relatedToTask"
+        }
+      ]
+    },
+    {
+      "message_num": 1400,
+      "utterances": [
+        {
+          "contenu": "relatedToProgramming_relatedToTask"
+        }
+      ]
+    },
+    {
+      "message_num": 1401,
+      "utterances": [
+        {
+          "contenu": "relatedToProgramming_relatedToTask"
+        }
+      ]
+    },
+    {
+      "message_num": 1405,
+      "utterances": [
+        {
+          "contenu": "relatedToProgramming_relatedToTask"
+        }
+      ]
+    },
+    {
+      "message_num": 1433,
+      "utterances": [
+        {
+          "contenu": "relatedToProgramming_relatedToTask"
+        }
+      ]
+    },
+    {
+      "message_num": 1497,
+      "utterances": [
+        {
+          "contenu": "relatedToProgramming_relatedToTask"
+        }
+      ]
+    },
+    {
+      "message_num": 1500,
+      "utterances": [
+        {
+          "contenu": "relatedToProgramming_relatedToTask"
+        }
+      ]
+    },
+    {
+      "message_num": 1512,
+      "utterances": [
+        {
+          "contenu": "relatedToProgramming_relatedToTask"
+        }
+      ]
+    },
+    {
+      "message_num": 1528,
+      "utterances": [
+        {
+          "contenu": "relatedToProgramming_relatedToTask"
+        }
+      ]
+    },
+    {
+      "message_num": 1675,
+      "utterances": [
+        {
+          "contenu": "relatedToProgramming_relatedToTask"
+        }
+      ]
+    },
+    {
+      "message_num": 1677,
+      "utterances": [
+        {
+          "contenu": "relatedToProgramming_relatedToTask"
+        }
+      ]
+    },
+    {
+      "message_num": 1713,
+      "utterances": [
+        {
+          "contenu": "relatedToProgramming_relatedToTask"
+        }
+      ]
+    },
+    {
+      "message_num": 1760,
+      "utterances": [
+        {
+          "contenu": "relatedToProgramming_relatedToTask"
+        }
+      ]
+    }
+  ]
+}
+```
